@@ -26,5 +26,5 @@ II-	Preprocess Data for Fairseq
 
 Fairseq requires data to be in a binary format:
 
-fairseq-preprocess --source-lang src --target-lang tgt \ --trainpref train.bpe --validpref valid.bpe  --testpref test.bpe \  --destdir data-bin --thresholdtgt 0 --thresholdsrc 0 \  --workers 4
+preprocess.py --source-lang ew --target-lang fr --trainpref train.bpe --validpref dev.bpe --testpref test.bpe --destdir data-bin
 
