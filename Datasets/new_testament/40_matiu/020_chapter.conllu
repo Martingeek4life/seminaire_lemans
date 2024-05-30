@@ -1,0 +1,1211 @@
+# source = Bibeli Mimọ, Mátíù, Chapter 20
+# newdoc id = MATT_20
+# sent_id = MATT_20.1
+# text = “Nítorí ìjọba ọ̀run dàbí ọkùnrin tí ó jẹ́ baálé kan, tí ó jí jáde lọ ní kùtùkùtù òwúrọ̀, tí ó gba àwọn alágbàṣe sínú ọgbà àjàrà rẹ̀.
+# text_en = For the kingdom of heaven is like unto a man that is an householder, which went out early in the morning to hire labourers into his vineyard.
+1	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.1|SpaceAfter=No|Gloss=“
+2	Nítorí	nítorí	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=for
+3	ìjọba	ìjọba	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=kingdom
+4	ọ̀run	ọ̀run	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=heaven
+5	dàbí	dàbí	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=like
+6	ọkùnrin	ọkùnrin	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=as
+7	tí	tí	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=man
+8	ó	ó	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=that
+9	jẹ́	jẹ́	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=he
+10	baálé	baálé	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=be
+11	kan	kan	X	_	_	0	_	_	Ref=MATT_20.1|SpaceAfter=No|Gloss=master
+12	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.1|Gloss=a
+13	tí	tí	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=,
+14	ó	ó	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=that
+15	jí	jí	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=he
+16	jáde	jáde	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=raised
+17	lọ	lọ	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=out
+18	ní	ní	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=go
+19	kùtùkùtù	kùtùkùtù	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=in
+20	òwúrọ̀	òwúrọ̀	X	_	_	0	_	_	Ref=MATT_20.1|SpaceAfter=No|Gloss=early
+21	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.1|Gloss=morning
+22	tí	tí	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=,
+23	ó	ó	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=that
+24	gba	gba	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=he
+25	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=receive
+26	alágbàṣe	alágbàṣe	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=the
+27	sínú	sínú	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=hired
+28	ọgbà	ọgbà	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=into
+29	àjàrà	àjàrà	X	_	_	0	_	_	Ref=MATT_20.1|Gloss=vineyard
+30	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MATT_20.1|SpaceAfter=No|Gloss=vine
+31	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.1|Gloss=.
+
+# sent_id = MATT_20.2
+# text = Òun pinnu láti san dínárì kan fún iṣẹ́ òòjọ́ kan. Lẹ́yìn èyí ó sì rán wọn lọ sínú ọgbà àjàrà rẹ̀.
+# text_en = And when he had agreed with the labourers for a penny a day, he sent them into his vineyard.
+1	Òun	òun	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=he
+2	pinnu	pinnu	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=determined
+3	láti	láti	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=to
+4	san	san	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=pay
+5	dínárì	dínárì	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=penny
+6	kan	kan	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=a
+7	fún	fún	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=unto
+8	iṣẹ́	iṣẹ́	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=work
+9	òòjọ́	òòjọ́	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=day
+10	kan	kan	X	_	_	0	_	_	Ref=MATT_20.2|SpaceAfter=No|Gloss=a
+11	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.2|Gloss=.
+12	Lẹ́yìn	lẹ́yìn	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=after
+13	èyí	èyí	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=this
+14	ó	ó	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=he
+15	sì	sì	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=and
+16	rán	rán	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=sent
+17	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=them
+18	lọ	lọ	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=go
+19	sínú	sínú	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=into
+20	ọgbà	ọgbà	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=vineyard
+21	àjàrà	àjàrà	X	_	_	0	_	_	Ref=MATT_20.2|Gloss=vine
+22	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MATT_20.2|SpaceAfter=No
+23	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.2|Gloss=.
+
+# sent_id = MATT_20.3
+# text = “Ní wákàtí kẹta ọjọ́ bí ó ti ń kọjá níwájú ilé ìgbanisíṣẹ́, ó rí díẹ̀ nínú àwọn aláìríṣẹ́ tí wọ́n dúró ní ọjà.
+# text_en = And he went out about the third hour, and saw others standing idle in the marketplace,
+1	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.3|SpaceAfter=No|Gloss=“
+2	Ní	ní	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=in
+3	wákàtí	wákàtí	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=hour
+4	kẹta	kẹta	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=third
+5	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=day
+6	bí	bí	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=as
+7	ó	ó	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=he
+8	ti	ti	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=have
+9	ń	ń	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=that
+10	kọjá	kọjá	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=passed
+11	níwájú	níwájú	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=before
+12	ilé	ilé	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=house
+13	ìgbanisíṣẹ́	ìgbanisíṣẹ́	X	_	_	0	_	_	Ref=MATT_20.3|SpaceAfter=No|Gloss=null
+14	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.3|Gloss=,
+15	ó	ó	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=he
+16	rí	rí	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=saw
+17	díẹ̀	díẹ̀	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=little
+18	nínú	nínú	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=in
+19	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=the
+20	aláìríṣẹ́	aláìríṣẹ́	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=idle
+21	tí	tí	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=that
+22	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=they
+23	dúró	dúró	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=stood
+24	ní	ní	X	_	_	0	_	_	Ref=MATT_20.3|Gloss=in
+25	ọjà	ọjà	X	_	_	0	_	_	Ref=MATT_20.3|SpaceAfter=No
+26	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.3
+
+# sent_id = MATT_20.4
+# text = Ó wí fún wọn pé, ‘Ẹ̀yin pàápàá, ẹ lọ ṣiṣẹ́ nínú ọgbà àjàrà mi, bí ó bá sì di òpin ọjọ́, èmi yóò san iye ti ó bá yẹ fún yín.’
+# text_en = And said unto them; Go ye also into the vineyard, and whatsoever is right I will give you. And they went their way.
+1	Ó	ó	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=he
+2	wí	wí	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=said
+3	fún	fún	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=unto
+4	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=them
+5	pé	pé	X	_	_	0	_	_	Ref=MATT_20.4|SpaceAfter=No|Gloss=saying
+6	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.4|Gloss=,
+7	‘	‘	PUNCT	_	_	0	punct	_	Ref=MATT_20.4|SpaceAfter=No|Gloss=say
+8	Ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=ye
+9	pàápàá	pàápàá	X	_	_	0	_	_	Ref=MATT_20.4|SpaceAfter=No|Gloss=null
+10	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.4|Gloss=it
+11	ẹ	ẹ	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=,
+12	lọ	lọ	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=ye
+13	ṣiṣẹ́	ṣiṣẹ́	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=go
+14	nínú	nínú	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=work
+15	ọgbà	ọgbà	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=in
+16	àjàrà	àjàrà	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=vineyard
+17	mi	mi	X	_	_	0	_	_	Ref=MATT_20.4|SpaceAfter=No|Gloss=vine
+18	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.4|Gloss=my
+19	bí	bí	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=,
+20	ó	ó	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=as
+21	bá	bá	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=he
+22	sì	sì	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=if
+23	di	di	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=and
+24	òpin	òpin	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=be
+25	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MATT_20.4|SpaceAfter=No|Gloss=end
+26	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.4|Gloss=day
+27	èmi	èmi	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=,
+28	yóò	yóò	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=i
+29	san	san	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=shall
+30	iye	iye	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=pay
+31	ti	ti	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=number
+32	ó	ó	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=have
+33	bá	bá	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=he
+34	yẹ	yẹ	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=if
+35	fún	fún	X	_	_	0	_	_	Ref=MATT_20.4|Gloss=worthy
+36	yín	yín	X	_	_	0	_	_	Ref=MATT_20.4|SpaceAfter=No|Gloss=unto
+37	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.4|SpaceAfter=No|Gloss=you
+38	’	’	PUNCT	_	_	0	punct	_	Ref=MATT_20.4|Gloss=.
+
+# sent_id = MATT_20.5
+# text = Wọ́n sì lọ “Ó tún jáde lọ́sàn-án ní nǹkan bí wákàtí kẹfa àti wákàtí kẹṣàn-án, ó tún ṣe bákan náà.
+# text_en = Again he went out about the sixth and ninth hour, and did likewise.
+1	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=they
+2	sì	sì	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=and
+3	lọ	lọ	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=go
+4	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.5|SpaceAfter=No|Gloss=“
+5	Ó	ó	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=he
+6	tún	tún	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=again
+7	jáde	jáde	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=out
+8	lọ́sàn	lọ́sàn	X	_	_	0	_	_	Ref=MATT_20.5|SpaceAfter=No|Gloss=day
+9	-	-	PUNCT	_	_	0	punct	_	Ref=MATT_20.5|SpaceAfter=No|Gloss=the
+10	án	án	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=him
+11	ní	ní	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=in
+12	nǹkan	nǹkan	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=things
+13	bí	bí	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=as
+14	wákàtí	wákàtí	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=hour
+15	kẹfa	kẹfa	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=sixth
+16	àti	àti	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=and
+17	wákàtí	wákàtí	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=hour
+18	kẹṣàn	kẹṣàn	X	_	_	0	_	_	Ref=MATT_20.5|SpaceAfter=No|Gloss=null
+19	-	-	PUNCT	_	_	0	punct	_	Ref=MATT_20.5|SpaceAfter=No|Gloss=the
+20	án	án	X	_	_	0	_	_	Ref=MATT_20.5|SpaceAfter=No|Gloss=him
+21	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.5|Gloss=,
+22	ó	ó	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=he
+23	tún	tún	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=again
+24	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=do
+25	bákan	bákan	X	_	_	0	_	_	Ref=MATT_20.5|Gloss=so
+26	náà	náà	X	_	_	0	_	_	Ref=MATT_20.5|SpaceAfter=No|Gloss=the
+27	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.5|Gloss=.
+
+# sent_id = MATT_20.6
+# text = Lọ́jọ́ kan náà ní wákàtí kọkànlá ọjọ́, ó tún jáde sí àárin ìlú, ó sì rí àwọn aláìríṣẹ́ mìíràn tí wọ́n dúró. Ó bi wọ́n pé, ‘È é ṣe tí ẹ̀yin kì í ṣiṣẹ́ ní gbogbo ọjọ́?’
+# text_en = And about the eleventh hour he went out, and found others standing idle, and saith unto them, Why stand ye here all the day idle?
+1	Lọ́jọ́	lọ́jọ́	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=day
+2	kan	kan	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=a
+3	náà	náà	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=the
+4	ní	ní	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=in
+5	wákàtí	wákàtí	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=hour
+6	kọkànlá	kọkànlá	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=eleventh
+7	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MATT_20.6|SpaceAfter=No|Gloss=day
+8	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.6|Gloss=,
+9	ó	ó	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=he
+10	tún	tún	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=again
+11	jáde	jáde	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=out
+12	sí	sí	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=to
+13	àárin	àárin	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=midst
+14	ìlú	ìlú	X	_	_	0	_	_	Ref=MATT_20.6|SpaceAfter=No|Gloss=city
+15	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.6|Gloss=,
+16	ó	ó	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=he
+17	sì	sì	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=and
+18	rí	rí	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=saw
+19	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=the
+20	aláìríṣẹ́	aláìríṣẹ́	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=idle
+21	mìíràn	mìíràn	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=other
+22	tí	tí	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=that
+23	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=they
+24	dúró	dúró	X	_	_	0	_	_	Ref=MATT_20.6|SpaceAfter=No|Gloss=stood
+25	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.6|Gloss=.
+26	Ó	ó	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=he
+27	bi	bi	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=as
+28	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=they
+29	pé	pé	X	_	_	0	_	_	Ref=MATT_20.6|SpaceAfter=No|Gloss=saying
+30	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.6|Gloss=,
+31	‘	‘	PUNCT	_	_	0	punct	_	Ref=MATT_20.6|SpaceAfter=No
+32	È	è	X	_	_	0	_	_	Ref=MATT_20.6
+33	é	é	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=it
+34	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=do
+35	tí	tí	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=that
+36	ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=ye
+37	kì	kì	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=not
+38	í	í	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=was
+39	ṣiṣẹ́	ṣiṣẹ́	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=work
+40	ní	ní	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=in
+41	gbogbo	gbogbo	X	_	_	0	_	_	Ref=MATT_20.6|Gloss=all
+42	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MATT_20.6|SpaceAfter=No|Gloss=day
+43	?	?	PUNCT	_	_	0	punct	_	Ref=MATT_20.6|SpaceAfter=No|Gloss=?
+44	’	’	PUNCT	_	_	0	punct	_	Ref=MATT_20.6|Gloss=.
+
+# sent_id = MATT_20.7
+# text = “Wọ́n sì dáhùn pé, ‘Nítorí pé kò sí ẹni tí yóò fún wa ní iṣẹ́ ṣe.’ Ó tún sọ fún wọn pé, ‘Ẹ̀yin náà ẹ jáde lọ ṣiṣẹ́ pẹ̀lú nínú ọgbà àjàrà mi.’
+# text_en = They say unto him, Because no man hath hired us. He saith unto them, Go ye also into the vineyard; and whatsoever is right, that shall ye receive.
+1	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.7|SpaceAfter=No|Gloss=“
+2	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=they
+3	sì	sì	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=and
+4	dáhùn	dáhùn	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=answered
+5	pé	pé	X	_	_	0	_	_	Ref=MATT_20.7|SpaceAfter=No|Gloss=saying
+6	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.7|Gloss=,
+7	‘	‘	PUNCT	_	_	0	punct	_	Ref=MATT_20.7|SpaceAfter=No|Gloss=say
+8	Nítorí	nítorí	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=for
+9	pé	pé	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=saying
+10	kò	kò	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=not
+11	sí	sí	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=to
+12	ẹni	ẹni	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=that
+13	tí	tí	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=that
+14	yóò	yóò	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=shall
+15	fún	fún	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=unto
+16	wa	wa	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=our
+17	ní	ní	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=in
+18	iṣẹ́	iṣẹ́	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=work
+19	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.7|SpaceAfter=No
+20	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.7|SpaceAfter=No
+21	’	’	PUNCT	_	_	0	punct	_	Ref=MATT_20.7|Gloss=.
+22	Ó	ó	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=he
+23	tún	tún	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=again
+24	sọ	sọ	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=spake
+25	fún	fún	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=unto
+26	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=them
+27	pé	pé	X	_	_	0	_	_	Ref=MATT_20.7|SpaceAfter=No|Gloss=saying
+28	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.7|Gloss=,
+29	‘	‘	PUNCT	_	_	0	punct	_	Ref=MATT_20.7|SpaceAfter=No|Gloss=say
+30	Ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=MATT_20.7
+31	náà	náà	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=the
+32	ẹ	ẹ	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=ye
+33	jáde	jáde	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=out
+34	lọ	lọ	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=go
+35	ṣiṣẹ́	ṣiṣẹ́	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=work
+36	pẹ̀lú	pẹ̀lú	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=with
+37	nínú	nínú	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=in
+38	ọgbà	ọgbà	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=vineyard
+39	àjàrà	àjàrà	X	_	_	0	_	_	Ref=MATT_20.7|Gloss=vine
+40	mi	mi	X	_	_	0	_	_	Ref=MATT_20.7|SpaceAfter=No
+41	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.7|SpaceAfter=No
+42	’	’	PUNCT	_	_	0	punct	_	Ref=MATT_20.7|Gloss=.
+
+# sent_id = MATT_20.8
+# text = “Nígbà tí ó di àṣálẹ́, ẹni tó ni ọgbà àjàrà sọ fún aṣojú rẹ̀ pé, ‘Pe àwọn òsiṣẹ́ náà, kí ó san owó iṣẹ́ wọn fún wọn, bẹ̀rẹ̀ láti ẹni ìkẹyìn lọ sí ti ìṣáájú.’
+# text_en = So when even was come, the lord of the vineyard saith unto his steward, Call the labourers, and give them their hire, beginning from the last unto the first.
+1	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.8|SpaceAfter=No|Gloss=“
+2	Nígbà	nígbà	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=when
+3	tí	tí	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=that
+4	ó	ó	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=he
+5	di	di	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=be
+6	àṣálẹ́	àṣálẹ́	X	_	_	0	_	_	Ref=MATT_20.8|SpaceAfter=No|Gloss=even
+7	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.8|Gloss=,
+8	ẹni	ẹni	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=that
+9	tó	tó	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=that
+10	ni	ni	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=is
+11	ọgbà	ọgbà	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=vineyard
+12	àjàrà	àjàrà	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=vine
+13	sọ	sọ	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=spake
+14	fún	fún	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=unto
+15	aṣojú	aṣojú	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=null
+16	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=his
+17	pé	pé	X	_	_	0	_	_	Ref=MATT_20.8|SpaceAfter=No|Gloss=saying
+18	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.8|Gloss=,
+19	‘	‘	PUNCT	_	_	0	punct	_	Ref=MATT_20.8|SpaceAfter=No|Gloss=say
+20	Pe	pe	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=called
+21	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=the
+22	òsiṣẹ́	òsiṣẹ́	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=null
+23	náà	náà	X	_	_	0	_	_	Ref=MATT_20.8|SpaceAfter=No|Gloss=the
+24	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.8|Gloss=,
+25	kí	kí	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=let
+26	ó	ó	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=he
+27	san	san	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=pay
+28	owó	owó	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=money
+29	iṣẹ́	iṣẹ́	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=work
+30	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=them
+31	fún	fún	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=unto
+32	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.8|SpaceAfter=No|Gloss=them
+33	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.8|Gloss=,
+34	bẹ̀rẹ̀	bẹ̀rẹ̀	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=began
+35	láti	láti	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=to
+36	ẹni	ẹni	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=that
+37	ìkẹyìn	ìkẹyìn	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=last
+38	lọ	lọ	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=go
+39	sí	sí	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=to
+40	ti	ti	X	_	_	0	_	_	Ref=MATT_20.8|Gloss=have
+41	ìṣáájú	ìṣáájú	X	_	_	0	_	_	Ref=MATT_20.8|SpaceAfter=No
+42	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.8|SpaceAfter=No
+43	’	’	PUNCT	_	_	0	punct	_	Ref=MATT_20.8|Gloss=.
+
+# sent_id = MATT_20.9
+# text = “Nígbà tí àwọn ti a pè ní wákàtí kọkànlá ọjọ́ dé, ẹnì kọ̀ọ̀kan gba owó dínárì kan.
+# text_en = And when they came that were hired about the eleventh hour, they received every man a penny.
+1	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.9|SpaceAfter=No|Gloss=“
+2	Nígbà	nígbà	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=when
+3	tí	tí	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=that
+4	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=the
+5	ti	ti	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=have
+6	a	a	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=be
+7	pè	pè	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=called
+8	ní	ní	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=in
+9	wákàtí	wákàtí	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=hour
+10	kọkànlá	kọkànlá	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=eleventh
+11	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=day
+12	dé	dé	X	_	_	0	_	_	Ref=MATT_20.9|SpaceAfter=No|Gloss=come
+13	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.9|Gloss=,
+14	ẹnì	ẹnì	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=man
+15	kọ̀ọ̀kan	kọ̀ọ̀kan	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=every
+16	gba	gba	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=receive
+17	owó	owó	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=money
+18	dínárì	dínárì	X	_	_	0	_	_	Ref=MATT_20.9|Gloss=penny
+19	kan	kan	X	_	_	0	_	_	Ref=MATT_20.9|SpaceAfter=No|Gloss=a
+20	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.9|Gloss=.
+
+# sent_id = MATT_20.10
+# text = Nígbà tí àwọn tí a gbà ṣíṣẹ́ lákọ̀ọ́kọ́ fẹ́ gba owó ti wọn, èrò wọn ni pé àwọn yóò gba jù bẹ́ẹ̀ lọ, ṣùgbọ́n ẹnì kọ̀ọ̀kan wọn gba owó dínárì kan.
+# text_en = But when the first came, they supposed that they should have received more; and they likewise received every man a penny.
+1	Nígbà	nígbà	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=when
+2	tí	tí	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=that
+3	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=the
+4	tí	tí	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=that
+5	a	a	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=be
+6	gbà	gbà	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=deliver
+7	ṣíṣẹ́	ṣíṣẹ́	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=work
+8	lákọ̀ọ́kọ́	lákọ̀ọ́kọ́	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=null
+9	fẹ́	fẹ́	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=would
+10	gba	gba	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=receive
+11	owó	owó	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=money
+12	ti	ti	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=have
+13	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.10|SpaceAfter=No|Gloss=them
+14	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.10|Gloss=,
+15	èrò	èrò	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=thoughts
+16	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=them
+17	ni	ni	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=is
+18	pé	pé	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=saying
+19	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=the
+20	yóò	yóò	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=shall
+21	gba	gba	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=receive
+22	jù	jù	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=cast
+23	bẹ́ẹ̀	bẹ́ẹ̀	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=so
+24	lọ	lọ	X	_	_	0	_	_	Ref=MATT_20.10|SpaceAfter=No|Gloss=go
+25	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.10|Gloss=,
+26	ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=but
+27	ẹnì	ẹnì	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=man
+28	kọ̀ọ̀kan	kọ̀ọ̀kan	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=every
+29	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=them
+30	gba	gba	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=receive
+31	owó	owó	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=money
+32	dínárì	dínárì	X	_	_	0	_	_	Ref=MATT_20.10|Gloss=penny
+33	kan	kan	X	_	_	0	_	_	Ref=MATT_20.10|SpaceAfter=No|Gloss=a
+34	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.10|Gloss=.
+
+# sent_id = MATT_20.11
+# text = Bí wọ́n ti ń gbà á, wọ́n ń kùn sí onílẹ̀ náà,
+# text_en = And when they had received it, they murmured against the goodman of the house,
+1	Bí	bí	X	_	_	0	_	_	Ref=MATT_20.11|Gloss=as
+2	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.11|Gloss=they
+3	ti	ti	X	_	_	0	_	_	Ref=MATT_20.11|Gloss=have
+4	ń	ń	X	_	_	0	_	_	Ref=MATT_20.11|Gloss=that
+5	gbà	gbà	X	_	_	0	_	_	Ref=MATT_20.11|Gloss=deliver
+6	á	á	X	_	_	0	_	_	Ref=MATT_20.11|SpaceAfter=No|Gloss=it
+7	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.11|Gloss=,
+8	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.11|Gloss=they
+9	ń	ń	X	_	_	0	_	_	Ref=MATT_20.11|Gloss=that
+10	kùn	kùn	X	_	_	0	_	_	Ref=MATT_20.11|Gloss=murmured
+11	sí	sí	X	_	_	0	_	_	Ref=MATT_20.11|Gloss=to
+12	onílẹ̀	onílẹ̀	X	_	_	0	_	_	Ref=MATT_20.11|Gloss=goodman
+13	náà	náà	X	_	_	0	_	_	Ref=MATT_20.11|SpaceAfter=No|Gloss=the
+14	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.11|Gloss=,
+
+# sent_id = MATT_20.12
+# text = Pé, ‘Wákàtí kan péré ni àwọn tí a gbà kẹ́yìn fi ṣiṣẹ́, ìwọ sì san iye kan náà fún wọn àti àwa náà ti a fi gbogbo ọjọ́ ṣiṣẹ́ nínú oòrùn gan-gan.’
+# text_en = Saying, These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat of the day.
+1	Pé	pé	X	_	_	0	_	_	Ref=MATT_20.12|SpaceAfter=No|Gloss=saying
+2	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.12|Gloss=,
+3	‘	‘	PUNCT	_	_	0	punct	_	Ref=MATT_20.12|SpaceAfter=No|Gloss=say
+4	Wákàtí	wákàtí	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=hour
+5	kan	kan	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=a
+6	péré	péré	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=null
+7	ni	ni	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=is
+8	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=the
+9	tí	tí	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=that
+10	a	a	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=be
+11	gbà	gbà	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=deliver
+12	kẹ́yìn	kẹ́yìn	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=last
+13	fi	fi	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=with
+14	ṣiṣẹ́	ṣiṣẹ́	X	_	_	0	_	_	Ref=MATT_20.12|SpaceAfter=No|Gloss=work
+15	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.12|Gloss=,
+16	ìwọ	ìwọ	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=thou
+17	sì	sì	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=and
+18	san	san	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=pay
+19	iye	iye	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=number
+20	kan	kan	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=a
+21	náà	náà	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=the
+22	fún	fún	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=unto
+23	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=them
+24	àti	àti	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=and
+25	àwa	àwa	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=we
+26	náà	náà	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=the
+27	ti	ti	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=have
+28	a	a	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=be
+29	fi	fi	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=with
+30	gbogbo	gbogbo	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=all
+31	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=day
+32	ṣiṣẹ́	ṣiṣẹ́	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=work
+33	nínú	nínú	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=in
+34	oòrùn	oòrùn	X	_	_	0	_	_	Ref=MATT_20.12|Gloss=sun
+35	gan	gan	X	_	_	0	_	_	Ref=MATT_20.12|SpaceAfter=No|Gloss=same
+36	-	-	PUNCT	_	_	0	punct	_	Ref=MATT_20.12|SpaceAfter=No|Gloss=the
+37	gan	gan	X	_	_	0	_	_	Ref=MATT_20.12|SpaceAfter=No|Gloss=same
+38	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.12|SpaceAfter=No|Gloss=.
+39	’	’	PUNCT	_	_	0	punct	_	Ref=MATT_20.12|Gloss=.
+
+# sent_id = MATT_20.13
+# text = “Ṣùgbọ́n ó dá ọ̀kan nínú wọn lóhùn pé, ‘Ọ̀rẹ́, kò sí aburú nínú nǹkan tí èmi ṣe sí yín. Kì í ha ṣe pé ẹ̀yin gbà láti ṣiṣẹ́ fún owó dínárì kan.
+# text_en = But he answered one of them, and said, Friend, I do thee no wrong: didst not thou agree with me for a penny?
+1	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.13|SpaceAfter=No|Gloss=“
+2	Ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=but
+3	ó	ó	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=he
+4	dá	dá	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=made
+5	ọ̀kan	ọ̀kan	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=one
+6	nínú	nínú	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=in
+7	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=them
+8	lóhùn	lóhùn	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=answered
+9	pé	pé	X	_	_	0	_	_	Ref=MATT_20.13|SpaceAfter=No|Gloss=saying
+10	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.13|Gloss=,
+11	‘	‘	PUNCT	_	_	0	punct	_	Ref=MATT_20.13|SpaceAfter=No|Gloss=say
+12	Ọ̀rẹ́	ọ̀rẹ́	X	_	_	0	_	_	Ref=MATT_20.13|SpaceAfter=No|Gloss=friend
+13	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.13|Gloss=,
+14	kò	kò	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=not
+15	sí	sí	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=to
+16	aburú	aburú	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=evil
+17	nínú	nínú	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=in
+18	nǹkan	nǹkan	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=things
+19	tí	tí	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=that
+20	èmi	èmi	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=i
+21	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=do
+22	sí	sí	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=to
+23	yín	yín	X	_	_	0	_	_	Ref=MATT_20.13|SpaceAfter=No|Gloss=you
+24	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.13|Gloss=.
+25	Kì	kì	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=not
+26	í	í	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=was
+27	ha	ha	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=?
+28	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=do
+29	pé	pé	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=saying
+30	ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=ye
+31	gbà	gbà	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=deliver
+32	láti	láti	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=to
+33	ṣiṣẹ́	ṣiṣẹ́	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=work
+34	fún	fún	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=unto
+35	owó	owó	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=money
+36	dínárì	dínárì	X	_	_	0	_	_	Ref=MATT_20.13|Gloss=penny
+37	kan	kan	X	_	_	0	_	_	Ref=MATT_20.13|SpaceAfter=No|Gloss=a
+38	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.13|Gloss=.
+
+# sent_id = MATT_20.14
+# text = Ó ní, Gba èyí tíí ṣé tìrẹ, ki ó sì máa lọ. Èmi fẹ́ láti fún ẹni ìkẹ̀yìn gẹ́gẹ́ bí mo ti fi fún ọ.
+# text_en = Take that thine is, and go thy way: I will give unto this last, even as unto thee.
+1	Ó	ó	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=he
+2	ní	ní	X	_	_	0	_	_	Ref=MATT_20.14|SpaceAfter=No|Gloss=in
+3	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.14|Gloss=,
+4	Gba	gba	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=receive
+5	èyí	èyí	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=this
+6	tíí	tíí	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=,
+7	ṣé	ṣé	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=?
+8	tìrẹ	tìrẹ	X	_	_	0	_	_	Ref=MATT_20.14|SpaceAfter=No|Gloss=thine
+9	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.14|Gloss=,
+10	ki	ki	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=let
+11	ó	ó	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=he
+12	sì	sì	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=and
+13	máa	máa	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=be
+14	lọ	lọ	X	_	_	0	_	_	Ref=MATT_20.14|SpaceAfter=No
+15	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.14
+16	Èmi	èmi	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=i
+17	fẹ́	fẹ́	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=would
+18	láti	láti	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=to
+19	fún	fún	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=unto
+20	ẹni	ẹni	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=that
+21	ìkẹ̀yìn	ìkẹ̀yìn	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=null
+22	gẹ́gẹ́	gẹ́gẹ́	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=according
+23	bí	bí	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=as
+24	mo	mo	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=i
+25	ti	ti	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=have
+26	fi	fi	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=with
+27	fún	fún	X	_	_	0	_	_	Ref=MATT_20.14|Gloss=unto
+28	ọ	ọ	X	_	_	0	_	_	Ref=MATT_20.14|SpaceAfter=No
+29	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.14
+
+# sent_id = MATT_20.15
+# text = Àbí ó lòdì sí òfin pé kí èmi fún ẹnikẹ́ni ní owó mi bí mo bá yàn láti ṣe bẹ́ẹ̀? Kí ni ìdí tí ìwọ ní láti bínú nítorí èmi ṣe ohun rere?’
+# text_en = Is it not lawful for me to do what I will with mine own? Is thine eye evil, because I am good?
+1	Àbí	àbí	X	_	_	0	_	_	Ref=MATT_20.15
+2	ó	ó	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=he
+3	lòdì	lòdì	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=against
+4	sí	sí	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=to
+5	òfin	òfin	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=law
+6	pé	pé	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=saying
+7	kí	kí	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=let
+8	èmi	èmi	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=i
+9	fún	fún	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=unto
+10	ẹnikẹ́ni	ẹnikẹ́ni	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=whosoever
+11	ní	ní	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=in
+12	owó	owó	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=money
+13	mi	mi	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=my
+14	bí	bí	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=as
+15	mo	mo	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=i
+16	bá	bá	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=if
+17	yàn	yàn	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=chosen
+18	láti	láti	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=to
+19	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=do
+20	bẹ́ẹ̀	bẹ́ẹ̀	X	_	_	0	_	_	Ref=MATT_20.15|SpaceAfter=No|Gloss=so
+21	?	?	PUNCT	_	_	0	punct	_	Ref=MATT_20.15|Gloss=?
+22	Kí	kí	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=let
+23	ni	ni	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=is
+24	ìdí	ìdí	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=therefore
+25	tí	tí	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=that
+26	ìwọ	ìwọ	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=thou
+27	ní	ní	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=in
+28	láti	láti	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=to
+29	bínú	bínú	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=angry
+30	nítorí	nítorí	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=for
+31	èmi	èmi	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=i
+32	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=do
+33	ohun	ohun	X	_	_	0	_	_	Ref=MATT_20.15|Gloss=things
+34	rere	rere	X	_	_	0	_	_	Ref=MATT_20.15|SpaceAfter=No|Gloss=good
+35	?	?	PUNCT	_	_	0	punct	_	Ref=MATT_20.15|SpaceAfter=No|Gloss=?
+36	’	’	PUNCT	_	_	0	punct	_	Ref=MATT_20.15|Gloss=.
+
+# sent_id = MATT_20.16
+# text = “Bẹ́ẹ̀ ni àwọn ẹni ìkẹyìn yóò di ẹni ìṣáájú, ẹni ìṣáájú yóò sì di ẹni ìkẹyìn.”
+# text_en = So the last shall be first, and the first last: for many be called, but few chosen.
+1	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.16|SpaceAfter=No|Gloss=“
+2	Bẹ́ẹ̀	bẹ́ẹ̀	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=so
+3	ni	ni	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=is
+4	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=the
+5	ẹni	ẹni	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=that
+6	ìkẹyìn	ìkẹyìn	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=last
+7	yóò	yóò	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=shall
+8	di	di	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=be
+9	ẹni	ẹni	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=that
+10	ìṣáájú	ìṣáájú	X	_	_	0	_	_	Ref=MATT_20.16|SpaceAfter=No|Gloss=first
+11	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.16|Gloss=,
+12	ẹni	ẹni	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=that
+13	ìṣáájú	ìṣáájú	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=first
+14	yóò	yóò	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=shall
+15	sì	sì	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=and
+16	di	di	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=be
+17	ẹni	ẹni	X	_	_	0	_	_	Ref=MATT_20.16|Gloss=that
+18	ìkẹyìn	ìkẹyìn	X	_	_	0	_	_	Ref=MATT_20.16|SpaceAfter=No|Gloss=last
+19	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.16|SpaceAfter=No|Gloss=.
+20	”	”	PUNCT	_	_	0	punct	_	Ref=MATT_20.16|Gloss=.
+
+# sent_id = MATT_20.17
+# text = Bí Jésù ti ń gòkè lọ sí Jerúsálémù, ó pe àwọn ọmọ-ẹ̀yìn rẹ̀ méjìlá sí apá kan ó sì wí pé,
+# text_en = And Jesus going up to Jerusalem took the twelve disciples apart in the way, and said unto them,
+1	Bí	bí	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=as
+2	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MATT_20.17|Gloss=jesus
+3	ti	ti	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=have
+4	ń	ń	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=that
+5	gòkè	gòkè	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=up
+6	lọ	lọ	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=go
+7	sí	sí	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=to
+8	Jerúsálémù	Jerúsálémù	PROPN	_	_	0	_	_	Ref=MATT_20.17|SpaceAfter=No|Gloss=jerusalem
+9	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.17|Gloss=,
+10	ó	ó	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=he
+11	pe	pe	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=called
+12	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=the
+13	ọmọ	ọmọ	X	_	_	0	_	_	Ref=MATT_20.17|SpaceAfter=No|Gloss=son
+14	-	-	PUNCT	_	_	0	punct	_	Ref=MATT_20.17|SpaceAfter=No
+15	ẹ̀yìn	ẹ̀yìn	X	_	_	0	_	_	Ref=MATT_20.17
+16	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=his
+17	méjìlá	méjìlá	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=twelve
+18	sí	sí	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=to
+19	apá	apá	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=arm
+20	kan	kan	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=a
+21	ó	ó	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=he
+22	sì	sì	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=and
+23	wí	wí	X	_	_	0	_	_	Ref=MATT_20.17|Gloss=said
+24	pé	pé	X	_	_	0	_	_	Ref=MATT_20.17|SpaceAfter=No|Gloss=saying
+25	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.17|Gloss=,
+
+# sent_id = MATT_20.18
+# text = “Wò ó, àwa ń gòkè lọ sí Jérúsálẹ́mù. Ó sọ fún wọn pé, a ó fi Ọmọ Ènìyàn lé àwọn olórí àlùfáà àti àwọn olùkọ́ òfin lọ́wọ́, wọn yóò sì dá mi lẹ́bi ikú.
+# text_en = Behold, we go up to Jerusalem; and the Son of man shall be betrayed unto the chief priests and unto the scribes, and they shall condemn him to death,
+1	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.18|SpaceAfter=No|Gloss=“
+2	Wò	wò	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=behold
+3	ó	ó	X	_	_	0	_	_	Ref=MATT_20.18|SpaceAfter=No|Gloss=he
+4	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.18|Gloss=,
+5	àwa	àwa	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=we
+6	ń	ń	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=that
+7	gòkè	gòkè	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=up
+8	lọ	lọ	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=go
+9	sí	sí	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=to
+10	Jérúsálẹ́mù	Jérúsálẹ́mù	PROPN	_	_	0	_	_	Ref=MATT_20.18|SpaceAfter=No|Gloss=jerusalem
+11	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.18|Gloss=.
+12	Ó	ó	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=he
+13	sọ	sọ	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=spake
+14	fún	fún	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=unto
+15	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=them
+16	pé	pé	X	_	_	0	_	_	Ref=MATT_20.18|SpaceAfter=No|Gloss=saying
+17	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.18|Gloss=,
+18	a	a	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=be
+19	ó	ó	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=he
+20	fi	fi	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=with
+21	Ọmọ	ọmọ	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=son
+22	Ènìyàn	ènìyàn	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=people
+23	lé	lé	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=delivered
+24	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=the
+25	olórí	olórí	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=chief
+26	àlùfáà	àlùfáà	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=priest
+27	àti	àti	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=and
+28	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=the
+29	olùkọ́	olùkọ́	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=master
+30	òfin	òfin	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=law
+31	lọ́wọ́	lọ́wọ́	X	_	_	0	_	_	Ref=MATT_20.18|SpaceAfter=No|Gloss=hand
+32	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.18|Gloss=,
+33	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=them
+34	yóò	yóò	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=shall
+35	sì	sì	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=and
+36	dá	dá	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=made
+37	mi	mi	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=my
+38	lẹ́bi	lẹ́bi	X	_	_	0	_	_	Ref=MATT_20.18|Gloss=condemn
+39	ikú	ikú	X	_	_	0	_	_	Ref=MATT_20.18|SpaceAfter=No|Gloss=death
+40	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.18|Gloss=.
+
+# sent_id = MATT_20.19
+# text = Wọn yóò sì lé àwọn kèfèrí lọ́wọ́ láti fi ṣe ẹlẹ́yà àti láti nàa án, àti láti kàn mi mọ́ àgbélébùú, ní ọjọ́ kẹta, yóò jí dìde.”
+# text_en = And shall deliver him to the Gentiles to mock, and to scourge, and to crucify him: and the third day he shall rise again.
+1	Wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=them
+2	yóò	yóò	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=shall
+3	sì	sì	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=and
+4	lé	lé	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=delivered
+5	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.19
+6	kèfèrí	kèfèrí	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=null
+7	lọ́wọ́	lọ́wọ́	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=hand
+8	láti	láti	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=to
+9	fi	fi	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=with
+10	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=do
+11	ẹlẹ́yà	ẹlẹ́yà	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=mocked
+12	àti	àti	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=and
+13	láti	láti	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=to
+14	nàa	nàa	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=null
+15	án	án	X	_	_	0	_	_	Ref=MATT_20.19|SpaceAfter=No|Gloss=him
+16	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.19|Gloss=,
+17	àti	àti	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=and
+18	láti	láti	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=to
+19	kàn	kàn	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=touched
+20	mi	mi	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=my
+21	mọ́	mọ́	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=more
+22	àgbélébùú	àgbélébùú	X	_	_	0	_	_	Ref=MATT_20.19|SpaceAfter=No|Gloss=crucified
+23	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.19|Gloss=,
+24	ní	ní	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=in
+25	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=day
+26	kẹta	kẹta	X	_	_	0	_	_	Ref=MATT_20.19|SpaceAfter=No|Gloss=third
+27	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.19|Gloss=,
+28	yóò	yóò	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=shall
+29	jí	jí	X	_	_	0	_	_	Ref=MATT_20.19|Gloss=raised
+30	dìde	dìde	X	_	_	0	_	_	Ref=MATT_20.19|SpaceAfter=No|Gloss=arose
+31	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.19|SpaceAfter=No|Gloss=.
+32	”	”	PUNCT	_	_	0	punct	_	Ref=MATT_20.19|Gloss=.
+
+# sent_id = MATT_20.20
+# text = Nígbà náà ni ìyá àwọn ọmọ Sébédè bá àwọn ọmọ rẹ̀ wá sọ́dọ̀ Jésù, ó wólẹ̀ lórí eékún rẹ̀, o béèrè fún ojú rere rẹ̀.
+# text_en = Then came to him the mother of Zebedee's children with her sons, worshipping him, and desiring a certain thing of him.
+1	Nígbà	nígbà	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=when
+2	náà	náà	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=the
+3	ni	ni	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=is
+4	ìyá	ìyá	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=mother
+5	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=the
+6	ọmọ	ọmọ	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=son
+7	Sébédè	Sébédè	PROPN	_	_	0	_	_	Ref=MATT_20.20|Gloss=zebedee
+8	bá	bá	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=if
+9	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=the
+10	ọmọ	ọmọ	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=son
+11	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=his
+12	wá	wá	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=come
+13	sọ́dọ̀	sọ́dọ̀	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=unto
+14	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MATT_20.20|SpaceAfter=No|Gloss=jesus
+15	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.20|Gloss=,
+16	ó	ó	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=he
+17	wólẹ̀	wólẹ̀	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=fell
+18	lórí	lórí	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=upon
+19	eékún	eékún	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=knees
+20	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MATT_20.20|SpaceAfter=No|Gloss=his
+21	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.20|Gloss=,
+22	o	o	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=thou
+23	béèrè	béèrè	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=said
+24	fún	fún	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=unto
+25	ojú	ojú	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=eyes
+26	rere	rere	X	_	_	0	_	_	Ref=MATT_20.20|Gloss=good
+27	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MATT_20.20|SpaceAfter=No|Gloss=his
+28	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.20
+
+# sent_id = MATT_20.21
+# text = Jésù béèrè pé, “Kí ni ìwọ ń fẹ́?” Ó sì dáhùn pé, “Jẹ́ kí àwọn ọmọ mi méjèèjì jókòó ní apá ọ̀tún àti apá òsì lórí ìtẹ́ ìjọba rẹ?”
+# text_en = And he said unto her, What wilt thou? She saith unto him, Grant that these my two sons may sit, the one on thy right hand, and the other on the left, in thy kingdom.
+1	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MATT_20.21|Gloss=jesus
+2	béèrè	béèrè	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=said
+3	pé	pé	X	_	_	0	_	_	Ref=MATT_20.21|SpaceAfter=No|Gloss=saying
+4	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.21|Gloss=,
+5	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.21|SpaceAfter=No|Gloss=“
+6	Kí	kí	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=let
+7	ni	ni	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=is
+8	ìwọ	ìwọ	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=thou
+9	ń	ń	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=that
+10	fẹ́	fẹ́	X	_	_	0	_	_	Ref=MATT_20.21|SpaceAfter=No
+11	?	?	PUNCT	_	_	0	punct	_	Ref=MATT_20.21|SpaceAfter=No|Gloss=?
+12	”	”	PUNCT	_	_	0	punct	_	Ref=MATT_20.21|Gloss=.
+13	Ó	ó	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=he
+14	sì	sì	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=and
+15	dáhùn	dáhùn	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=answered
+16	pé	pé	X	_	_	0	_	_	Ref=MATT_20.21|SpaceAfter=No|Gloss=saying
+17	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.21|Gloss=,
+18	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.21|SpaceAfter=No|Gloss=“
+19	Jẹ́	jẹ́	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=be
+20	kí	kí	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=let
+21	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=the
+22	ọmọ	ọmọ	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=son
+23	mi	mi	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=my
+24	méjèèjì	méjèèjì	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=two
+25	jókòó	jókòó	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=sat
+26	ní	ní	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=in
+27	apá	apá	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=arm
+28	ọ̀tún	ọ̀tún	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=right
+29	àti	àti	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=and
+30	apá	apá	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=arm
+31	òsì	òsì	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=left
+32	lórí	lórí	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=upon
+33	ìtẹ́	ìtẹ́	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=throne
+34	ìjọba	ìjọba	X	_	_	0	_	_	Ref=MATT_20.21|Gloss=kingdom
+35	rẹ	rẹ	X	_	_	0	_	_	Ref=MATT_20.21|SpaceAfter=No|Gloss=thy
+36	?	?	PUNCT	_	_	0	punct	_	Ref=MATT_20.21|SpaceAfter=No|Gloss=?
+37	”	”	PUNCT	_	_	0	punct	_	Ref=MATT_20.21|Gloss=.
+
+# sent_id = MATT_20.22
+# text = Ṣùgbọ́n Jésù dáhùn ó sì wí pé, “Ẹ̀yin kò mọ ohun tí ẹ̀yin ń béèrè, ẹ̀yin ha le mu nínú aago tí èmi ó mu?” Wọ́n dáhùn pé, “Àwa lè mu ún.”
+# text_en = But Jesus answered and said, Ye know not what ye ask. Are ye able to drink of the cup that I shall drink of, and to be baptized with the baptism that I am baptized with? They say unto him, We are able.
+1	Ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=but
+2	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MATT_20.22|Gloss=jesus
+3	dáhùn	dáhùn	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=answered
+4	ó	ó	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=he
+5	sì	sì	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=and
+6	wí	wí	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=said
+7	pé	pé	X	_	_	0	_	_	Ref=MATT_20.22|SpaceAfter=No|Gloss=saying
+8	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.22|Gloss=,
+9	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.22|SpaceAfter=No|Gloss=“
+10	Ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=ye
+11	kò	kò	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=not
+12	mọ	mọ	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=know
+13	ohun	ohun	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=things
+14	tí	tí	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=that
+15	ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=ye
+16	ń	ń	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=that
+17	béèrè	béèrè	X	_	_	0	_	_	Ref=MATT_20.22|SpaceAfter=No|Gloss=said
+18	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.22|Gloss=,
+19	ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=ye
+20	ha	ha	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=?
+21	le	le	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=may
+22	mu	mu	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=drink
+23	nínú	nínú	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=in
+24	aago	aago	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=cup
+25	tí	tí	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=that
+26	èmi	èmi	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=i
+27	ó	ó	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=he
+28	mu	mu	X	_	_	0	_	_	Ref=MATT_20.22|SpaceAfter=No|Gloss=drink
+29	?	?	PUNCT	_	_	0	punct	_	Ref=MATT_20.22|SpaceAfter=No
+30	”	”	PUNCT	_	_	0	punct	_	Ref=MATT_20.22|Gloss=.
+31	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=they
+32	dáhùn	dáhùn	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=answered
+33	pé	pé	X	_	_	0	_	_	Ref=MATT_20.22|SpaceAfter=No|Gloss=saying
+34	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.22|Gloss=,
+35	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.22|SpaceAfter=No|Gloss=“
+36	Àwa	àwa	X	_	_	0	_	_	Ref=MATT_20.22
+37	lè	lè	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=may
+38	mu	mu	X	_	_	0	_	_	Ref=MATT_20.22|Gloss=drink
+39	ún	ún	X	_	_	0	_	_	Ref=MATT_20.22|SpaceAfter=No
+40	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.22|SpaceAfter=No
+41	”	”	PUNCT	_	_	0	punct	_	Ref=MATT_20.22|Gloss=.
+
+# sent_id = MATT_20.23
+# text = Jésù sì wí fún wọn pé, “Dájúdájú, ẹ̀yin yóò mu nínú aago mi, ṣùgbọ́n èmi kò ní àṣẹ láti sọ irú ènìyàn tí yóò jòkòó ní apá ọ̀tún tàbí apá òsì. Baba mi ti pèsè àyè wọ́n-ọn-nì sílẹ̀ fún kìkì àwọn tí ó yàn.”
+# text_en = And he saith unto them, Ye shall drink indeed of my cup, and be baptized with the baptism that I am baptized with: but to sit on my right hand, and on my left, is not mine to give, but it shall be given to them for whom it is prepared of my Father.
+1	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MATT_20.23|Gloss=jesus
+2	sì	sì	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=and
+3	wí	wí	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=said
+4	fún	fún	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=unto
+5	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=them
+6	pé	pé	X	_	_	0	_	_	Ref=MATT_20.23|SpaceAfter=No|Gloss=saying
+7	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.23|Gloss=,
+8	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.23|SpaceAfter=No|Gloss=“
+9	Dájúdájú	dájúdájú	X	_	_	0	_	_	Ref=MATT_20.23|SpaceAfter=No|Gloss=surely
+10	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.23|Gloss=,
+11	ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=ye
+12	yóò	yóò	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=shall
+13	mu	mu	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=drink
+14	nínú	nínú	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=in
+15	aago	aago	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=cup
+16	mi	mi	X	_	_	0	_	_	Ref=MATT_20.23|SpaceAfter=No|Gloss=my
+17	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.23|Gloss=,
+18	ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=but
+19	èmi	èmi	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=i
+20	kò	kò	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=not
+21	ní	ní	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=in
+22	àṣẹ	àṣẹ	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=commandment
+23	láti	láti	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=to
+24	sọ	sọ	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=spake
+25	irú	irú	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=such
+26	ènìyàn	ènìyàn	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=people
+27	tí	tí	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=that
+28	yóò	yóò	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=shall
+29	jòkòó	jòkòó	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=sit
+30	ní	ní	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=in
+31	apá	apá	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=arm
+32	ọ̀tún	ọ̀tún	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=right
+33	tàbí	tàbí	X	_	_	0	_	_	Ref=MATT_20.23
+34	apá	apá	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=arm
+35	òsì	òsì	X	_	_	0	_	_	Ref=MATT_20.23|SpaceAfter=No
+36	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.23
+37	Baba	baba	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=father
+38	mi	mi	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=my
+39	ti	ti	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=have
+40	pèsè	pèsè	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=prepared
+41	àyè	àyè	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=place
+42	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.23|SpaceAfter=No|Gloss=they
+43	-	-	PUNCT	_	_	0	punct	_	Ref=MATT_20.23|SpaceAfter=No|Gloss=the
+44	ọn	ọn	X	_	_	0	_	_	Ref=MATT_20.23|SpaceAfter=No
+45	-	-	PUNCT	_	_	0	punct	_	Ref=MATT_20.23|SpaceAfter=No|Gloss=the
+46	nì	nì	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=the
+47	sílẹ̀	sílẹ̀	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=left
+48	fún	fún	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=unto
+49	kìkì	kìkì	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=pure
+50	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=the
+51	tí	tí	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=that
+52	ó	ó	X	_	_	0	_	_	Ref=MATT_20.23|Gloss=he
+53	yàn	yàn	X	_	_	0	_	_	Ref=MATT_20.23|SpaceAfter=No
+54	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.23|SpaceAfter=No
+55	”	”	PUNCT	_	_	0	punct	_	Ref=MATT_20.23|Gloss=.
+
+# sent_id = MATT_20.24
+# text = Nígbà tí àwọn ọmọ-ẹ̀yìn mẹ́wàà ìyókù sì gbọ́ èyí, wọ́n bínú sí àwọn arákùnrin méjì yìí.
+# text_en = And when the ten heard it, they were moved with indignation against the two brethren.
+1	Nígbà	nígbà	X	_	_	0	_	_	Ref=MATT_20.24|Gloss=when
+2	tí	tí	X	_	_	0	_	_	Ref=MATT_20.24|Gloss=that
+3	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.24|Gloss=the
+4	ọmọ	ọmọ	X	_	_	0	_	_	Ref=MATT_20.24|SpaceAfter=No
+5	-	-	PUNCT	_	_	0	punct	_	Ref=MATT_20.24|SpaceAfter=No
+6	ẹ̀yìn	ẹ̀yìn	X	_	_	0	_	_	Ref=MATT_20.24
+7	mẹ́wàà	mẹ́wàà	X	_	_	0	_	_	Ref=MATT_20.24|Gloss=ten
+8	ìyókù	ìyókù	X	_	_	0	_	_	Ref=MATT_20.24|Gloss=rest
+9	sì	sì	X	_	_	0	_	_	Ref=MATT_20.24|Gloss=and
+10	gbọ́	gbọ́	X	_	_	0	_	_	Ref=MATT_20.24|Gloss=heard
+11	èyí	èyí	X	_	_	0	_	_	Ref=MATT_20.24|SpaceAfter=No|Gloss=this
+12	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.24|Gloss=,
+13	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.24|Gloss=they
+14	bínú	bínú	X	_	_	0	_	_	Ref=MATT_20.24|Gloss=angry
+15	sí	sí	X	_	_	0	_	_	Ref=MATT_20.24|Gloss=to
+16	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.24|Gloss=the
+17	arákùnrin	arákùnrin	X	_	_	0	_	_	Ref=MATT_20.24|Gloss=brother
+18	méjì	méjì	X	_	_	0	_	_	Ref=MATT_20.24|Gloss=two
+19	yìí	yìí	X	_	_	0	_	_	Ref=MATT_20.24|SpaceAfter=No|Gloss=this
+20	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.24|Gloss=.
+
+# sent_id = MATT_20.25
+# text = Ṣùgbọ́n Jésù pé wọ́n papọ̀, ó wí pé, “Dájúdájú, ẹ̀yin mọ̀ pé àwọn ọba aláìkọlà a máa lo agbára lórí wọn, àwọn ẹni ńlá láàrin wọn a sì máa fi ọlá tẹrí àwọn tí ó wà lábẹ́ wọn ba.
+# text_en = But Jesus called them unto him, and said, Ye know that the princes of the Gentiles exercise dominion over them, and they that are great exercise authority upon them.
+1	Ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=but
+2	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MATT_20.25|Gloss=jesus
+3	pé	pé	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=saying
+4	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=they
+5	papọ̀	papọ̀	X	_	_	0	_	_	Ref=MATT_20.25|SpaceAfter=No|Gloss=together
+6	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.25|Gloss=,
+7	ó	ó	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=he
+8	wí	wí	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=said
+9	pé	pé	X	_	_	0	_	_	Ref=MATT_20.25|SpaceAfter=No|Gloss=saying
+10	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.25|Gloss=,
+11	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.25|SpaceAfter=No|Gloss=“
+12	Dájúdájú	dájúdájú	X	_	_	0	_	_	Ref=MATT_20.25|SpaceAfter=No|Gloss=surely
+13	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.25|Gloss=,
+14	ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=ye
+15	mọ̀	mọ̀	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=know
+16	pé	pé	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=saying
+17	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=the
+18	ọba	ọba	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=king
+19	aláìkọlà	aláìkọlà	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=gentiles
+20	a	a	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=be
+21	máa	máa	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=be
+22	lo	lo	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=use
+23	agbára	agbára	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=power
+24	lórí	lórí	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=upon
+25	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.25|SpaceAfter=No|Gloss=them
+26	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.25|Gloss=,
+27	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=the
+28	ẹni	ẹni	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=that
+29	ńlá	ńlá	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=great
+30	láàrin	láàrin	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=among
+31	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=them
+32	a	a	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=be
+33	sì	sì	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=and
+34	máa	máa	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=be
+35	fi	fi	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=with
+36	ọlá	ọlá	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=honour
+37	tẹrí	tẹrí	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=bowed
+38	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=the
+39	tí	tí	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=that
+40	ó	ó	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=he
+41	wà	wà	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=was
+42	lábẹ́	lábẹ́	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=under
+43	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.25|Gloss=them
+44	ba	ba	X	_	_	0	_	_	Ref=MATT_20.25|SpaceAfter=No|Gloss=lest
+45	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.25|Gloss=.
+
+# sent_id = MATT_20.26
+# text = Ṣùgbọ́n èyí yàtọ̀ láàrin yín. Dípò bẹ́ẹ̀, ẹni tí ó bá ń fẹ́ ṣe olórí láàrin yín, ní láti ṣe bí ìránṣẹ́ fún yín ni,
+# text_en = But it shall not be so among you: but whosoever will be great among you, let him be your minister;
+1	Ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=but
+2	èyí	èyí	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=this
+3	yàtọ̀	yàtọ̀	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=beside
+4	láàrin	láàrin	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=among
+5	yín	yín	X	_	_	0	_	_	Ref=MATT_20.26|SpaceAfter=No|Gloss=you
+6	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.26|Gloss=.
+7	Dípò	dípò	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=instead
+8	bẹ́ẹ̀	bẹ́ẹ̀	X	_	_	0	_	_	Ref=MATT_20.26|SpaceAfter=No|Gloss=so
+9	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.26|Gloss=,
+10	ẹni	ẹni	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=that
+11	tí	tí	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=that
+12	ó	ó	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=he
+13	bá	bá	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=if
+14	ń	ń	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=that
+15	fẹ́	fẹ́	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=would
+16	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=do
+17	olórí	olórí	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=chief
+18	láàrin	láàrin	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=among
+19	yín	yín	X	_	_	0	_	_	Ref=MATT_20.26|SpaceAfter=No|Gloss=you
+20	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.26|Gloss=,
+21	ní	ní	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=in
+22	láti	láti	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=to
+23	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=do
+24	bí	bí	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=as
+25	ìránṣẹ́	ìránṣẹ́	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=servant
+26	fún	fún	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=unto
+27	yín	yín	X	_	_	0	_	_	Ref=MATT_20.26|Gloss=you
+28	ni	ni	X	_	_	0	_	_	Ref=MATT_20.26|SpaceAfter=No|Gloss=is
+29	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.26|Gloss=,
+
+# sent_id = MATT_20.27
+# text = Àti ẹni tí ó bá fẹ́ ṣe olórí nínú yín, ẹ jẹ́ kí ó máa ṣe Ọmọ-ọ̀dọ̀ yin.
+# text_en = And whosoever will be chief among you, let him be your servant:
+1	Àti	àti	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=and
+2	ẹni	ẹni	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=that
+3	tí	tí	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=that
+4	ó	ó	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=he
+5	bá	bá	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=if
+6	fẹ́	fẹ́	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=would
+7	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=do
+8	olórí	olórí	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=chief
+9	nínú	nínú	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=in
+10	yín	yín	X	_	_	0	_	_	Ref=MATT_20.27|SpaceAfter=No|Gloss=you
+11	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.27|Gloss=,
+12	ẹ	ẹ	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=ye
+13	jẹ́	jẹ́	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=be
+14	kí	kí	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=let
+15	ó	ó	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=he
+16	máa	máa	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=be
+17	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.27|Gloss=do
+18	Ọmọ	ọmọ	X	_	_	0	_	_	Ref=MATT_20.27|SpaceAfter=No
+19	-	-	PUNCT	_	_	0	punct	_	Ref=MATT_20.27|SpaceAfter=No
+20	ọ̀dọ̀	ọ̀dọ̀	X	_	_	0	_	_	Ref=MATT_20.27
+21	yin	yin	X	_	_	0	_	_	Ref=MATT_20.27|SpaceAfter=No|Gloss=you
+22	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.27|Gloss=.
+
+# sent_id = MATT_20.28
+# text = Gẹ́gẹ́ bí Ọmọ-Ènìyàn kò ṣe wá sí ayé, kí ẹ lè ṣe ìránṣẹ́ fún un, ṣùgbọ́n láti ṣe ìránṣẹ́ fún yín, àti láti fi ẹ̀mí rẹ ṣe ìràpadà ọ̀pọ̀ ènìyàn.”
+# text_en = Even as the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many.
+1	Gẹ́gẹ́	gẹ́gẹ́	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=according
+2	bí	bí	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=as
+3	Ọmọ	ọmọ	X	_	_	0	_	_	Ref=MATT_20.28|SpaceAfter=No
+4	-	-	PUNCT	_	_	0	punct	_	Ref=MATT_20.28|SpaceAfter=No
+5	Ènìyàn	ènìyàn	X	_	_	0	_	_	Ref=MATT_20.28
+6	kò	kò	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=not
+7	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=do
+8	wá	wá	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=come
+9	sí	sí	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=to
+10	ayé	ayé	X	_	_	0	_	_	Ref=MATT_20.28|SpaceAfter=No|Gloss=earth
+11	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.28|Gloss=,
+12	kí	kí	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=let
+13	ẹ	ẹ	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=ye
+14	lè	lè	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=may
+15	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=do
+16	ìránṣẹ́	ìránṣẹ́	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=servant
+17	fún	fún	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=unto
+18	un	un	X	_	_	0	_	_	Ref=MATT_20.28|SpaceAfter=No|Gloss=him
+19	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.28|Gloss=,
+20	ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=but
+21	láti	láti	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=to
+22	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=do
+23	ìránṣẹ́	ìránṣẹ́	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=servant
+24	fún	fún	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=unto
+25	yín	yín	X	_	_	0	_	_	Ref=MATT_20.28|SpaceAfter=No|Gloss=you
+26	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.28|Gloss=,
+27	àti	àti	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=and
+28	láti	láti	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=to
+29	fi	fi	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=with
+30	ẹ̀mí	ẹ̀mí	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=spirit
+31	rẹ	rẹ	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=thy
+32	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=do
+33	ìràpadà	ìràpadà	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=redeemed
+34	ọ̀pọ̀	ọ̀pọ̀	X	_	_	0	_	_	Ref=MATT_20.28|Gloss=many
+35	ènìyàn	ènìyàn	X	_	_	0	_	_	Ref=MATT_20.28|SpaceAfter=No
+36	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.28|SpaceAfter=No|Gloss=.
+37	”	”	PUNCT	_	_	0	punct	_	Ref=MATT_20.28|Gloss=.
+
+# sent_id = MATT_20.29
+# text = Bí Jésù àti àwọn ọmọ-ẹ̀yìn rẹ̀ ti ń fi ìlú Jẹ́ríkò sílẹ̀, ọ̀pọ̀ ènìyàn sì wọ́ tẹ̀lé e lẹ́yìn.
+# text_en = And as they departed from Jericho, a great multitude followed him.
+1	Bí	bí	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=as
+2	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MATT_20.29|Gloss=jesus
+3	àti	àti	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=and
+4	àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=the
+5	ọmọ	ọmọ	X	_	_	0	_	_	Ref=MATT_20.29|SpaceAfter=No|Gloss=son
+6	-	-	PUNCT	_	_	0	punct	_	Ref=MATT_20.29|SpaceAfter=No
+7	ẹ̀yìn	ẹ̀yìn	X	_	_	0	_	_	Ref=MATT_20.29
+8	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=his
+9	ti	ti	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=have
+10	ń	ń	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=that
+11	fi	fi	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=with
+12	ìlú	ìlú	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=city
+13	Jẹ́ríkò	Jẹ́ríkò	PROPN	_	_	0	_	_	Ref=MATT_20.29|Gloss=jericho
+14	sílẹ̀	sílẹ̀	X	_	_	0	_	_	Ref=MATT_20.29|SpaceAfter=No|Gloss=left
+15	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.29|Gloss=,
+16	ọ̀pọ̀	ọ̀pọ̀	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=many
+17	ènìyàn	ènìyàn	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=people
+18	sì	sì	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=and
+19	wọ́	wọ́	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=confess
+20	tẹ̀lé	tẹ̀lé	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=after
+21	e	e	X	_	_	0	_	_	Ref=MATT_20.29|Gloss=him
+22	lẹ́yìn	lẹ́yìn	X	_	_	0	_	_	Ref=MATT_20.29|SpaceAfter=No|Gloss=after
+23	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.29|Gloss=.
+
+# sent_id = MATT_20.30
+# text = Àwọn ọkùnrin afọ́jú méjì sì jókòó lẹ́bàá ọ̀nà, nígbà tí wọ́n sí gbọ́ pé Jésù ń kọjá lọ, wọ́n bẹ̀rẹ̀ síí kígbe pé, “Olúwa, Ọmọ Dáfídì, ṣàánú fún wa!”
+# text_en = And, behold, two blind men sitting by the way side, when they heard that Jesus passed by, cried out, saying, Have mercy on us, O Lord, thou Son of David.
+1	Àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=the
+2	ọkùnrin	ọkùnrin	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=them
+3	afọ́jú	afọ́jú	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=man
+4	méjì	méjì	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=blind
+5	sì	sì	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=two
+6	jókòó	jókòó	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=and
+7	lẹ́bàá	lẹ́bàá	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=sat
+8	ọ̀nà	ọ̀nà	X	_	_	0	_	_	Ref=MATT_20.30|SpaceAfter=No|Gloss=by
+9	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.30|Gloss=way
+10	nígbà	nígbà	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=,
+11	tí	tí	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=when
+12	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=that
+13	sí	sí	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=they
+14	gbọ́	gbọ́	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=to
+15	pé	pé	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=heard
+16	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MATT_20.30|Gloss=saying
+17	ń	ń	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=jesus
+18	kọjá	kọjá	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=that
+19	lọ	lọ	X	_	_	0	_	_	Ref=MATT_20.30|SpaceAfter=No|Gloss=passed
+20	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.30|Gloss=go
+21	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=,
+22	bẹ̀rẹ̀	bẹ̀rẹ̀	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=they
+23	síí	síí	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=began
+24	kígbe	kígbe	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=null
+25	pé	pé	X	_	_	0	_	_	Ref=MATT_20.30|SpaceAfter=No|Gloss=cried
+26	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.30|Gloss=saying
+27	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.30|SpaceAfter=No|Gloss=,
+28	Olúwa	olúwa	X	_	_	0	_	_	Ref=MATT_20.30|SpaceAfter=No|Gloss=“
+29	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.30|Gloss=lord
+30	Ọmọ	ọmọ	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=,
+31	Dáfídì	Dáfídì	PROPN	_	_	0	_	_	Ref=MATT_20.30|SpaceAfter=No|Gloss=son
+32	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.30|Gloss=david
+33	ṣàánú	ṣàánú	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=,
+34	fún	fún	X	_	_	0	_	_	Ref=MATT_20.30|Gloss=mercy
+35	wa	wa	X	_	_	0	_	_	Ref=MATT_20.30|SpaceAfter=No|Gloss=unto
+36	!	!	PUNCT	_	_	0	punct	_	Ref=MATT_20.30|SpaceAfter=No|Gloss=us
+37	”	”	PUNCT	_	_	0	punct	_	Ref=MATT_20.30|Gloss=.
+
+# sent_id = MATT_20.31
+# text = Àwọn ènìyàn sí bá wọn wí pé kí wọn dákẹ́, ṣùgbọ́n wọ́n kígbe sóke sí i. “Olúwa, ọmọ Dáfídì, ṣàánú fún wa!”
+# text_en = And the multitude rebuked them, because they should hold their peace: but they cried the more, saying, Have mercy on us, O Lord, thou Son of David.
+1	Àwọn	àwọn	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=the
+2	ènìyàn	ènìyàn	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=them
+3	sí	sí	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=people
+4	bá	bá	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=to
+5	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=if
+6	wí	wí	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=them
+7	pé	pé	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=said
+8	kí	kí	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=saying
+9	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=let
+10	dákẹ́	dákẹ́	X	_	_	0	_	_	Ref=MATT_20.31|SpaceAfter=No|Gloss=them
+11	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.31|Gloss=silence
+12	ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=,
+13	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=but
+14	kígbe	kígbe	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=they
+15	sóke	sóke	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=cried
+16	sí	sí	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=null
+17	i	i	X	_	_	0	_	_	Ref=MATT_20.31|SpaceAfter=No|Gloss=to
+18	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.31|Gloss=him
+19	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.31|SpaceAfter=No|Gloss=.
+20	Olúwa	olúwa	X	_	_	0	_	_	Ref=MATT_20.31|SpaceAfter=No|Gloss=“
+21	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.31|Gloss=lord
+22	ọmọ	ọmọ	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=,
+23	Dáfídì	Dáfídì	PROPN	_	_	0	_	_	Ref=MATT_20.31|SpaceAfter=No|Gloss=son
+24	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.31|Gloss=david
+25	ṣàánú	ṣàánú	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=,
+26	fún	fún	X	_	_	0	_	_	Ref=MATT_20.31|Gloss=mercy
+27	wa	wa	X	_	_	0	_	_	Ref=MATT_20.31|SpaceAfter=No|Gloss=unto
+28	!	!	PUNCT	_	_	0	punct	_	Ref=MATT_20.31|SpaceAfter=No|Gloss=us
+29	”	”	PUNCT	_	_	0	punct	_	Ref=MATT_20.31|Gloss=.
+
+# sent_id = MATT_20.32
+# text = Jésù dúró lójú ọ̀nà, ó sì pè wọ́n pé, Ó béèrè pé, “Kí ni ẹ̀yin fẹ́ kí èmi ṣe fún yín?”
+# text_en = And Jesus stood still, and called them, and said, What will ye that I shall do unto you?
+1	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MATT_20.32|Gloss=jesus
+2	dúró	dúró	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=stood
+3	lójú	lójú	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=sight
+4	ọ̀nà	ọ̀nà	X	_	_	0	_	_	Ref=MATT_20.32|SpaceAfter=No|Gloss=way
+5	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.32|Gloss=,
+6	ó	ó	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=he
+7	sì	sì	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=and
+8	pè	pè	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=called
+9	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=they
+10	pé	pé	X	_	_	0	_	_	Ref=MATT_20.32|SpaceAfter=No|Gloss=saying
+11	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.32|Gloss=,
+12	Ó	ó	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=he
+13	béèrè	béèrè	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=said
+14	pé	pé	X	_	_	0	_	_	Ref=MATT_20.32|SpaceAfter=No|Gloss=saying
+15	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.32|Gloss=,
+16	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.32|SpaceAfter=No|Gloss=“
+17	Kí	kí	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=let
+18	ni	ni	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=is
+19	ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=ye
+20	fẹ́	fẹ́	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=would
+21	kí	kí	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=let
+22	èmi	èmi	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=i
+23	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=do
+24	fún	fún	X	_	_	0	_	_	Ref=MATT_20.32|Gloss=unto
+25	yín	yín	X	_	_	0	_	_	Ref=MATT_20.32|SpaceAfter=No|Gloss=you
+26	?	?	PUNCT	_	_	0	punct	_	Ref=MATT_20.32|SpaceAfter=No|Gloss=?
+27	”	”	PUNCT	_	_	0	punct	_	Ref=MATT_20.32|Gloss=.
+
+# sent_id = MATT_20.33
+# text = Wọ́n dáhùn pé, “Olúwa, àwa fẹ́ kí a ríran.”
+# text_en = They say unto him, Lord, that our eyes may be opened.
+1	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.33|Gloss=they
+2	dáhùn	dáhùn	X	_	_	0	_	_	Ref=MATT_20.33|Gloss=answered
+3	pé	pé	X	_	_	0	_	_	Ref=MATT_20.33|SpaceAfter=No|Gloss=saying
+4	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.33|Gloss=,
+5	“	“	PUNCT	_	_	0	punct	_	Ref=MATT_20.33|SpaceAfter=No|Gloss=“
+6	Olúwa	olúwa	X	_	_	0	_	_	Ref=MATT_20.33|SpaceAfter=No|Gloss=lord
+7	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.33|Gloss=,
+8	àwa	àwa	X	_	_	0	_	_	Ref=MATT_20.33|Gloss=we
+9	fẹ́	fẹ́	X	_	_	0	_	_	Ref=MATT_20.33|Gloss=would
+10	kí	kí	X	_	_	0	_	_	Ref=MATT_20.33|Gloss=let
+11	a	a	X	_	_	0	_	_	Ref=MATT_20.33|Gloss=be
+12	ríran	ríran	X	_	_	0	_	_	Ref=MATT_20.33|SpaceAfter=No|Gloss=see
+13	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.33|SpaceAfter=No|Gloss=.
+14	”	”	PUNCT	_	_	0	punct	_	Ref=MATT_20.33|Gloss=.
+
+# sent_id = MATT_20.34
+# text = Àánú wọn sì ṣe Jésù, ó fi ọwọ́ kan ojú wọn. Lójú kan náà, wọ́n sì ríran, wọ́n sì ń tọ̀ ọ́ lẹ́yìn.
+# text_en = So Jesus had compassion on them, and touched their eyes: and immediately their eyes received sight, and they followed him.
+1	Àánú	àánú	X	_	_	0	_	_	Ref=MATT_20.34
+2	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=them
+3	sì	sì	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=and
+4	ṣe	ṣe	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=do
+5	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MATT_20.34|SpaceAfter=No|Gloss=jesus
+6	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.34|Gloss=,
+7	ó	ó	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=he
+8	fi	fi	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=with
+9	ọwọ́	ọwọ́	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=hand
+10	kan	kan	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=a
+11	ojú	ojú	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=eyes
+12	wọn	wọn	X	_	_	0	_	_	Ref=MATT_20.34|SpaceAfter=No|Gloss=them
+13	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.34|Gloss=.
+14	Lójú	lójú	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=sight
+15	kan	kan	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=a
+16	náà	náà	X	_	_	0	_	_	Ref=MATT_20.34|SpaceAfter=No|Gloss=the
+17	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.34|Gloss=,
+18	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=they
+19	sì	sì	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=and
+20	ríran	ríran	X	_	_	0	_	_	Ref=MATT_20.34|SpaceAfter=No|Gloss=see
+21	,	,	PUNCT	_	_	0	punct	_	Ref=MATT_20.34|Gloss=,
+22	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=they
+23	sì	sì	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=and
+24	ń	ń	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=that
+25	tọ̀	tọ̀	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=came
+26	ọ́	ọ́	X	_	_	0	_	_	Ref=MATT_20.34|Gloss=thee
+27	lẹ́yìn	lẹ́yìn	X	_	_	0	_	_	Ref=MATT_20.34|SpaceAfter=No|Gloss=after
+28	.	.	PUNCT	_	_	0	punct	_	Ref=MATT_20.34|Gloss=.
+

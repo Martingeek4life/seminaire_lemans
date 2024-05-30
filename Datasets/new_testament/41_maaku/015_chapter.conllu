@@ -1,0 +1,1494 @@
+# source = Bibeli Mimọ, Máàkù, Chapter 15
+# newdoc id = MARK_15
+# sent_id = MARK_15.1
+# text = Ní kùtùkùtù òwúrọ̀, àwọn olórí àlùfáà, àwọn àgbààgbà, àwọn alùkọ́ òfin àti gbogbo àjọ ìgbìmọ̀ fi ẹnu kò lórí ohun tí wọn yóò ṣe. Wọ́n sì de Jésù, wọ́n mú un lọ, wọ́n sì fi lé Pílátù lọ́wọ́.
+# text_en = And straightway in the morning the chief priests held a consultation with the elders and scribes and the whole council, and bound Jesus, and carried him away, and delivered him to Pilate.
+1	Ní	ní	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=in
+2	kùtùkùtù	kùtùkùtù	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=early
+3	òwúrọ̀	òwúrọ̀	X	_	_	0	_	_	Ref=MARK_15.1|SpaceAfter=No|Gloss=morning
+4	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.1|Gloss=,
+5	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=the
+6	olórí	olórí	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=chief
+7	àlùfáà	àlùfáà	X	_	_	0	_	_	Ref=MARK_15.1|SpaceAfter=No|Gloss=priest
+8	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.1|Gloss=,
+9	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=the
+10	àgbààgbà	àgbààgbà	X	_	_	0	_	_	Ref=MARK_15.1|SpaceAfter=No|Gloss=elders
+11	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.1|Gloss=,
+12	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=the
+13	alùkọ́	alùkọ́	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=them
+14	òfin	òfin	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=consultation
+15	àti	àti	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=law
+16	gbogbo	gbogbo	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=and
+17	àjọ	àjọ	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=all
+18	ìgbìmọ̀	ìgbìmọ̀	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=congregation
+19	fi	fi	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=council
+20	ẹnu	ẹnu	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=with
+21	kò	kò	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=mouth
+22	lórí	lórí	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=not
+23	ohun	ohun	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=upon
+24	tí	tí	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=things
+25	wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=that
+26	yóò	yóò	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=them
+27	ṣe	ṣe	X	_	_	0	_	_	Ref=MARK_15.1|SpaceAfter=No|Gloss=shall
+28	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.1|Gloss=do
+29	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=they
+30	sì	sì	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=and
+31	de	de	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=wait
+32	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.1|SpaceAfter=No|Gloss=jesus
+33	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.1|Gloss=,
+34	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=they
+35	mú	mú	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=brought
+36	un	un	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=him
+37	lọ	lọ	X	_	_	0	_	_	Ref=MARK_15.1|SpaceAfter=No|Gloss=go
+38	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.1|Gloss=,
+39	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=they
+40	sì	sì	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=and
+41	fi	fi	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=with
+42	lé	lé	X	_	_	0	_	_	Ref=MARK_15.1|Gloss=delivered
+43	Pílátù	Pílátù	PROPN	_	_	0	_	_	Ref=MARK_15.1|Gloss=pilate
+44	lọ́wọ́	lọ́wọ́	X	_	_	0	_	_	Ref=MARK_15.1|SpaceAfter=No|Gloss=hand
+45	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.1|Gloss=.
+
+# sent_id = MARK_15.2
+# text = Pílátù sì bi í léèrè, ó ni, “Ṣe ìwọ ni ọba àwọn Júù?” Jésù sì dáhùn pé, “Ìwọ wí.”
+# text_en = And Pilate asked him, Art thou the King of the Jews? And he answering said unto him, Thou sayest it.
+1	Pílátù	Pílátù	PROPN	_	_	0	_	_	Ref=MARK_15.2|Gloss=pilate
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.2|Gloss=and
+3	bi	bi	X	_	_	0	_	_	Ref=MARK_15.2|Gloss=as
+4	í	í	X	_	_	0	_	_	Ref=MARK_15.2|Gloss=was
+5	léèrè	léèrè	X	_	_	0	_	_	Ref=MARK_15.2|SpaceAfter=No|Gloss=asked
+6	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.2|Gloss=,
+7	ó	ó	X	_	_	0	_	_	Ref=MARK_15.2|Gloss=he
+8	ni	ni	X	_	_	0	_	_	Ref=MARK_15.2|SpaceAfter=No|Gloss=is
+9	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.2|Gloss=,
+10	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.2|SpaceAfter=No|Gloss=“
+11	Ṣe	ṣe	X	_	_	0	_	_	Ref=MARK_15.2|Gloss=do
+12	ìwọ	ìwọ	X	_	_	0	_	_	Ref=MARK_15.2|Gloss=thou
+13	ni	ni	X	_	_	0	_	_	Ref=MARK_15.2|Gloss=is
+14	ọba	ọba	X	_	_	0	_	_	Ref=MARK_15.2|Gloss=king
+15	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.2
+16	Júù	Júù	PROPN	_	_	0	_	_	Ref=MARK_15.2|SpaceAfter=No|Gloss=jews
+17	?	?	PUNCT	_	_	0	punct	_	Ref=MARK_15.2|SpaceAfter=No|Gloss=?
+18	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.2|Gloss=.
+19	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.2|Gloss=jesus
+20	sì	sì	X	_	_	0	_	_	Ref=MARK_15.2|Gloss=and
+21	dáhùn	dáhùn	X	_	_	0	_	_	Ref=MARK_15.2|Gloss=answered
+22	pé	pé	X	_	_	0	_	_	Ref=MARK_15.2|SpaceAfter=No|Gloss=saying
+23	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.2|Gloss=,
+24	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.2|SpaceAfter=No|Gloss=“
+25	Ìwọ	ìwọ	X	_	_	0	_	_	Ref=MARK_15.2|Gloss=thou
+26	wí	wí	X	_	_	0	_	_	Ref=MARK_15.2|SpaceAfter=No|Gloss=said
+27	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.2|SpaceAfter=No|Gloss=.
+28	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.2|Gloss=.
+
+# sent_id = MARK_15.3
+# text = Àwọn olórí àlùfáà fi ẹ̀sùn ohun púpọ̀ kàn án.
+# text_en = And the chief priests accused him of many things: but he answered nothing.
+1	Àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.3|Gloss=the
+2	olórí	olórí	X	_	_	0	_	_	Ref=MARK_15.3|Gloss=them
+3	àlùfáà	àlùfáà	X	_	_	0	_	_	Ref=MARK_15.3|Gloss=chief
+4	fi	fi	X	_	_	0	_	_	Ref=MARK_15.3|Gloss=priest
+5	ẹ̀sùn	ẹ̀sùn	X	_	_	0	_	_	Ref=MARK_15.3|Gloss=with
+6	ohun	ohun	X	_	_	0	_	_	Ref=MARK_15.3|Gloss=accuse
+7	púpọ̀	púpọ̀	X	_	_	0	_	_	Ref=MARK_15.3|Gloss=things
+8	kàn	kàn	X	_	_	0	_	_	Ref=MARK_15.3|Gloss=many
+9	án	án	X	_	_	0	_	_	Ref=MARK_15.3|SpaceAfter=No|Gloss=touched
+10	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.3|Gloss=him
+
+# sent_id = MARK_15.4
+# text = Pílátù sì tún bi í léèrè pé, “Ṣe ìwọ kò dáhùn ni? Wo gbogbo ẹ̀sùn tí wọ́n fi kàn ọ.”
+# text_en = And Pilate asked him again, saying, Answerest thou nothing? behold how many things they witness against thee.
+1	Pílátù	Pílátù	PROPN	_	_	0	_	_	Ref=MARK_15.4|Gloss=pilate
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=and
+3	tún	tún	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=again
+4	bi	bi	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=as
+5	í	í	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=was
+6	léèrè	léèrè	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=asked
+7	pé	pé	X	_	_	0	_	_	Ref=MARK_15.4|SpaceAfter=No|Gloss=saying
+8	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.4|Gloss=,
+9	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.4|SpaceAfter=No|Gloss=“
+10	Ṣe	ṣe	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=do
+11	ìwọ	ìwọ	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=thou
+12	kò	kò	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=not
+13	dáhùn	dáhùn	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=answered
+14	ni	ni	X	_	_	0	_	_	Ref=MARK_15.4|SpaceAfter=No|Gloss=is
+15	?	?	PUNCT	_	_	0	punct	_	Ref=MARK_15.4|Gloss=?
+16	Wo	wo	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=what
+17	gbogbo	gbogbo	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=all
+18	ẹ̀sùn	ẹ̀sùn	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=accuse
+19	tí	tí	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=that
+20	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=they
+21	fi	fi	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=with
+22	kàn	kàn	X	_	_	0	_	_	Ref=MARK_15.4|Gloss=touched
+23	ọ	ọ	X	_	_	0	_	_	Ref=MARK_15.4|SpaceAfter=No
+24	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.4|SpaceAfter=No
+25	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.4|Gloss=.
+
+# sent_id = MARK_15.5
+# text = Ṣùgbọ́n Jésù kò da lohùn síbẹ̀, tóbẹ́ẹ̀ ti ẹnu fi ya Pílátù.
+# text_en = But Jesus yet answered nothing; so that Pilate marvelled.
+1	Ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=MARK_15.5|Gloss=but
+2	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.5|Gloss=jesus
+3	kò	kò	X	_	_	0	_	_	Ref=MARK_15.5|Gloss=not
+4	da	da	X	_	_	0	_	_	Ref=MARK_15.5|Gloss=pour
+5	lohùn	lohùn	X	_	_	0	_	_	Ref=MARK_15.5|Gloss=answered
+6	síbẹ̀	síbẹ̀	X	_	_	0	_	_	Ref=MARK_15.5|SpaceAfter=No|Gloss=yet
+7	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.5|Gloss=,
+8	tóbẹ́ẹ̀	tóbẹ́ẹ̀	X	_	_	0	_	_	Ref=MARK_15.5|Gloss=so
+9	ti	ti	X	_	_	0	_	_	Ref=MARK_15.5|Gloss=have
+10	ẹnu	ẹnu	X	_	_	0	_	_	Ref=MARK_15.5|Gloss=mouth
+11	fi	fi	X	_	_	0	_	_	Ref=MARK_15.5|Gloss=with
+12	ya	ya	X	_	_	0	_	_	Ref=MARK_15.5|Gloss=sanctify
+13	Pílátù	Pílátù	PROPN	_	_	0	_	_	Ref=MARK_15.5|SpaceAfter=No|Gloss=pilate
+14	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.5|Gloss=.
+
+# sent_id = MARK_15.6
+# text = Ní báyìí, nígbà àjọ, gẹ́gẹ́ bí àsà, òun a máa dá òǹdè kan sílẹ̀ fún àwọn, ẹnikẹ́ni tí wọ́n bá béèrè fún.
+# text_en = Now at that feast he released unto them one prisoner, whomsoever they desired.
+1	Ní	ní	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=in
+2	báyìí	báyìí	X	_	_	0	_	_	Ref=MARK_15.6|SpaceAfter=No|Gloss=thus
+3	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.6|Gloss=,
+4	nígbà	nígbà	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=when
+5	àjọ	àjọ	X	_	_	0	_	_	Ref=MARK_15.6|SpaceAfter=No|Gloss=congregation
+6	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.6|Gloss=,
+7	gẹ́gẹ́	gẹ́gẹ́	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=according
+8	bí	bí	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=as
+9	àsà	àsà	X	_	_	0	_	_	Ref=MARK_15.6|SpaceAfter=No|Gloss=shield
+10	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.6|Gloss=,
+11	òun	òun	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=he
+12	a	a	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=be
+13	máa	máa	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=be
+14	dá	dá	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=made
+15	òǹdè	òǹdè	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=prisoner
+16	kan	kan	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=a
+17	sílẹ̀	sílẹ̀	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=left
+18	fún	fún	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=unto
+19	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.6|SpaceAfter=No|Gloss=the
+20	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.6|Gloss=,
+21	ẹnikẹ́ni	ẹnikẹ́ni	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=whosoever
+22	tí	tí	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=that
+23	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=they
+24	bá	bá	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=if
+25	béèrè	béèrè	X	_	_	0	_	_	Ref=MARK_15.6|Gloss=said
+26	fún	fún	X	_	_	0	_	_	Ref=MARK_15.6|SpaceAfter=No|Gloss=unto
+27	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.6|Gloss=.
+
+# sent_id = MARK_15.7
+# text = Ọkùnrin kan wà tí orúkọ rẹ̀ ń jẹ́ Bárábà. Wọ́n ti ju òun àti àwọn ọlọ̀tẹ̀ ẹgbẹ́ rẹ̀ sí ọgbà ẹ̀wọ̀n, nítorí wọ́n sọ̀tẹ̀ sí ìjọba, wọ́n sì pa ènìyàn nínú ìdìtẹ̀ wọn.
+# text_en = And there was one named Barabbas, which lay bound with them that had made insurrection with him, who had committed murder in the insurrection.
+1	Ọkùnrin	ọkùnrin	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=man
+2	kan	kan	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=a
+3	wà	wà	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=was
+4	tí	tí	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=that
+5	orúkọ	orúkọ	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=name
+6	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=his
+7	ń	ń	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=that
+8	jẹ́	jẹ́	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=be
+9	Bárábà	Bárábà	PROPN	_	_	0	_	_	Ref=MARK_15.7|SpaceAfter=No
+10	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.7|Gloss=.
+11	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=they
+12	ti	ti	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=have
+13	ju	ju	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=than
+14	òun	òun	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=he
+15	àti	àti	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=and
+16	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=the
+17	ọlọ̀tẹ̀	ọlọ̀tẹ̀	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=rebellious
+18	ẹgbẹ́	ẹgbẹ́	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=company
+19	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=his
+20	sí	sí	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=to
+21	ọgbà	ọgbà	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=vineyard
+22	ẹ̀wọ̀n	ẹ̀wọ̀n	X	_	_	0	_	_	Ref=MARK_15.7|SpaceAfter=No|Gloss=chains
+23	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.7|Gloss=,
+24	nítorí	nítorí	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=for
+25	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=they
+26	sọ̀tẹ̀	sọ̀tẹ̀	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=rebelled
+27	sí	sí	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=to
+28	ìjọba	ìjọba	X	_	_	0	_	_	Ref=MARK_15.7|SpaceAfter=No|Gloss=kingdom
+29	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.7|Gloss=,
+30	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=they
+31	sì	sì	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=and
+32	pa	pa	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=keep
+33	ènìyàn	ènìyàn	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=people
+34	nínú	nínú	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=in
+35	ìdìtẹ̀	ìdìtẹ̀	X	_	_	0	_	_	Ref=MARK_15.7|Gloss=conspiracy
+36	wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.7|SpaceAfter=No|Gloss=them
+37	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.7|Gloss=.
+
+# sent_id = MARK_15.8
+# text = Ọ̀pọ̀ ènìyàn sì lọ bá Pílátù, wọ́n ní kí ó ṣe bí ó ti máa ń ṣe fún wọn ní ọdọọdún.
+# text_en = And the multitude crying aloud began to desire him to do as he had ever done unto them.
+1	Ọ̀pọ̀	ọ̀pọ̀	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=many
+2	ènìyàn	ènìyàn	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=people
+3	sì	sì	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=and
+4	lọ	lọ	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=go
+5	bá	bá	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=if
+6	Pílátù	Pílátù	PROPN	_	_	0	_	_	Ref=MARK_15.8|SpaceAfter=No|Gloss=pilate
+7	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.8|Gloss=,
+8	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=they
+9	ní	ní	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=in
+10	kí	kí	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=let
+11	ó	ó	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=he
+12	ṣe	ṣe	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=do
+13	bí	bí	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=as
+14	ó	ó	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=he
+15	ti	ti	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=have
+16	máa	máa	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=be
+17	ń	ń	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=that
+18	ṣe	ṣe	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=do
+19	fún	fún	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=unto
+20	wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=them
+21	ní	ní	X	_	_	0	_	_	Ref=MARK_15.8|Gloss=in
+22	ọdọọdún	ọdọọdún	X	_	_	0	_	_	Ref=MARK_15.8|SpaceAfter=No|Gloss=year
+23	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.8|Gloss=.
+
+# sent_id = MARK_15.9
+# text = Pílátù béèrè lọ́wọ́ wọn wí pé, “Ṣe ẹ̀yín ń fẹ́ kí èmi dá ọba àwọn Júù sílẹ̀ fún yin?”
+# text_en = But Pilate answered them, saying, Will ye that I release unto you the King of the Jews?
+1	Pílátù	Pílátù	PROPN	_	_	0	_	_	Ref=MARK_15.9|Gloss=pilate
+2	béèrè	béèrè	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=said
+3	lọ́wọ́	lọ́wọ́	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=hand
+4	wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=them
+5	wí	wí	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=said
+6	pé	pé	X	_	_	0	_	_	Ref=MARK_15.9|SpaceAfter=No|Gloss=saying
+7	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.9|Gloss=,
+8	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.9|SpaceAfter=No|Gloss=“
+9	Ṣe	ṣe	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=do
+10	ẹ̀yín	ẹ̀yín	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=ye
+11	ń	ń	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=that
+12	fẹ́	fẹ́	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=would
+13	kí	kí	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=let
+14	èmi	èmi	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=i
+15	dá	dá	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=made
+16	ọba	ọba	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=king
+17	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.9
+18	Júù	Júù	PROPN	_	_	0	_	_	Ref=MARK_15.9|Gloss=jews
+19	sílẹ̀	sílẹ̀	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=left
+20	fún	fún	X	_	_	0	_	_	Ref=MARK_15.9|Gloss=unto
+21	yin	yin	X	_	_	0	_	_	Ref=MARK_15.9|SpaceAfter=No|Gloss=you
+22	?	?	PUNCT	_	_	0	punct	_	Ref=MARK_15.9|SpaceAfter=No|Gloss=?
+23	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.9|Gloss=.
+
+# sent_id = MARK_15.10
+# text = òun mọ̀ pé nítorí ìlara ni àwọn olórí àlùfáà ṣe fà Jésù lé òun lọ́wọ́.
+# text_en = For he knew that the chief priests had delivered him for envy.
+1	òun	òun	X	_	_	0	_	_	Ref=MARK_15.10|Gloss=he
+2	mọ̀	mọ̀	X	_	_	0	_	_	Ref=MARK_15.10|Gloss=know
+3	pé	pé	X	_	_	0	_	_	Ref=MARK_15.10|Gloss=saying
+4	nítorí	nítorí	X	_	_	0	_	_	Ref=MARK_15.10|Gloss=for
+5	ìlara	ìlara	X	_	_	0	_	_	Ref=MARK_15.10|Gloss=envy
+6	ni	ni	X	_	_	0	_	_	Ref=MARK_15.10|Gloss=is
+7	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.10|Gloss=the
+8	olórí	olórí	X	_	_	0	_	_	Ref=MARK_15.10|Gloss=chief
+9	àlùfáà	àlùfáà	X	_	_	0	_	_	Ref=MARK_15.10|Gloss=priest
+10	ṣe	ṣe	X	_	_	0	_	_	Ref=MARK_15.10|Gloss=do
+11	fà	fà	X	_	_	0	_	_	Ref=MARK_15.10|Gloss=led
+12	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.10|Gloss=jesus
+13	lé	lé	X	_	_	0	_	_	Ref=MARK_15.10|Gloss=delivered
+14	òun	òun	X	_	_	0	_	_	Ref=MARK_15.10|Gloss=he
+15	lọ́wọ́	lọ́wọ́	X	_	_	0	_	_	Ref=MARK_15.10|SpaceAfter=No|Gloss=hand
+16	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.10|Gloss=.
+
+# sent_id = MARK_15.11
+# text = Nígbà náà ni àwọn olórí àlùfáà ru ọ̀pọ̀ ènìyàn sókè pé, kí ó kúkú dá Bárábà dá sílẹ̀ fún wọn.
+# text_en = But the chief priests moved the people, that he should rather release Barabbas unto them.
+1	Nígbà	nígbà	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=when
+2	náà	náà	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=the
+3	ni	ni	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=is
+4	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=the
+5	olórí	olórí	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=chief
+6	àlùfáà	àlùfáà	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=priest
+7	ru	ru	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=bear
+8	ọ̀pọ̀	ọ̀pọ̀	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=many
+9	ènìyàn	ènìyàn	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=people
+10	sókè	sókè	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=up
+11	pé	pé	X	_	_	0	_	_	Ref=MARK_15.11|SpaceAfter=No|Gloss=saying
+12	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.11|Gloss=,
+13	kí	kí	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=let
+14	ó	ó	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=he
+15	kúkú	kúkú	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=rather
+16	dá	dá	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=made
+17	Bárábà	Bárábà	PROPN	_	_	0	_	_	Ref=MARK_15.11|Gloss=barabbas
+18	dá	dá	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=made
+19	sílẹ̀	sílẹ̀	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=left
+20	fún	fún	X	_	_	0	_	_	Ref=MARK_15.11|Gloss=unto
+21	wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.11|SpaceAfter=No|Gloss=them
+22	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.11|Gloss=.
+
+# sent_id = MARK_15.12
+# text = Pílátù sì tún béèrè lọ́wọ́ wọn pé, “Kí ni ẹ̀yin ń fẹ́ kí èmi kí ó ṣe pẹ̀lú ẹni ti ẹ̀yin n pè ní ọba àwọn Júù?”
+# text_en = And Pilate answered and said again unto them, What will ye then that I shall do unto him whom ye call the King of the Jews?
+1	Pílátù	Pílátù	PROPN	_	_	0	_	_	Ref=MARK_15.12|Gloss=pilate
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=and
+3	tún	tún	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=again
+4	béèrè	béèrè	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=said
+5	lọ́wọ́	lọ́wọ́	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=hand
+6	wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=them
+7	pé	pé	X	_	_	0	_	_	Ref=MARK_15.12|SpaceAfter=No|Gloss=saying
+8	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.12|Gloss=,
+9	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.12|SpaceAfter=No|Gloss=“
+10	Kí	kí	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=let
+11	ni	ni	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=is
+12	ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=ye
+13	ń	ń	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=that
+14	fẹ́	fẹ́	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=would
+15	kí	kí	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=let
+16	èmi	èmi	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=i
+17	kí	kí	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=let
+18	ó	ó	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=he
+19	ṣe	ṣe	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=do
+20	pẹ̀lú	pẹ̀lú	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=with
+21	ẹni	ẹni	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=that
+22	ti	ti	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=have
+23	ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=ye
+24	n	n	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=i
+25	pè	pè	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=called
+26	ní	ní	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=in
+27	ọba	ọba	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=king
+28	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.12|Gloss=the
+29	Júù	Júù	PROPN	_	_	0	_	_	Ref=MARK_15.12|SpaceAfter=No|Gloss=jews
+30	?	?	PUNCT	_	_	0	punct	_	Ref=MARK_15.12|SpaceAfter=No|Gloss=?
+31	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.12|Gloss=.
+
+# sent_id = MARK_15.13
+# text = Wọ́n sì tún kígbe sókè pé, “Kàn án mọ àgbélébùú!”
+# text_en = And they cried out again, Crucify him.
+1	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.13|Gloss=they
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.13|Gloss=and
+3	tún	tún	X	_	_	0	_	_	Ref=MARK_15.13|Gloss=again
+4	kígbe	kígbe	X	_	_	0	_	_	Ref=MARK_15.13|Gloss=cried
+5	sókè	sókè	X	_	_	0	_	_	Ref=MARK_15.13|Gloss=up
+6	pé	pé	X	_	_	0	_	_	Ref=MARK_15.13|SpaceAfter=No|Gloss=saying
+7	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.13|Gloss=,
+8	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.13|SpaceAfter=No|Gloss=“
+9	Kàn	kàn	X	_	_	0	_	_	Ref=MARK_15.13|Gloss=touched
+10	án	án	X	_	_	0	_	_	Ref=MARK_15.13|Gloss=him
+11	mọ	mọ	X	_	_	0	_	_	Ref=MARK_15.13|Gloss=know
+12	àgbélébùú	àgbélébùú	X	_	_	0	_	_	Ref=MARK_15.13|SpaceAfter=No|Gloss=crucified
+13	!	!	PUNCT	_	_	0	punct	_	Ref=MARK_15.13|SpaceAfter=No|Gloss=.
+14	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.13|Gloss=.
+
+# sent_id = MARK_15.14
+# text = Nígbà náà ni Pílátù bi wọn léèrè pé, “Èéṣe? Búburú kí ni ó ṣe?” Wọ́n sì kígbe sókè gidigidi wí pé, “Kàn án mọ́ àgbélébùú!”
+# text_en = Then Pilate said unto them, Why, what evil hath he done? And they cried out the more exceedingly, Crucify him.
+1	Nígbà	nígbà	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=when
+2	náà	náà	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=the
+3	ni	ni	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=is
+4	Pílátù	Pílátù	PROPN	_	_	0	_	_	Ref=MARK_15.14|Gloss=pilate
+5	bi	bi	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=as
+6	wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=them
+7	léèrè	léèrè	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=asked
+8	pé	pé	X	_	_	0	_	_	Ref=MARK_15.14|SpaceAfter=No|Gloss=saying
+9	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.14|Gloss=,
+10	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.14|SpaceAfter=No|Gloss=“
+11	Èéṣe	èéṣe	X	_	_	0	_	_	Ref=MARK_15.14|SpaceAfter=No|Gloss=why
+12	?	?	PUNCT	_	_	0	punct	_	Ref=MARK_15.14|Gloss=?
+13	Búburú	búburú	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=evil
+14	kí	kí	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=let
+15	ni	ni	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=is
+16	ó	ó	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=he
+17	ṣe	ṣe	X	_	_	0	_	_	Ref=MARK_15.14|SpaceAfter=No|Gloss=do
+18	?	?	PUNCT	_	_	0	punct	_	Ref=MARK_15.14|SpaceAfter=No|Gloss=?
+19	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.14|Gloss=.
+20	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=they
+21	sì	sì	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=and
+22	kígbe	kígbe	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=cried
+23	sókè	sókè	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=up
+24	gidigidi	gidigidi	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=very
+25	wí	wí	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=said
+26	pé	pé	X	_	_	0	_	_	Ref=MARK_15.14|SpaceAfter=No|Gloss=saying
+27	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.14|Gloss=,
+28	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.14|SpaceAfter=No|Gloss=“
+29	Kàn	kàn	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=touched
+30	án	án	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=him
+31	mọ́	mọ́	X	_	_	0	_	_	Ref=MARK_15.14|Gloss=more
+32	àgbélébùú	àgbélébùú	X	_	_	0	_	_	Ref=MARK_15.14|SpaceAfter=No|Gloss=crucified
+33	!	!	PUNCT	_	_	0	punct	_	Ref=MARK_15.14|SpaceAfter=No|Gloss=.
+34	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.14|Gloss=.
+
+# sent_id = MARK_15.15
+# text = Pilatù sì ń fẹ́ se èyí tí ó wu àwọn ènìyàn, ó dá Bárábà sílẹ̀ fún wọn. Nígbà tí ó sì na Jésù tan o fà á lé wọn lọ́wọ́ láti kàn an mọ́ àgbélébùú.
+# text_en = And so Pilate, willing to content the people, released Barabbas unto them, and delivered Jesus, when he had scourged him, to be crucified.
+1	Pilatù	pilatù	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=null
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=and
+3	ń	ń	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=that
+4	fẹ́	fẹ́	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=would
+5	se	se	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=do
+6	èyí	èyí	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=this
+7	tí	tí	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=that
+8	ó	ó	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=he
+9	wu	wu	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=please
+10	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=the
+11	ènìyàn	ènìyàn	X	_	_	0	_	_	Ref=MARK_15.15|SpaceAfter=No|Gloss=people
+12	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.15|Gloss=,
+13	ó	ó	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=he
+14	dá	dá	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=made
+15	Bárábà	Bárábà	PROPN	_	_	0	_	_	Ref=MARK_15.15|Gloss=barabbas
+16	sílẹ̀	sílẹ̀	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=left
+17	fún	fún	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=unto
+18	wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.15|SpaceAfter=No|Gloss=them
+19	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.15|Gloss=.
+20	Nígbà	nígbà	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=when
+21	tí	tí	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=that
+22	ó	ó	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=he
+23	sì	sì	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=and
+24	na	na	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=stretch
+25	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.15|Gloss=jesus
+26	tan	tan	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=had
+27	o	o	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=thou
+28	fà	fà	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=led
+29	á	á	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=it
+30	lé	lé	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=delivered
+31	wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=them
+32	lọ́wọ́	lọ́wọ́	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=hand
+33	láti	láti	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=to
+34	kàn	kàn	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=touched
+35	an	an	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=him
+36	mọ́	mọ́	X	_	_	0	_	_	Ref=MARK_15.15|Gloss=more
+37	àgbélébùú	àgbélébùú	X	_	_	0	_	_	Ref=MARK_15.15|SpaceAfter=No|Gloss=crucified
+38	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.15|Gloss=.
+
+# sent_id = MARK_15.16
+# text = Àwọn ọmọ-ogun sì fà á jáde lọ sínú gbangba (tí a ń pè ní Piretorioni), wọ́n sì pe gbogbo ẹgbẹ́ àwọn ọmọ ogun jọ.
+# text_en = And the soldiers led him away into the hall, called Praetorium; and they call together the whole band.
+1	Àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=the
+2	ọmọ	ọmọ	X	_	_	0	_	_	Ref=MARK_15.16|SpaceAfter=No|Gloss=son
+3	-	-	PUNCT	_	_	0	punct	_	Ref=MARK_15.16|SpaceAfter=No
+4	ogun	ogun	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=war
+5	sì	sì	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=and
+6	fà	fà	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=led
+7	á	á	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=it
+8	jáde	jáde	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=out
+9	lọ	lọ	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=go
+10	sínú	sínú	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=into
+11	gbangba	gbangba	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=plainly
+12	(	(	PUNCT	_	_	0	punct	_	Ref=MARK_15.16|SpaceAfter=No|Gloss=hundred
+13	tí	tí	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=that
+14	a	a	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=be
+15	ń	ń	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=that
+16	pè	pè	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=called
+17	ní	ní	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=in
+18	Piretorioni	Piretorioni	PROPN	_	_	0	_	_	Ref=MARK_15.16|SpaceAfter=No|Gloss=praetorium
+19	)	)	PUNCT	_	_	0	punct	_	Ref=MARK_15.16|SpaceAfter=No|Gloss=hundred
+20	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.16|Gloss=,
+21	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=they
+22	sì	sì	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=and
+23	pe	pe	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=called
+24	gbogbo	gbogbo	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=all
+25	ẹgbẹ́	ẹgbẹ́	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=company
+26	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=the
+27	ọmọ	ọmọ	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=son
+28	ogun	ogun	X	_	_	0	_	_	Ref=MARK_15.16|Gloss=war
+29	jọ	jọ	X	_	_	0	_	_	Ref=MARK_15.16|SpaceAfter=No|Gloss=together
+30	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.16|Gloss=.
+
+# sent_id = MARK_15.17
+# text = Wọn sì fi aṣọ aláwọ̀ àlùkò wọ̀ ọ́, wọ́n hun adé ẹ̀gún, wọ́n sì fi dé e ní orí.
+# text_en = And they clothed him with purple, and platted a crown of thorns, and put it about his head,
+1	Wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=them
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=and
+3	fi	fi	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=with
+4	aṣọ	aṣọ	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=garments
+5	aláwọ̀	aláwọ̀	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=blue
+6	àlùkò	àlùkò	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=purple
+7	wọ̀	wọ̀	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=clothed
+8	ọ́	ọ́	X	_	_	0	_	_	Ref=MARK_15.17|SpaceAfter=No|Gloss=thee
+9	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.17|Gloss=,
+10	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=they
+11	hun	hun	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=it
+12	adé	adé	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=crown
+13	ẹ̀gún	ẹ̀gún	X	_	_	0	_	_	Ref=MARK_15.17|SpaceAfter=No|Gloss=thorns
+14	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.17|Gloss=,
+15	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=they
+16	sì	sì	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=and
+17	fi	fi	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=with
+18	dé	dé	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=come
+19	e	e	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=him
+20	ní	ní	X	_	_	0	_	_	Ref=MARK_15.17|Gloss=in
+21	orí	orí	X	_	_	0	_	_	Ref=MARK_15.17|SpaceAfter=No|Gloss=head
+22	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.17|Gloss=.
+
+# sent_id = MARK_15.18
+# text = Wọ́n sì bẹ̀rẹ̀ sí i kí ì, wí pé Kábíyèsí, Ọba àwọn Júù
+# text_en = And began to salute him, Hail, King of the Jews!
+1	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.18|Gloss=they
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.18|Gloss=and
+3	bẹ̀rẹ̀	bẹ̀rẹ̀	X	_	_	0	_	_	Ref=MARK_15.18|Gloss=began
+4	sí	sí	X	_	_	0	_	_	Ref=MARK_15.18|Gloss=to
+5	i	i	X	_	_	0	_	_	Ref=MARK_15.18|Gloss=him
+6	kí	kí	X	_	_	0	_	_	Ref=MARK_15.18|Gloss=let
+7	ì	ì	X	_	_	0	_	_	Ref=MARK_15.18|SpaceAfter=No|Gloss=yet
+8	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.18|Gloss=,
+9	wí	wí	X	_	_	0	_	_	Ref=MARK_15.18|Gloss=said
+10	pé	pé	X	_	_	0	_	_	Ref=MARK_15.18|Gloss=saying
+11	Kábíyèsí	kábíyèsí	X	_	_	0	_	_	Ref=MARK_15.18|SpaceAfter=No|Gloss=hail
+12	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.18|Gloss=,
+13	Ọba	ọba	X	_	_	0	_	_	Ref=MARK_15.18|Gloss=king
+14	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.18
+15	Júù	Júù	PROPN	_	_	0	_	_	Ref=MARK_15.18|Gloss=jews
+
+# sent_id = MARK_15.19
+# text = Wọ́n sì fi ọ̀pá ìyè lù ú lórí, wọ́n sì tutọ́ síi lára, wọ́n sì kúnlẹ̀ níwájú rẹ̀, wọ́n sì foríbalẹ̀ fún un.
+# text_en = And they smote him on the head with a reed, and did spit upon him, and bowing their knees worshipped him.
+1	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=they
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=and
+3	fi	fi	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=with
+4	ọ̀pá	ọ̀pá	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=rod
+5	ìyè	ìyè	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=life
+6	lù	lù	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=upon
+7	ú	ú	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=him
+8	lórí	lórí	X	_	_	0	_	_	Ref=MARK_15.19|SpaceAfter=No|Gloss=upon
+9	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.19|Gloss=,
+10	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=they
+11	sì	sì	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=and
+12	tutọ́	tutọ́	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=spit
+13	síi	síi	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=him
+14	lára	lára	X	_	_	0	_	_	Ref=MARK_15.19|SpaceAfter=No|Gloss=of
+15	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.19|Gloss=,
+16	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=they
+17	sì	sì	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=and
+18	kúnlẹ̀	kúnlẹ̀	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=knees
+19	níwájú	níwájú	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=before
+20	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.19|SpaceAfter=No|Gloss=his
+21	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.19|Gloss=,
+22	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=they
+23	sì	sì	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=and
+24	foríbalẹ̀	foríbalẹ̀	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=worship
+25	fún	fún	X	_	_	0	_	_	Ref=MARK_15.19|Gloss=unto
+26	un	un	X	_	_	0	_	_	Ref=MARK_15.19|SpaceAfter=No|Gloss=him
+27	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.19|Gloss=.
+
+# sent_id = MARK_15.20
+# text = Nígbà tí wọ́n sì fi ṣẹ̀sín tan, wọ́n sì bọ aṣọ elésè àlùkò náà kúrò lára rẹ̀, wọ́n sì fi aṣọ rẹ̀ wọ̀ ọ́, wọ́n sì mú un jáde lọ láti kàn án mọ́ àgbélébùú.
+# text_en = And when they had mocked him, they took off the purple from him, and put his own clothes on him, and led him out to crucify him.
+1	Nígbà	nígbà	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=when
+2	tí	tí	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=that
+3	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=they
+4	sì	sì	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=and
+5	fi	fi	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=with
+6	ṣẹ̀sín	ṣẹ̀sín	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=mocked
+7	tan	tan	X	_	_	0	_	_	Ref=MARK_15.20|SpaceAfter=No|Gloss=had
+8	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.20|Gloss=,
+9	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=they
+10	sì	sì	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=and
+11	bọ	bọ	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=put
+12	aṣọ	aṣọ	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=garments
+13	elésè	elésè	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=null
+14	àlùkò	àlùkò	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=purple
+15	náà	náà	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=the
+16	kúrò	kúrò	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=from
+17	lára	lára	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=of
+18	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.20|SpaceAfter=No|Gloss=his
+19	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.20|Gloss=,
+20	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=they
+21	sì	sì	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=and
+22	fi	fi	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=with
+23	aṣọ	aṣọ	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=garments
+24	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=his
+25	wọ̀	wọ̀	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=clothed
+26	ọ́	ọ́	X	_	_	0	_	_	Ref=MARK_15.20|SpaceAfter=No|Gloss=thee
+27	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.20|Gloss=,
+28	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=they
+29	sì	sì	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=and
+30	mú	mú	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=brought
+31	un	un	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=him
+32	jáde	jáde	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=out
+33	lọ	lọ	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=go
+34	láti	láti	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=to
+35	kàn	kàn	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=touched
+36	án	án	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=him
+37	mọ́	mọ́	X	_	_	0	_	_	Ref=MARK_15.20|Gloss=more
+38	àgbélébùú	àgbélébùú	X	_	_	0	_	_	Ref=MARK_15.20|SpaceAfter=No|Gloss=crucified
+39	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.20|Gloss=.
+
+# sent_id = MARK_15.21
+# text = Wọ́n rí ọkùnrin kan tí ń kọjá lọ. Símónì ni orúkọ rẹ̀. Ará Kírénì ni. Òun ni baba Alekisáńdérù àti Rúfọ́ọ̀sì. Wọ́n sì mú un nípá, pé kí ó rú àgbélébùú Jésù.
+# text_en = And they compel one Simon a Cyrenian, who passed by, coming out of the country, the father of Alexander and Rufus, to bear his cross.
+1	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=they
+2	rí	rí	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=saw
+3	ọkùnrin	ọkùnrin	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=man
+4	kan	kan	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=a
+5	tí	tí	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=that
+6	ń	ń	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=that
+7	kọjá	kọjá	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=passed
+8	lọ	lọ	X	_	_	0	_	_	Ref=MARK_15.21|SpaceAfter=No|Gloss=go
+9	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.21|Gloss=.
+10	Símónì	Símónì	PROPN	_	_	0	_	_	Ref=MARK_15.21|Gloss=simon
+11	ni	ni	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=is
+12	orúkọ	orúkọ	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=name
+13	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.21|SpaceAfter=No
+14	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.21|Gloss=.
+15	Ará	ará	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=brethren
+16	Kírénì	Kírénì	PROPN	_	_	0	_	_	Ref=MARK_15.21|Gloss=null
+17	ni	ni	X	_	_	0	_	_	Ref=MARK_15.21|SpaceAfter=No|Gloss=is
+18	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.21|Gloss=.
+19	Òun	òun	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=he
+20	ni	ni	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=is
+21	baba	baba	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=father
+22	Alekisáńdérù	Alekisáńdérù	PROPN	_	_	0	_	_	Ref=MARK_15.21|Gloss=alexander
+23	àti	àti	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=and
+24	Rúfọ́ọ̀sì	Rúfọ́ọ̀sì	PROPN	_	_	0	_	_	Ref=MARK_15.21|SpaceAfter=No|Gloss=rufus
+25	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.21|Gloss=.
+26	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=they
+27	sì	sì	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=and
+28	mú	mú	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=brought
+29	un	un	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=him
+30	nípá	nípá	X	_	_	0	_	_	Ref=MARK_15.21|SpaceAfter=No|Gloss=sometime
+31	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.21|Gloss=,
+32	pé	pé	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=saying
+33	kí	kí	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=let
+34	ó	ó	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=he
+35	rú	rú	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=offer
+36	àgbélébùú	àgbélébùú	X	_	_	0	_	_	Ref=MARK_15.21|Gloss=crucified
+37	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.21|SpaceAfter=No|Gloss=jesus
+38	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.21|Gloss=.
+
+# sent_id = MARK_15.22
+# text = Wọ́n sì mú Jésù wá sí Gọ́lgọ́tà, (èyí tí ìtúmọ̀ rẹ̀ ń jẹ́ Ibi Agbárí)
+# text_en = And they bring him unto the place Golgotha, which is, being interpreted, The place of a skull.
+1	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.22|Gloss=they
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.22|Gloss=and
+3	mú	mú	X	_	_	0	_	_	Ref=MARK_15.22|Gloss=brought
+4	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.22|Gloss=jesus
+5	wá	wá	X	_	_	0	_	_	Ref=MARK_15.22|Gloss=come
+6	sí	sí	X	_	_	0	_	_	Ref=MARK_15.22|Gloss=to
+7	Gọ́lgọ́tà	Gọ́lgọ́tà	PROPN	_	_	0	_	_	Ref=MARK_15.22|SpaceAfter=No|Gloss=golgotha
+8	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.22|Gloss=,
+9	(	(	PUNCT	_	_	0	punct	_	Ref=MARK_15.22|SpaceAfter=No|Gloss=hundred
+10	èyí	èyí	X	_	_	0	_	_	Ref=MARK_15.22|Gloss=this
+11	tí	tí	X	_	_	0	_	_	Ref=MARK_15.22|Gloss=that
+12	ìtúmọ̀	ìtúmọ̀	X	_	_	0	_	_	Ref=MARK_15.22|Gloss=interpretation
+13	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.22|Gloss=his
+14	ń	ń	X	_	_	0	_	_	Ref=MARK_15.22|Gloss=that
+15	jẹ́	jẹ́	X	_	_	0	_	_	Ref=MARK_15.22|Gloss=be
+16	Ibi	ibi	X	_	_	0	_	_	Ref=MARK_15.22|Gloss=place
+17	Agbárí	agbárí	X	_	_	0	_	_	Ref=MARK_15.22|SpaceAfter=No|Gloss=skull
+18	)	)	PUNCT	_	_	0	punct	_	Ref=MARK_15.22|Gloss=hundred
+
+# sent_id = MARK_15.23
+# text = Wọ́n sì fi wáìnì tí a dàpọ̀ mọ́ òjìá fún un mu, ṣùgbọ́n òun kò gbà á.
+# text_en = And they gave him to drink wine mingled with myrrh: but he received it not.
+1	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=they
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=and
+3	fi	fi	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=with
+4	wáìnì	wáìnì	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=wine
+5	tí	tí	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=that
+6	a	a	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=be
+7	dàpọ̀	dàpọ̀	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=with
+8	mọ́	mọ́	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=more
+9	òjìá	òjìá	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=null
+10	fún	fún	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=unto
+11	un	un	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=him
+12	mu	mu	X	_	_	0	_	_	Ref=MARK_15.23|SpaceAfter=No|Gloss=drink
+13	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.23|Gloss=,
+14	ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=but
+15	òun	òun	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=he
+16	kò	kò	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=not
+17	gbà	gbà	X	_	_	0	_	_	Ref=MARK_15.23|Gloss=deliver
+18	á	á	X	_	_	0	_	_	Ref=MARK_15.23|SpaceAfter=No
+19	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.23
+
+# sent_id = MARK_15.24
+# text = Wọ́n sì kàn án mọ́ àgbélébùú. Wọ́n sì pín aṣọ rẹ̀ láàrin ara wọn, wọ́n dìbò lórí àwọn aṣọ náà ni kí wọn báà lè mọ èyí tí yóò jẹ́ ti olúkúlùkù.
+# text_en = And when they had crucified him, they parted his garments, casting lots upon them, what every man should take.
+1	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=they
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=and
+3	kàn	kàn	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=touched
+4	án	án	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=him
+5	mọ́	mọ́	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=more
+6	àgbélébùú	àgbélébùú	X	_	_	0	_	_	Ref=MARK_15.24|SpaceAfter=No|Gloss=crucified
+7	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.24|Gloss=.
+8	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=they
+9	sì	sì	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=and
+10	pín	pín	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=divided
+11	aṣọ	aṣọ	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=garments
+12	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=his
+13	láàrin	láàrin	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=among
+14	ara	ara	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=himself
+15	wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.24|SpaceAfter=No|Gloss=them
+16	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.24|Gloss=,
+17	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=they
+18	dìbò	dìbò	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=lots
+19	lórí	lórí	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=upon
+20	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=the
+21	aṣọ	aṣọ	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=garments
+22	náà	náà	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=the
+23	ni	ni	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=is
+24	kí	kí	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=let
+25	wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=them
+26	báà	báà	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=that
+27	lè	lè	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=may
+28	mọ	mọ	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=know
+29	èyí	èyí	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=this
+30	tí	tí	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=that
+31	yóò	yóò	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=shall
+32	jẹ́	jẹ́	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=be
+33	ti	ti	X	_	_	0	_	_	Ref=MARK_15.24|Gloss=have
+34	olúkúlùkù	olúkúlùkù	X	_	_	0	_	_	Ref=MARK_15.24|SpaceAfter=No|Gloss=every
+35	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.24|Gloss=.
+
+# sent_id = MARK_15.25
+# text = Ní wákàtí kẹta ọjọ́ ni wọ́n kàn án mọ́ àgbélébùú.
+# text_en = And it was the third hour, and they crucified him.
+1	Ní	ní	X	_	_	0	_	_	Ref=MARK_15.25|Gloss=in
+2	wákàtí	wákàtí	X	_	_	0	_	_	Ref=MARK_15.25|Gloss=hour
+3	kẹta	kẹta	X	_	_	0	_	_	Ref=MARK_15.25|Gloss=third
+4	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MARK_15.25|Gloss=day
+5	ni	ni	X	_	_	0	_	_	Ref=MARK_15.25|Gloss=is
+6	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.25|Gloss=they
+7	kàn	kàn	X	_	_	0	_	_	Ref=MARK_15.25|Gloss=touched
+8	án	án	X	_	_	0	_	_	Ref=MARK_15.25|Gloss=him
+9	mọ́	mọ́	X	_	_	0	_	_	Ref=MARK_15.25|Gloss=more
+10	àgbélébùú	àgbélébùú	X	_	_	0	_	_	Ref=MARK_15.25|SpaceAfter=No|Gloss=crucified
+11	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.25|Gloss=.
+
+# sent_id = MARK_15.26
+# text = Àkọlé Ìfisùn tí wọ́n kọ sókè orí rẹ̀ ni ỌBA ÀWỌN JÚÙ.
+# text_en = And the superscription of his accusation was written over, THE KING OF THE JEWS.
+1	Àkọlé	àkọlé	X	_	_	0	_	_	Ref=MARK_15.26
+2	Ìfisùn	Ìfisùn	PROPN	_	_	0	_	_	Ref=MARK_15.26|Gloss=null
+3	tí	tí	X	_	_	0	_	_	Ref=MARK_15.26|Gloss=that
+4	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.26|Gloss=they
+5	kọ	kọ	X	_	_	0	_	_	Ref=MARK_15.26|Gloss=written
+6	sókè	sókè	X	_	_	0	_	_	Ref=MARK_15.26|Gloss=up
+7	orí	orí	X	_	_	0	_	_	Ref=MARK_15.26|Gloss=head
+8	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.26|Gloss=his
+9	ni	ni	X	_	_	0	_	_	Ref=MARK_15.26|Gloss=is
+10	ỌBA	ọba	X	_	_	0	_	_	Ref=MARK_15.26|Gloss=king
+11	ÀWỌN	àwọn	X	_	_	0	_	_	Ref=MARK_15.26
+12	JÚÙ	Júù	PROPN	_	_	0	_	_	Ref=MARK_15.26|SpaceAfter=No|Gloss=jews
+13	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.26|Gloss=.
+
+# sent_id = MARK_15.27
+# text = Wọ́n sì kan àwọn olè méjì mọ́ àgbélébùú pẹ̀lú rẹ̀, ọ̀kan lọ́wọ́ ọ̀tún rẹ̀, èkejì lọ́wọ́ òsì rẹ̀.
+# text_en = And with him they crucify two thieves; the one on his right hand, and the other on his left.
+1	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=they
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=and
+3	kan	kan	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=a
+4	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=the
+5	olè	olè	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=thief
+6	méjì	méjì	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=two
+7	mọ́	mọ́	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=more
+8	àgbélébùú	àgbélébùú	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=crucified
+9	pẹ̀lú	pẹ̀lú	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=with
+10	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.27|SpaceAfter=No|Gloss=his
+11	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.27|Gloss=,
+12	ọ̀kan	ọ̀kan	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=one
+13	lọ́wọ́	lọ́wọ́	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=hand
+14	ọ̀tún	ọ̀tún	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=right
+15	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.27|SpaceAfter=No|Gloss=his
+16	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.27|Gloss=,
+17	èkejì	èkejì	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=other
+18	lọ́wọ́	lọ́wọ́	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=hand
+19	òsì	òsì	X	_	_	0	_	_	Ref=MARK_15.27|Gloss=left
+20	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.27|SpaceAfter=No|Gloss=his
+21	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.27
+
+# sent_id = MARK_15.28
+# text = Eléyìí mú àṣọtẹ́lẹ̀ ìwé Mímọ́ ṣẹ wí pé, “Wọ́n kà á pọ̀ mọ́ àwọn ènìyàn búburú.”
+# text_en = And the scripture was fulfilled, which saith, And he was numbered with the transgressors.
+1	Eléyìí	eléyìí	X	_	_	0	_	_	Ref=MARK_15.28|Gloss=this
+2	mú	mú	X	_	_	0	_	_	Ref=MARK_15.28|Gloss=brought
+3	àṣọtẹ́lẹ̀	àṣọtẹ́lẹ̀	X	_	_	0	_	_	Ref=MARK_15.28|Gloss=prophesied
+4	ìwé	ìwé	X	_	_	0	_	_	Ref=MARK_15.28|Gloss=book
+5	Mímọ́	mímọ́	X	_	_	0	_	_	Ref=MARK_15.28|Gloss=holy
+6	ṣẹ	ṣẹ	X	_	_	0	_	_	Ref=MARK_15.28|Gloss=fulfilled
+7	wí	wí	X	_	_	0	_	_	Ref=MARK_15.28|Gloss=said
+8	pé	pé	X	_	_	0	_	_	Ref=MARK_15.28|SpaceAfter=No|Gloss=saying
+9	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.28|Gloss=,
+10	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.28|SpaceAfter=No|Gloss=“
+11	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.28|Gloss=they
+12	kà	kà	X	_	_	0	_	_	Ref=MARK_15.28|Gloss=numbered
+13	á	á	X	_	_	0	_	_	Ref=MARK_15.28|Gloss=it
+14	pọ̀	pọ̀	X	_	_	0	_	_	Ref=MARK_15.28|Gloss=together
+15	mọ́	mọ́	X	_	_	0	_	_	Ref=MARK_15.28|Gloss=more
+16	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.28
+17	ènìyàn	ènìyàn	X	_	_	0	_	_	Ref=MARK_15.28|Gloss=people
+18	búburú	búburú	X	_	_	0	_	_	Ref=MARK_15.28|SpaceAfter=No|Gloss=evil
+19	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.28|SpaceAfter=No|Gloss=.
+20	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.28|Gloss=.
+
+# sent_id = MARK_15.29
+# text = Àwọn tí ń kọjá lọ sì ń fi ṣe ẹlẹ́yà, wọ́n ń mi orí wọn pẹ̀lú, wọ́n sì ké pé, “Áà! Ìwọ tí yóò wó tẹ́ḿpìlì tí yóò sì tún un kọ́ láàrin ọjọ́ mẹ́ta.
+# text_en = And they that passed by railed on him, wagging their heads, and saying, Ah, thou that destroyest the temple, and buildest it in three days,
+1	Àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=the
+2	tí	tí	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=them
+3	ń	ń	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=that
+4	kọjá	kọjá	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=that
+5	lọ	lọ	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=passed
+6	sì	sì	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=go
+7	ń	ń	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=and
+8	fi	fi	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=that
+9	ṣe	ṣe	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=with
+10	ẹlẹ́yà	ẹlẹ́yà	X	_	_	0	_	_	Ref=MARK_15.29|SpaceAfter=No|Gloss=do
+11	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.29|Gloss=mocked
+12	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=,
+13	ń	ń	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=they
+14	mi	mi	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=that
+15	orí	orí	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=my
+16	wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=head
+17	pẹ̀lú	pẹ̀lú	X	_	_	0	_	_	Ref=MARK_15.29|SpaceAfter=No|Gloss=them
+18	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.29|Gloss=with
+19	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=,
+20	sì	sì	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=they
+21	ké	ké	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=and
+22	pé	pé	X	_	_	0	_	_	Ref=MARK_15.29|SpaceAfter=No|Gloss=cut
+23	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.29|Gloss=saying
+24	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.29|SpaceAfter=No|Gloss=,
+25	Áà	áà	X	_	_	0	_	_	Ref=MARK_15.29|SpaceAfter=No|Gloss=“
+26	!	!	PUNCT	_	_	0	punct	_	Ref=MARK_15.29|Gloss=o
+27	Ìwọ	ìwọ	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=thou
+28	tí	tí	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=that
+29	yóò	yóò	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=shall
+30	wó	wó	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=broken
+31	tẹ́ḿpìlì	tẹ́ḿpìlì	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=temple
+32	tí	tí	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=that
+33	yóò	yóò	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=shall
+34	sì	sì	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=and
+35	tún	tún	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=again
+36	un	un	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=him
+37	kọ́	kọ́	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=build
+38	láàrin	láàrin	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=among
+39	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MARK_15.29|Gloss=day
+40	mẹ́ta	mẹ́ta	X	_	_	0	_	_	Ref=MARK_15.29|SpaceAfter=No|Gloss=three
+41	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.29|Gloss=.
+
+# sent_id = MARK_15.30
+# text = Tí ó bá lágbára tó bẹ́ẹ̀, gba ara rẹ là, kí o sì ti orí àgbélébùú sọ̀kalẹ̀ pẹ̀lú.”
+# text_en = Save thyself, and come down from the cross.
+1	Tí	tí	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=that
+2	ó	ó	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=he
+3	bá	bá	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=if
+4	lágbára	lágbára	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=strong
+5	tó	tó	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=that
+6	bẹ́ẹ̀	bẹ́ẹ̀	X	_	_	0	_	_	Ref=MARK_15.30|SpaceAfter=No|Gloss=so
+7	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.30|Gloss=,
+8	gba	gba	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=receive
+9	ara	ara	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=himself
+10	rẹ	rẹ	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=thy
+11	là	là	X	_	_	0	_	_	Ref=MARK_15.30|SpaceAfter=No|Gloss=save
+12	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.30|Gloss=,
+13	kí	kí	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=let
+14	o	o	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=thou
+15	sì	sì	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=and
+16	ti	ti	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=have
+17	orí	orí	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=head
+18	àgbélébùú	àgbélébùú	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=crucified
+19	sọ̀kalẹ̀	sọ̀kalẹ̀	X	_	_	0	_	_	Ref=MARK_15.30|Gloss=down
+20	pẹ̀lú	pẹ̀lú	X	_	_	0	_	_	Ref=MARK_15.30|SpaceAfter=No|Gloss=with
+21	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.30|SpaceAfter=No|Gloss=.
+22	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.30|Gloss=.
+
+# sent_id = MARK_15.31
+# text = Bákan náà ni àwọn olórí àlùfáà àti àwọn olùkọ́ òfin fi í sẹ̀sín láàrin ara wọn, wọ́n wí pé, “Ó gba àwọn ẹlòmíràn là ṣùgbọ́n, ara rẹ̀ ni kò lè gbàlà.
+# text_en = Likewise also the chief priests mocking said among themselves with the scribes, He saved others; himself he cannot save.
+1	Bákan	bákan	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=so
+2	náà	náà	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=the
+3	ni	ni	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=is
+4	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=the
+5	olórí	olórí	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=chief
+6	àlùfáà	àlùfáà	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=priest
+7	àti	àti	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=and
+8	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=the
+9	olùkọ́	olùkọ́	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=master
+10	òfin	òfin	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=law
+11	fi	fi	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=with
+12	í	í	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=was
+13	sẹ̀sín	sẹ̀sín	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=null
+14	láàrin	láàrin	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=among
+15	ara	ara	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=himself
+16	wọn	wọn	X	_	_	0	_	_	Ref=MARK_15.31|SpaceAfter=No|Gloss=them
+17	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.31|Gloss=,
+18	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=they
+19	wí	wí	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=said
+20	pé	pé	X	_	_	0	_	_	Ref=MARK_15.31|SpaceAfter=No|Gloss=saying
+21	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.31|Gloss=,
+22	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.31|SpaceAfter=No|Gloss=“
+23	Ó	ó	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=he
+24	gba	gba	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=receive
+25	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=the
+26	ẹlòmíràn	ẹlòmíràn	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=another
+27	là	là	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=save
+28	ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=MARK_15.31|SpaceAfter=No|Gloss=but
+29	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.31|Gloss=,
+30	ara	ara	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=himself
+31	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=his
+32	ni	ni	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=is
+33	kò	kò	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=not
+34	lè	lè	X	_	_	0	_	_	Ref=MARK_15.31|Gloss=may
+35	gbàlà	gbàlà	X	_	_	0	_	_	Ref=MARK_15.31|SpaceAfter=No|Gloss=saved
+36	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.31|Gloss=.
+
+# sent_id = MARK_15.32
+# text = Jẹ́ kí Kírísítì, Ọba Ísírẹ̀lì, sọ̀kalẹ̀ láti orí àgbélèbùú wá nísinsin yìí kí àwa kí ó lè rí i, kí àwa kí ó sì lè gbàgbọ́.” Bákan náà, àwọn ti a kàn mọ́ àgbélébùú pẹ̀lú rẹ̀ sì ń kẹ́gàn rẹ̀.
+# text_en = Let Christ the King of Israel descend now from the cross, that we may see and believe. And they that were crucified with him reviled him.
+1	Jẹ́	jẹ́	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=be
+2	kí	kí	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=let
+3	Kírísítì	kírísítì	X	_	_	0	_	_	Ref=MARK_15.32|SpaceAfter=No|Gloss=christ
+4	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.32|Gloss=,
+5	Ọba	ọba	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=king
+6	Ísírẹ̀lì	Ísírẹ̀lì	PROPN	_	_	0	_	_	Ref=MARK_15.32|SpaceAfter=No|Gloss=israel
+7	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.32|Gloss=,
+8	sọ̀kalẹ̀	sọ̀kalẹ̀	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=down
+9	láti	láti	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=to
+10	orí	orí	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=head
+11	àgbélèbùú	àgbélèbùú	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=null
+12	wá	wá	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=come
+13	nísinsin	nísinsin	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=now
+14	yìí	yìí	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=this
+15	kí	kí	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=let
+16	àwa	àwa	X	_	_	0	_	_	Ref=MARK_15.32
+17	kí	kí	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=let
+18	ó	ó	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=he
+19	lè	lè	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=may
+20	rí	rí	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=saw
+21	i	i	X	_	_	0	_	_	Ref=MARK_15.32|SpaceAfter=No|Gloss=him
+22	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.32|Gloss=,
+23	kí	kí	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=let
+24	àwa	àwa	X	_	_	0	_	_	Ref=MARK_15.32
+25	kí	kí	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=let
+26	ó	ó	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=he
+27	sì	sì	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=and
+28	lè	lè	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=may
+29	gbàgbọ́	gbàgbọ́	X	_	_	0	_	_	Ref=MARK_15.32|SpaceAfter=No|Gloss=believe
+30	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.32|SpaceAfter=No|Gloss=.
+31	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.32|Gloss=.
+32	Bákan	bákan	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=so
+33	náà	náà	X	_	_	0	_	_	Ref=MARK_15.32|SpaceAfter=No|Gloss=the
+34	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.32|Gloss=,
+35	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=the
+36	ti	ti	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=have
+37	a	a	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=be
+38	kàn	kàn	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=touched
+39	mọ́	mọ́	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=more
+40	àgbélébùú	àgbélébùú	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=crucified
+41	pẹ̀lú	pẹ̀lú	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=with
+42	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=his
+43	sì	sì	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=and
+44	ń	ń	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=that
+45	kẹ́gàn	kẹ́gàn	X	_	_	0	_	_	Ref=MARK_15.32|Gloss=despised
+46	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.32|SpaceAfter=No|Gloss=his
+47	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.32|Gloss=.
+
+# sent_id = MARK_15.33
+# text = Nígbà tí ó di wákàtí kẹfà, òkùnkùn bo gbogbo ilẹ̀ títí di wákàtí kẹsàn-án.
+# text_en = And when the sixth hour was come, there was darkness over the whole land until the ninth hour.
+1	Nígbà	nígbà	X	_	_	0	_	_	Ref=MARK_15.33|Gloss=when
+2	tí	tí	X	_	_	0	_	_	Ref=MARK_15.33|Gloss=that
+3	ó	ó	X	_	_	0	_	_	Ref=MARK_15.33|Gloss=he
+4	di	di	X	_	_	0	_	_	Ref=MARK_15.33|Gloss=be
+5	wákàtí	wákàtí	X	_	_	0	_	_	Ref=MARK_15.33|Gloss=hour
+6	kẹfà	kẹfà	X	_	_	0	_	_	Ref=MARK_15.33|SpaceAfter=No|Gloss=sixth
+7	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.33|Gloss=,
+8	òkùnkùn	òkùnkùn	X	_	_	0	_	_	Ref=MARK_15.33|Gloss=darkness
+9	bo	bo	X	_	_	0	_	_	Ref=MARK_15.33|Gloss=covered
+10	gbogbo	gbogbo	X	_	_	0	_	_	Ref=MARK_15.33|Gloss=all
+11	ilẹ̀	ilẹ̀	X	_	_	0	_	_	Ref=MARK_15.33|Gloss=land
+12	títí	títí	X	_	_	0	_	_	Ref=MARK_15.33|Gloss=until
+13	di	di	X	_	_	0	_	_	Ref=MARK_15.33|Gloss=be
+14	wákàtí	wákàtí	X	_	_	0	_	_	Ref=MARK_15.33|Gloss=hour
+15	kẹsàn	kẹsàn	X	_	_	0	_	_	Ref=MARK_15.33|SpaceAfter=No|Gloss=ninth
+16	-	-	PUNCT	_	_	0	punct	_	Ref=MARK_15.33|SpaceAfter=No|Gloss=the
+17	án	án	X	_	_	0	_	_	Ref=MARK_15.33|SpaceAfter=No|Gloss=him
+18	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.33|Gloss=.
+
+# sent_id = MARK_15.34
+# text = Ní wákàtí kẹsàn-án ni Jésù kígbe sókè ní ohùn rara, ó ní, “ÈLÓÍ, ÈLÓÍ, LÀMÁ SÀBÁKÍTANÍ?” ìtumọ̀ èyí tí í ṣe, “Ọlọ́run mi, Ọlọ́run mi, èé ṣe tí ìwọ fi kọ̀ mí sílẹ̀?”
+# text_en = And at the ninth hour Jesus cried with a loud voice, saying, Eloi, Eloi, lama sabachthani? which is, being interpreted, My God, my God, why hast thou forsaken me?
+1	Ní	ní	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=in
+2	wákàtí	wákàtí	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=hour
+3	kẹsàn	kẹsàn	X	_	_	0	_	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=ninth
+4	-	-	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=the
+5	án	án	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=him
+6	ni	ni	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=is
+7	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.34|Gloss=jesus
+8	kígbe	kígbe	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=cried
+9	sókè	sókè	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=up
+10	ní	ní	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=in
+11	ohùn	ohùn	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=voice
+12	rara	rara	X	_	_	0	_	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=loud
+13	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|Gloss=,
+14	ó	ó	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=he
+15	ní	ní	X	_	_	0	_	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=in
+16	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|Gloss=,
+17	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=“
+18	ÈLÓÍ	Èlóí	PROPN	_	_	0	_	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=eloi
+19	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|Gloss=,
+20	ÈLÓÍ	Èlóí	PROPN	_	_	0	_	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=eloi
+21	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|Gloss=,
+22	LÀMÁ	Làmá	PROPN	_	_	0	_	_	Ref=MARK_15.34|Gloss=lama
+23	SÀBÁKÍTANÍ	Sàbákítaní	PROPN	_	_	0	_	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=null
+24	?	?	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=?
+25	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|Gloss=.
+26	ìtumọ̀	ìtumọ̀	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=interpretation
+27	èyí	èyí	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=this
+28	tí	tí	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=that
+29	í	í	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=was
+30	ṣe	ṣe	X	_	_	0	_	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=do
+31	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|Gloss=,
+32	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=“
+33	Ọlọ́run	ọlọ́run	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=god
+34	mi	mi	X	_	_	0	_	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=my
+35	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|Gloss=,
+36	Ọlọ́run	ọlọ́run	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=god
+37	mi	mi	X	_	_	0	_	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=my
+38	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|Gloss=,
+39	èé	èé	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=why
+40	ṣe	ṣe	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=do
+41	tí	tí	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=that
+42	ìwọ	ìwọ	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=thou
+43	fi	fi	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=with
+44	kọ̀	kọ̀	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=forsaken
+45	mí	mí	X	_	_	0	_	_	Ref=MARK_15.34|Gloss=me
+46	sílẹ̀	sílẹ̀	X	_	_	0	_	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=left
+47	?	?	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|SpaceAfter=No|Gloss=?
+48	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.34|Gloss=.
+
+# sent_id = MARK_15.35
+# text = Nígbà tí àwọn kan nínú àwọn tí wọ́n dúró níbẹ̀ gbọ́, wọ́n sì wí pé, “Wò ó ó ń pe Èlíjà.”
+# text_en = And some of them that stood by, when they heard it, said, Behold, he calleth Elias.
+1	Nígbà	nígbà	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=when
+2	tí	tí	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=that
+3	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=the
+4	kan	kan	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=a
+5	nínú	nínú	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=in
+6	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=the
+7	tí	tí	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=that
+8	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=they
+9	dúró	dúró	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=stood
+10	níbẹ̀	níbẹ̀	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=there
+11	gbọ́	gbọ́	X	_	_	0	_	_	Ref=MARK_15.35|SpaceAfter=No|Gloss=heard
+12	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.35|Gloss=,
+13	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=they
+14	sì	sì	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=and
+15	wí	wí	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=said
+16	pé	pé	X	_	_	0	_	_	Ref=MARK_15.35|SpaceAfter=No|Gloss=saying
+17	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.35|Gloss=,
+18	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.35|SpaceAfter=No|Gloss=“
+19	Wò	wò	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=behold
+20	ó	ó	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=he
+21	ó	ó	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=he
+22	ń	ń	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=that
+23	pe	pe	X	_	_	0	_	_	Ref=MARK_15.35|Gloss=called
+24	Èlíjà	Èlíjà	PROPN	_	_	0	_	_	Ref=MARK_15.35|SpaceAfter=No|Gloss=elijah
+25	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.35|SpaceAfter=No|Gloss=.
+26	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.35|Gloss=.
+
+# sent_id = MARK_15.36
+# text = Nígbà náà ni ẹnìkan wá sáré lọ ki kàn-ìn-kàn-ìn bọ inú ọtí kíkan, ó fi lé orí ọ̀pá, ó sì nà án sí Jésù kí ó lè mu ún. Ó wí pé, “Ẹ jẹ́ kí a máa wò ó, bóyá Èlíjà yóò wá sọ̀ ọ́ kalẹ̀.”
+# text_en = And one ran and filled a spunge full of vinegar, and put it on a reed, and gave him to drink, saying, Let alone; let us see whether Elias will come to take him down.
+1	Nígbà	nígbà	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=when
+2	náà	náà	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=the
+3	ni	ni	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=is
+4	ẹnìkan	ẹnìkan	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=man
+5	wá	wá	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=come
+6	sáré	sáré	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=run
+7	lọ	lọ	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=go
+8	ki	ki	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=let
+9	kàn	kàn	X	_	_	0	_	_	Ref=MARK_15.36|SpaceAfter=No
+10	-	-	PUNCT	_	_	0	punct	_	Ref=MARK_15.36|SpaceAfter=No
+11	ìn	ìn	X	_	_	0	_	_	Ref=MARK_15.36|SpaceAfter=No
+12	-	-	PUNCT	_	_	0	punct	_	Ref=MARK_15.36|SpaceAfter=No
+13	kàn	kàn	X	_	_	0	_	_	Ref=MARK_15.36|SpaceAfter=No
+14	-	-	PUNCT	_	_	0	punct	_	Ref=MARK_15.36|SpaceAfter=No
+15	ìn	ìn	X	_	_	0	_	_	Ref=MARK_15.36
+16	bọ	bọ	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=put
+17	inú	inú	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=of
+18	ọtí	ọtí	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=wine
+19	kíkan	kíkan	X	_	_	0	_	_	Ref=MARK_15.36|SpaceAfter=No|Gloss=vinegar
+20	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.36|Gloss=,
+21	ó	ó	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=he
+22	fi	fi	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=with
+23	lé	lé	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=delivered
+24	orí	orí	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=head
+25	ọ̀pá	ọ̀pá	X	_	_	0	_	_	Ref=MARK_15.36|SpaceAfter=No|Gloss=rod
+26	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.36|Gloss=,
+27	ó	ó	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=he
+28	sì	sì	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=and
+29	nà	nà	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=ordinance
+30	án	án	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=him
+31	sí	sí	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=to
+32	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.36|Gloss=jesus
+33	kí	kí	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=let
+34	ó	ó	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=he
+35	lè	lè	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=may
+36	mu	mu	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=drink
+37	ún	ún	X	_	_	0	_	_	Ref=MARK_15.36|SpaceAfter=No|Gloss=fifth
+38	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.36|Gloss=.
+39	Ó	ó	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=he
+40	wí	wí	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=said
+41	pé	pé	X	_	_	0	_	_	Ref=MARK_15.36|SpaceAfter=No|Gloss=saying
+42	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.36|Gloss=,
+43	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.36|SpaceAfter=No|Gloss=“
+44	Ẹ	ẹ	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=ye
+45	jẹ́	jẹ́	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=be
+46	kí	kí	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=let
+47	a	a	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=be
+48	máa	máa	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=be
+49	wò	wò	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=behold
+50	ó	ó	X	_	_	0	_	_	Ref=MARK_15.36|SpaceAfter=No|Gloss=he
+51	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.36|Gloss=,
+52	bóyá	bóyá	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=whether
+53	Èlíjà	Èlíjà	PROPN	_	_	0	_	_	Ref=MARK_15.36|Gloss=elijah
+54	yóò	yóò	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=shall
+55	wá	wá	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=come
+56	sọ̀	sọ̀	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=down
+57	ọ́	ọ́	X	_	_	0	_	_	Ref=MARK_15.36|Gloss=thee
+58	kalẹ̀	kalẹ̀	X	_	_	0	_	_	Ref=MARK_15.36|SpaceAfter=No|Gloss=set
+59	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.36|SpaceAfter=No|Gloss=.
+60	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.36|Gloss=.
+
+# sent_id = MARK_15.37
+# text = Jésù sì tún kígbe soke ni ohùn rara, ó jọ̀wọ́ ẹ̀mí rẹ̀ lọ́wọ́.
+# text_en = And Jesus cried with a loud voice, and gave up the ghost.
+1	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.37|Gloss=jesus
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.37|Gloss=and
+3	tún	tún	X	_	_	0	_	_	Ref=MARK_15.37|Gloss=again
+4	kígbe	kígbe	X	_	_	0	_	_	Ref=MARK_15.37|Gloss=cried
+5	soke	soke	X	_	_	0	_	_	Ref=MARK_15.37|Gloss=null
+6	ni	ni	X	_	_	0	_	_	Ref=MARK_15.37|Gloss=is
+7	ohùn	ohùn	X	_	_	0	_	_	Ref=MARK_15.37|Gloss=voice
+8	rara	rara	X	_	_	0	_	_	Ref=MARK_15.37|SpaceAfter=No|Gloss=loud
+9	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.37|Gloss=,
+10	ó	ó	X	_	_	0	_	_	Ref=MARK_15.37|Gloss=he
+11	jọ̀wọ́	jọ̀wọ́	X	_	_	0	_	_	Ref=MARK_15.37
+12	ẹ̀mí	ẹ̀mí	X	_	_	0	_	_	Ref=MARK_15.37|Gloss=spirit
+13	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.37|Gloss=his
+14	lọ́wọ́	lọ́wọ́	X	_	_	0	_	_	Ref=MARK_15.37|SpaceAfter=No|Gloss=hand
+15	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.37|Gloss=.
+
+# sent_id = MARK_15.38
+# text = Aṣọ ìkélé tẹ́ḿpìlì sì fàya sí méjì láti òkè dé ìsàlẹ̀.
+# text_en = And the veil of the temple was rent in twain from the top to the bottom.
+1	Aṣọ	aṣọ	X	_	_	0	_	_	Ref=MARK_15.38|Gloss=garments
+2	ìkélé	ìkélé	X	_	_	0	_	_	Ref=MARK_15.38|Gloss=veil
+3	tẹ́ḿpìlì	tẹ́ḿpìlì	X	_	_	0	_	_	Ref=MARK_15.38|Gloss=temple
+4	sì	sì	X	_	_	0	_	_	Ref=MARK_15.38|Gloss=and
+5	fàya	fàya	X	_	_	0	_	_	Ref=MARK_15.38|Gloss=rent
+6	sí	sí	X	_	_	0	_	_	Ref=MARK_15.38|Gloss=to
+7	méjì	méjì	X	_	_	0	_	_	Ref=MARK_15.38|Gloss=two
+8	láti	láti	X	_	_	0	_	_	Ref=MARK_15.38|Gloss=to
+9	òkè	òkè	X	_	_	0	_	_	Ref=MARK_15.38|Gloss=mount
+10	dé	dé	X	_	_	0	_	_	Ref=MARK_15.38|Gloss=come
+11	ìsàlẹ̀	ìsàlẹ̀	X	_	_	0	_	_	Ref=MARK_15.38|SpaceAfter=No|Gloss=bottom
+12	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.38|Gloss=.
+
+# sent_id = MARK_15.39
+# text = Nígbà tí balógun ọ̀rún tí ó dúró lẹ́gbẹ̀ ọ̀dọ̀ Jésù rí i tí kígbe sókè báyìí tí ó sì èémí ìgbẹ̀yìn, ó wí pé, “Dájúdájú Ọmọ Ọlọ́run ni ọkùnrin yìí í se.”
+# text_en = And when the centurion, which stood over against him, saw that he so cried out, and gave up the ghost, he said, Truly this man was the Son of God.
+1	Nígbà	nígbà	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=when
+2	tí	tí	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=that
+3	balógun	balógun	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=captains
+4	ọ̀rún	ọ̀rún	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=centurion
+5	tí	tí	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=that
+6	ó	ó	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=he
+7	dúró	dúró	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=stood
+8	lẹ́gbẹ̀	lẹ́gbẹ̀	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=by
+9	ọ̀dọ̀	ọ̀dọ̀	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=from
+10	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.39|Gloss=jesus
+11	rí	rí	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=saw
+12	i	i	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=him
+13	tí	tí	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=that
+14	kígbe	kígbe	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=cried
+15	sókè	sókè	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=up
+16	báyìí	báyìí	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=thus
+17	tí	tí	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=that
+18	ó	ó	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=he
+19	sì	sì	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=and
+20	èémí	èémí	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=breath
+21	ìgbẹ̀yìn	ìgbẹ̀yìn	X	_	_	0	_	_	Ref=MARK_15.39|SpaceAfter=No|Gloss=end
+22	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.39|Gloss=,
+23	ó	ó	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=he
+24	wí	wí	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=said
+25	pé	pé	X	_	_	0	_	_	Ref=MARK_15.39|SpaceAfter=No|Gloss=saying
+26	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.39|Gloss=,
+27	“	“	PUNCT	_	_	0	punct	_	Ref=MARK_15.39|SpaceAfter=No|Gloss=“
+28	Dájúdájú	dájúdájú	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=surely
+29	Ọmọ	ọmọ	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=son
+30	Ọlọ́run	ọlọ́run	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=god
+31	ni	ni	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=is
+32	ọkùnrin	ọkùnrin	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=man
+33	yìí	yìí	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=this
+34	í	í	X	_	_	0	_	_	Ref=MARK_15.39|Gloss=was
+35	se	se	X	_	_	0	_	_	Ref=MARK_15.39|SpaceAfter=No
+36	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.39|SpaceAfter=No
+37	”	”	PUNCT	_	_	0	punct	_	Ref=MARK_15.39|Gloss=.
+
+# sent_id = MARK_15.40
+# text = Àwọn obìnrin kan wà níbẹ̀ pẹ̀lú, tí wọ́n ń najú wò ó láti òkèèrè. Màríà Magidalénì wà lára àwọn obìnrin náà, àti Màríà ìyá Jákọ́bù kékeré àti ti Jósè àti, Ṣálómè.
+# text_en = There were also women looking on afar off: among whom was Mary Magdalene, and Mary the mother of James the less and of Joses, and Salome;
+1	Àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=the
+2	obìnrin	obìnrin	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=woman
+3	kan	kan	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=a
+4	wà	wà	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=was
+5	níbẹ̀	níbẹ̀	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=there
+6	pẹ̀lú	pẹ̀lú	X	_	_	0	_	_	Ref=MARK_15.40|SpaceAfter=No|Gloss=with
+7	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.40|Gloss=,
+8	tí	tí	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=that
+9	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=they
+10	ń	ń	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=that
+11	najú	najú	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=null
+12	wò	wò	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=behold
+13	ó	ó	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=he
+14	láti	láti	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=to
+15	òkèèrè	òkèèrè	X	_	_	0	_	_	Ref=MARK_15.40|SpaceAfter=No|Gloss=afar
+16	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.40|Gloss=.
+17	Màríà	Màríà	PROPN	_	_	0	_	_	Ref=MARK_15.40|Gloss=mary
+18	Magidalénì	Magidalénì	PROPN	_	_	0	_	_	Ref=MARK_15.40|Gloss=magdalene
+19	wà	wà	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=was
+20	lára	lára	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=of
+21	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=the
+22	obìnrin	obìnrin	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=woman
+23	náà	náà	X	_	_	0	_	_	Ref=MARK_15.40|SpaceAfter=No|Gloss=the
+24	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.40|Gloss=,
+25	àti	àti	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=and
+26	Màríà	Màríà	PROPN	_	_	0	_	_	Ref=MARK_15.40|Gloss=mary
+27	ìyá	ìyá	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=mother
+28	Jákọ́bù	Jákọ́bù	PROPN	_	_	0	_	_	Ref=MARK_15.40|Gloss=jacob
+29	kékeré	kékeré	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=little
+30	àti	àti	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=and
+31	ti	ti	X	_	_	0	_	_	Ref=MARK_15.40|Gloss=have
+32	Jósè	Jósè	PROPN	_	_	0	_	_	Ref=MARK_15.40|Gloss=joses
+33	àti	àti	X	_	_	0	_	_	Ref=MARK_15.40|SpaceAfter=No|Gloss=and
+34	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.40|Gloss=,
+35	Ṣálómè	Ṣálómè	PROPN	_	_	0	_	_	Ref=MARK_15.40|SpaceAfter=No|Gloss=salome
+36	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.40|Gloss=.
+
+# sent_id = MARK_15.41
+# text = Àwọn wọ̀nyí, nígbà tí ó wà ní Gálílì máa ń tọ̀ ọ́ lẹ́yìn, wọ́n a sì máa ṣe ìranṣẹ́ fún un àti ọ̀pọ̀ obìnrin mìíràn tí wọ́n sì bá a gòkè wá sí Jerúsálémù.
+# text_en = (Who also, when he was in Galilee, followed him, and ministered unto him;) and many other women which came up with him unto Jerusalem.
+1	Àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.41
+2	wọ̀nyí	wọ̀nyí	X	_	_	0	_	_	Ref=MARK_15.41|SpaceAfter=No|Gloss=these
+3	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.41|Gloss=,
+4	nígbà	nígbà	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=when
+5	tí	tí	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=that
+6	ó	ó	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=he
+7	wà	wà	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=was
+8	ní	ní	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=in
+9	Gálílì	Gálílì	PROPN	_	_	0	_	_	Ref=MARK_15.41|Gloss=galilee
+10	máa	máa	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=be
+11	ń	ń	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=that
+12	tọ̀	tọ̀	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=came
+13	ọ́	ọ́	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=thee
+14	lẹ́yìn	lẹ́yìn	X	_	_	0	_	_	Ref=MARK_15.41|SpaceAfter=No|Gloss=after
+15	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.41|Gloss=,
+16	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=they
+17	a	a	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=be
+18	sì	sì	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=and
+19	máa	máa	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=be
+20	ṣe	ṣe	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=do
+21	ìranṣẹ́	ìranṣẹ́	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=servants
+22	fún	fún	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=unto
+23	un	un	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=him
+24	àti	àti	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=and
+25	ọ̀pọ̀	ọ̀pọ̀	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=many
+26	obìnrin	obìnrin	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=woman
+27	mìíràn	mìíràn	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=other
+28	tí	tí	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=that
+29	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=they
+30	sì	sì	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=and
+31	bá	bá	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=if
+32	a	a	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=be
+33	gòkè	gòkè	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=up
+34	wá	wá	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=come
+35	sí	sí	X	_	_	0	_	_	Ref=MARK_15.41|Gloss=to
+36	Jerúsálémù	Jerúsálémù	PROPN	_	_	0	_	_	Ref=MARK_15.41|SpaceAfter=No|Gloss=jerusalem
+37	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.41|Gloss=.
+
+# sent_id = MARK_15.42
+# text = Ọjọ́ yìí jẹ́ ọjọ́ ìpalẹ̀mọ́ (èyí tí se, ọjọ́ tó sáájú ọjọ́ ìsinmi). Nígbà tí ilẹ̀ ọjọ́ náà sì ṣú,
+# text_en = And now when the even was come, because it was the preparation, that is, the day before the sabbath,
+1	Ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=day
+2	yìí	yìí	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=this
+3	jẹ́	jẹ́	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=be
+4	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=day
+5	ìpalẹ̀mọ́	ìpalẹ̀mọ́	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=preparation
+6	(	(	PUNCT	_	_	0	punct	_	Ref=MARK_15.42|SpaceAfter=No|Gloss=hundred
+7	èyí	èyí	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=this
+8	tí	tí	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=that
+9	se	se	X	_	_	0	_	_	Ref=MARK_15.42|SpaceAfter=No|Gloss=do
+10	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.42|Gloss=,
+11	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=day
+12	tó	tó	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=that
+13	sáájú	sáájú	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=before
+14	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=day
+15	ìsinmi	ìsinmi	X	_	_	0	_	_	Ref=MARK_15.42|SpaceAfter=No|Gloss=sabbath
+16	)	)	PUNCT	_	_	0	punct	_	Ref=MARK_15.42|SpaceAfter=No|Gloss=hundred
+17	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.42|Gloss=.
+18	Nígbà	nígbà	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=when
+19	tí	tí	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=that
+20	ilẹ̀	ilẹ̀	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=land
+21	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=day
+22	náà	náà	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=the
+23	sì	sì	X	_	_	0	_	_	Ref=MARK_15.42|Gloss=and
+24	ṣú	ṣú	X	_	_	0	_	_	Ref=MARK_15.42|SpaceAfter=No|Gloss=dark
+25	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.42|Gloss=,
+
+# sent_id = MARK_15.43
+# text = Jóṣẹ́fù ará Arimatíyà wá, ọ̀kan pàtàkì nínú àwọn ọmọ ìgbìmọ̀, ẹni tí ń retí ìjọba Ọlọ́run, ó fi ìgboyà lọ sí iwájú Pílátù láti tọrọ òkú Jésù.
+# text_en = Joseph of Arimathaea, and honourable counseller, which also waited for the kingdom of God, came, and went in boldly unto Pilate, and craved the body of Jesus.
+1	Jóṣẹ́fù	Jóṣẹ́fù	PROPN	_	_	0	_	_	Ref=MARK_15.43|Gloss=joseph
+2	ará	ará	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=brethren
+3	Arimatíyà	Arimatíyà	PROPN	_	_	0	_	_	Ref=MARK_15.43|Gloss=arimathaea
+4	wá	wá	X	_	_	0	_	_	Ref=MARK_15.43|SpaceAfter=No|Gloss=come
+5	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.43|Gloss=,
+6	ọ̀kan	ọ̀kan	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=one
+7	pàtàkì	pàtàkì	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=great
+8	nínú	nínú	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=in
+9	àwọn	àwọn	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=the
+10	ọmọ	ọmọ	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=son
+11	ìgbìmọ̀	ìgbìmọ̀	X	_	_	0	_	_	Ref=MARK_15.43|SpaceAfter=No|Gloss=council
+12	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.43|Gloss=,
+13	ẹni	ẹni	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=that
+14	tí	tí	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=that
+15	ń	ń	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=that
+16	retí	retí	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=looked
+17	ìjọba	ìjọba	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=kingdom
+18	Ọlọ́run	ọlọ́run	X	_	_	0	_	_	Ref=MARK_15.43|SpaceAfter=No|Gloss=god
+19	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.43|Gloss=,
+20	ó	ó	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=he
+21	fi	fi	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=with
+22	ìgboyà	ìgboyà	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=boldly
+23	lọ	lọ	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=go
+24	sí	sí	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=to
+25	iwájú	iwájú	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=before
+26	Pílátù	Pílátù	PROPN	_	_	0	_	_	Ref=MARK_15.43|Gloss=pilate
+27	láti	láti	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=to
+28	tọrọ	tọrọ	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=desired
+29	òkú	òkú	X	_	_	0	_	_	Ref=MARK_15.43|Gloss=dead
+30	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.43|SpaceAfter=No|Gloss=jesus
+31	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.43|Gloss=.
+
+# sent_id = MARK_15.44
+# text = Ẹnú ya Pílátù láti gbọ́ pé Jésù ti kú. Nítorí náà ó pe balógun-ọ̀rún, ó sì bí i léèrè bóyá Jésù ti kú ní tòótọ́.
+# text_en = And Pilate marvelled if he were already dead: and calling unto him the centurion, he asked him whether he had been any while dead.
+1	Ẹnú	ẹnú	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=they
+2	ya	ya	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=sanctify
+3	Pílátù	Pílátù	PROPN	_	_	0	_	_	Ref=MARK_15.44|Gloss=pilate
+4	láti	láti	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=to
+5	gbọ́	gbọ́	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=heard
+6	pé	pé	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=saying
+7	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.44|Gloss=jesus
+8	ti	ti	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=have
+9	kú	kú	X	_	_	0	_	_	Ref=MARK_15.44|SpaceAfter=No|Gloss=die
+10	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.44|Gloss=.
+11	Nítorí	nítorí	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=for
+12	náà	náà	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=the
+13	ó	ó	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=he
+14	pe	pe	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=called
+15	balógun	balógun	X	_	_	0	_	_	Ref=MARK_15.44|SpaceAfter=No|Gloss=captains
+16	-	-	PUNCT	_	_	0	punct	_	Ref=MARK_15.44|SpaceAfter=No|Gloss=the
+17	ọ̀rún	ọ̀rún	X	_	_	0	_	_	Ref=MARK_15.44|SpaceAfter=No|Gloss=centurion
+18	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.44|Gloss=,
+19	ó	ó	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=he
+20	sì	sì	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=and
+21	bí	bí	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=as
+22	i	i	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=him
+23	léèrè	léèrè	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=asked
+24	bóyá	bóyá	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=whether
+25	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.44|Gloss=jesus
+26	ti	ti	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=have
+27	kú	kú	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=die
+28	ní	ní	X	_	_	0	_	_	Ref=MARK_15.44|Gloss=in
+29	tòótọ́	tòótọ́	X	_	_	0	_	_	Ref=MARK_15.44|SpaceAfter=No|Gloss=true
+30	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.44|Gloss=.
+
+# sent_id = MARK_15.45
+# text = Nígbà tí balógun-ọ̀rún náà sì fún Pílátù ni ìdánilójú pé Jésù ti kú, Pílátù yọ̀ǹda òkú rẹ̀ fún Jóṣẹ́fù.
+# text_en = And when he knew it of the centurion, he gave the body to Joseph.
+1	Nígbà	nígbà	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=when
+2	tí	tí	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=that
+3	balógun	balógun	X	_	_	0	_	_	Ref=MARK_15.45|SpaceAfter=No|Gloss=captains
+4	-	-	PUNCT	_	_	0	punct	_	Ref=MARK_15.45|SpaceAfter=No|Gloss=the
+5	ọ̀rún	ọ̀rún	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=centurion
+6	náà	náà	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=the
+7	sì	sì	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=and
+8	fún	fún	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=unto
+9	Pílátù	Pílátù	PROPN	_	_	0	_	_	Ref=MARK_15.45|Gloss=pilate
+10	ni	ni	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=is
+11	ìdánilójú	ìdánilójú	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=assurance
+12	pé	pé	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=saying
+13	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.45|Gloss=jesus
+14	ti	ti	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=have
+15	kú	kú	X	_	_	0	_	_	Ref=MARK_15.45|SpaceAfter=No|Gloss=die
+16	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.45|Gloss=,
+17	Pílátù	Pílátù	PROPN	_	_	0	_	_	Ref=MARK_15.45|Gloss=pilate
+18	yọ̀ǹda	yọ̀ǹda	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=suffered
+19	òkú	òkú	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=dead
+20	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=his
+21	fún	fún	X	_	_	0	_	_	Ref=MARK_15.45|Gloss=unto
+22	Jóṣẹ́fù	Jóṣẹ́fù	PROPN	_	_	0	_	_	Ref=MARK_15.45|SpaceAfter=No|Gloss=joseph
+23	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.45|Gloss=.
+
+# sent_id = MARK_15.46
+# text = Jóṣẹ́fù sì ti ra aṣọ ọ̀gbọ̀ wá. Ó sọ òkú Jésù kalẹ̀: ó sì fi aṣọ ọ̀gbọ̀ náà dì í. Ó sì tẹ́ ẹ sí inú ibojì, tí wọ́n gbẹ́ sí ara àpáta. Ó wá yí òkúta dí ẹnu ibojì náà.
+# text_en = And he bought fine linen, and took him down, and wrapped him in the linen, and laid him in a sepulchre which was hewn out of a rock, and rolled a stone unto the door of the sepulchre.
+1	Jóṣẹ́fù	Jóṣẹ́fù	PROPN	_	_	0	_	_	Ref=MARK_15.46|Gloss=joseph
+2	sì	sì	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=and
+3	ti	ti	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=have
+4	ra	ra	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=buy
+5	aṣọ	aṣọ	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=garments
+6	ọ̀gbọ̀	ọ̀gbọ̀	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=linen
+7	wá	wá	X	_	_	0	_	_	Ref=MARK_15.46|SpaceAfter=No|Gloss=come
+8	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.46|Gloss=.
+9	Ó	ó	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=he
+10	sọ	sọ	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=spake
+11	òkú	òkú	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=dead
+12	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.46|Gloss=jesus
+13	kalẹ̀	kalẹ̀	X	_	_	0	_	_	Ref=MARK_15.46|SpaceAfter=No|Gloss=set
+14	:	:	PUNCT	_	_	0	punct	_	Ref=MARK_15.46|Gloss=:
+15	ó	ó	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=he
+16	sì	sì	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=and
+17	fi	fi	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=with
+18	aṣọ	aṣọ	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=garments
+19	ọ̀gbọ̀	ọ̀gbọ̀	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=linen
+20	náà	náà	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=the
+21	dì	dì	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=hold
+22	í	í	X	_	_	0	_	_	Ref=MARK_15.46|SpaceAfter=No|Gloss=was
+23	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.46|Gloss=.
+24	Ó	ó	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=he
+25	sì	sì	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=and
+26	tẹ́	tẹ́	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=laid
+27	ẹ	ẹ	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=ye
+28	sí	sí	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=to
+29	inú	inú	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=of
+30	ibojì	ibojì	X	_	_	0	_	_	Ref=MARK_15.46|SpaceAfter=No|Gloss=sepulchre
+31	,	,	PUNCT	_	_	0	punct	_	Ref=MARK_15.46|Gloss=,
+32	tí	tí	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=that
+33	wọ́n	wọ́n	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=they
+34	gbẹ́	gbẹ́	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=digged
+35	sí	sí	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=to
+36	ara	ara	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=himself
+37	àpáta	àpáta	X	_	_	0	_	_	Ref=MARK_15.46|SpaceAfter=No|Gloss=rock
+38	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.46|Gloss=.
+39	Ó	ó	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=he
+40	wá	wá	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=come
+41	yí	yí	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=round
+42	òkúta	òkúta	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=stone
+43	dí	dí	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=the
+44	ẹnu	ẹnu	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=mouth
+45	ibojì	ibojì	X	_	_	0	_	_	Ref=MARK_15.46|Gloss=sepulchre
+46	náà	náà	X	_	_	0	_	_	Ref=MARK_15.46|SpaceAfter=No|Gloss=the
+47	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.46|Gloss=.
+
+# sent_id = MARK_15.47
+# text = Màríà Magidalénì àti Màríà ìyá Jósè ń wò ó bi Jóṣẹ́fù ti n tẹ́ Jésù sí ibojì.
+# text_en = And Mary Magdalene and Mary the mother of Joses beheld where he was laid.
+1	Màríà	Màríà	PROPN	_	_	0	_	_	Ref=MARK_15.47|Gloss=mary
+2	Magidalénì	Magidalénì	PROPN	_	_	0	_	_	Ref=MARK_15.47|Gloss=magdalene
+3	àti	àti	X	_	_	0	_	_	Ref=MARK_15.47|Gloss=and
+4	Màríà	Màríà	PROPN	_	_	0	_	_	Ref=MARK_15.47|Gloss=mary
+5	ìyá	ìyá	X	_	_	0	_	_	Ref=MARK_15.47|Gloss=mother
+6	Jósè	Jósè	PROPN	_	_	0	_	_	Ref=MARK_15.47|Gloss=joses
+7	ń	ń	X	_	_	0	_	_	Ref=MARK_15.47|Gloss=that
+8	wò	wò	X	_	_	0	_	_	Ref=MARK_15.47|Gloss=behold
+9	ó	ó	X	_	_	0	_	_	Ref=MARK_15.47|Gloss=he
+10	bi	bi	X	_	_	0	_	_	Ref=MARK_15.47|Gloss=as
+11	Jóṣẹ́fù	Jóṣẹ́fù	PROPN	_	_	0	_	_	Ref=MARK_15.47|Gloss=joseph
+12	ti	ti	X	_	_	0	_	_	Ref=MARK_15.47|Gloss=have
+13	n	n	X	_	_	0	_	_	Ref=MARK_15.47|Gloss=i
+14	tẹ́	tẹ́	X	_	_	0	_	_	Ref=MARK_15.47|Gloss=laid
+15	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=MARK_15.47|Gloss=jesus
+16	sí	sí	X	_	_	0	_	_	Ref=MARK_15.47|Gloss=to
+17	ibojì	ibojì	X	_	_	0	_	_	Ref=MARK_15.47|SpaceAfter=No|Gloss=sepulchre
+18	.	.	PUNCT	_	_	0	punct	_	Ref=MARK_15.47|Gloss=.
+

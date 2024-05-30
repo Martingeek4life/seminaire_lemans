@@ -1,0 +1,603 @@
+# source = Bibeli Mimọ, 2 Tẹsalóníkà, Chapter 2
+# newdoc id = 2THESS_2
+# sent_id = 2THESS_2.1
+# text = Ní ti bíbọ̀ Jésù Kírísítì Olúwa wa, àti ti ìpéjọ wa sọ́dọ̀ rẹ̀, àwa wí fún yín ará,
+# text_en = Now we beseech you, brethren, by the coming of our Lord Jesus Christ, and by our gathering together unto him,
+1	Ní	ní	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=in
+2	ti	ti	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=have
+3	bíbọ̀	bíbọ̀	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=beseech
+4	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=2THESS_2.1|Gloss=jesus
+5	Kírísítì	kírísítì	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=christ
+6	Olúwa	olúwa	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=lord
+7	wa	wa	X	_	_	0	_	_	Ref=2THESS_2.1|SpaceAfter=No|Gloss=our
+8	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.1|Gloss=,
+9	àti	àti	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=and
+10	ti	ti	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=have
+11	ìpéjọ	ìpéjọ	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=congregation
+12	wa	wa	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=our
+13	sọ́dọ̀	sọ́dọ̀	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=unto
+14	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=2THESS_2.1|SpaceAfter=No|Gloss=his
+15	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.1|Gloss=,
+16	àwa	àwa	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=we
+17	wí	wí	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=said
+18	fún	fún	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=unto
+19	yín	yín	X	_	_	0	_	_	Ref=2THESS_2.1|Gloss=you
+20	ará	ará	X	_	_	0	_	_	Ref=2THESS_2.1|SpaceAfter=No|Gloss=brethren
+21	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.1|Gloss=,
+
+# sent_id = 2THESS_2.2
+# text = kí ọkàn yín má ṣe àìbalẹ̀, tàbí kí ẹ má ṣe jáyà nípa àṣọtẹ́lẹ̀, ìròyìn tàbí lẹ́tà tí ó lè farajọ èyí tí ó le wá láti ọ̀dọ̀ wa, tí yóò máa wí pé ọjọ́ Olúwa ti dé ná.
+# text_en = That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand.
+1	kí	kí	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=let
+2	ọkàn	ọkàn	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=heart
+3	yín	yín	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=you
+4	má	má	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=not
+5	ṣe	ṣe	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=do
+6	àìbalẹ̀	àìbalẹ̀	X	_	_	0	_	_	Ref=2THESS_2.2|SpaceAfter=No|Gloss=carefulness
+7	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.2|Gloss=,
+8	tàbí	tàbí	X	_	_	0	_	_	Ref=2THESS_2.2
+9	kí	kí	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=let
+10	ẹ	ẹ	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=ye
+11	má	má	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=not
+12	ṣe	ṣe	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=do
+13	jáyà	jáyà	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=be
+14	nípa	nípa	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=by
+15	àṣọtẹ́lẹ̀	àṣọtẹ́lẹ̀	X	_	_	0	_	_	Ref=2THESS_2.2|SpaceAfter=No|Gloss=prophesied
+16	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.2|Gloss=,
+17	ìròyìn	ìròyìn	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=tidings
+18	tàbí	tàbí	X	_	_	0	_	_	Ref=2THESS_2.2
+19	lẹ́tà	lẹ́tà	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=letter
+20	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=that
+21	ó	ó	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=he
+22	lè	lè	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=may
+23	farajọ	farajọ	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=null
+24	èyí	èyí	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=this
+25	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=that
+26	ó	ó	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=he
+27	le	le	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=may
+28	wá	wá	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=come
+29	láti	láti	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=to
+30	ọ̀dọ̀	ọ̀dọ̀	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=from
+31	wa	wa	X	_	_	0	_	_	Ref=2THESS_2.2|SpaceAfter=No|Gloss=our
+32	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.2|Gloss=,
+33	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=that
+34	yóò	yóò	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=shall
+35	máa	máa	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=be
+36	wí	wí	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=said
+37	pé	pé	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=saying
+38	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=day
+39	Olúwa	olúwa	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=lord
+40	ti	ti	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=have
+41	dé	dé	X	_	_	0	_	_	Ref=2THESS_2.2|Gloss=come
+42	ná	ná	X	_	_	0	_	_	Ref=2THESS_2.2|SpaceAfter=No
+43	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.2
+
+# sent_id = 2THESS_2.3
+# text = Ẹ má ṣe jẹ́ kí ẹnikẹ́ni kí ó tàn yín jẹ ní ọ̀nàkọnà, nítorí pé ọjọ́ náà kì yóò dé, bí kò ṣe pé ìṣọ̀tẹ̀ bá kọ́ ṣẹlẹ̀, tí a sì fi ẹni ẹ̀ṣẹ̀ hàn, tí í ṣe ọmọ ègbé.
+# text_en = Let no man deceive you by any means: for that day shall not come, except there come a falling away first, and that man of sin be revealed, the son of perdition;
+1	Ẹ	ẹ	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=ye
+2	má	má	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=not
+3	ṣe	ṣe	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=do
+4	jẹ́	jẹ́	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=be
+5	kí	kí	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=let
+6	ẹnikẹ́ni	ẹnikẹ́ni	X	_	_	0	_	_	Ref=2THESS_2.3
+7	kí	kí	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=let
+8	ó	ó	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=he
+9	tàn	tàn	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=deceived
+10	yín	yín	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=you
+11	jẹ	jẹ	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=eat
+12	ní	ní	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=in
+13	ọ̀nàkọnà	ọ̀nàkọnà	X	_	_	0	_	_	Ref=2THESS_2.3|SpaceAfter=No|Gloss=null
+14	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.3|Gloss=,
+15	nítorí	nítorí	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=for
+16	pé	pé	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=saying
+17	ọjọ́	ọjọ́	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=day
+18	náà	náà	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=the
+19	kì	kì	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=not
+20	yóò	yóò	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=shall
+21	dé	dé	X	_	_	0	_	_	Ref=2THESS_2.3|SpaceAfter=No|Gloss=come
+22	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.3|Gloss=,
+23	bí	bí	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=as
+24	kò	kò	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=not
+25	ṣe	ṣe	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=do
+26	pé	pé	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=saying
+27	ìṣọ̀tẹ̀	ìṣọ̀tẹ̀	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=rebellion
+28	bá	bá	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=if
+29	kọ́	kọ́	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=build
+30	ṣẹlẹ̀	ṣẹlẹ̀	X	_	_	0	_	_	Ref=2THESS_2.3|SpaceAfter=No|Gloss=done
+31	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.3|Gloss=,
+32	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=that
+33	a	a	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=be
+34	sì	sì	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=and
+35	fi	fi	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=with
+36	ẹni	ẹni	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=that
+37	ẹ̀ṣẹ̀	ẹ̀ṣẹ̀	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=sin
+38	hàn	hàn	X	_	_	0	_	_	Ref=2THESS_2.3|SpaceAfter=No|Gloss=shew
+39	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.3|Gloss=,
+40	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=that
+41	í	í	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=was
+42	ṣe	ṣe	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=do
+43	ọmọ	ọmọ	X	_	_	0	_	_	Ref=2THESS_2.3|Gloss=son
+44	ègbé	ègbé	X	_	_	0	_	_	Ref=2THESS_2.3|SpaceAfter=No|Gloss=woe
+45	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.3|Gloss=.
+
+# sent_id = 2THESS_2.4
+# text = Òun yóò lòdì sí, yóò sì gbé ara rẹ̀ ga sí gbogbo ohun tí a ń pè ní Ọlọ́run tàbí tí a ń sìn, dé ibi pé yóò gbé ara rẹ̀ jókòó nínú tẹ́ḿpìlì Ọlọ́run, tí yóò sì ń pe ara rẹ̀ ní Ọlọ́run.
+# text_en = Who opposeth and exalteth himself above all that is called God, or that is worshipped; so that he as God sitteth in the temple of God, shewing himself that he is God.
+1	Òun	òun	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=he
+2	yóò	yóò	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=shall
+3	lòdì	lòdì	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=against
+4	sí	sí	X	_	_	0	_	_	Ref=2THESS_2.4|SpaceAfter=No|Gloss=to
+5	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.4|Gloss=,
+6	yóò	yóò	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=shall
+7	sì	sì	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=and
+8	gbé	gbé	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=dwell
+9	ara	ara	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=himself
+10	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=his
+11	ga	ga	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=exalted
+12	sí	sí	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=to
+13	gbogbo	gbogbo	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=all
+14	ohun	ohun	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=things
+15	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=that
+16	a	a	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=be
+17	ń	ń	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=that
+18	pè	pè	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=called
+19	ní	ní	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=in
+20	Ọlọ́run	ọlọ́run	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=god
+21	tàbí	tàbí	X	_	_	0	_	_	Ref=2THESS_2.4
+22	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=that
+23	a	a	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=be
+24	ń	ń	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=that
+25	sìn	sìn	X	_	_	0	_	_	Ref=2THESS_2.4|SpaceAfter=No|Gloss=serve
+26	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.4|Gloss=,
+27	dé	dé	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=come
+28	ibi	ibi	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=place
+29	pé	pé	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=saying
+30	yóò	yóò	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=shall
+31	gbé	gbé	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=dwell
+32	ara	ara	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=himself
+33	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=his
+34	jókòó	jókòó	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=sat
+35	nínú	nínú	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=in
+36	tẹ́ḿpìlì	tẹ́ḿpìlì	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=temple
+37	Ọlọ́run	ọlọ́run	X	_	_	0	_	_	Ref=2THESS_2.4|SpaceAfter=No|Gloss=god
+38	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.4|Gloss=,
+39	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=that
+40	yóò	yóò	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=shall
+41	sì	sì	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=and
+42	ń	ń	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=that
+43	pe	pe	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=called
+44	ara	ara	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=himself
+45	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=his
+46	ní	ní	X	_	_	0	_	_	Ref=2THESS_2.4|Gloss=in
+47	Ọlọ́run	ọlọ́run	X	_	_	0	_	_	Ref=2THESS_2.4|SpaceAfter=No|Gloss=god
+48	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.4|Gloss=.
+
+# sent_id = 2THESS_2.5
+# text = Ṣé ẹ̀yin kò rántí pé nígbà tí mo wà pẹ̀lú yín, mo ń sọ àwọn nǹkan wọ̀nyí fún-un yín.
+# text_en = Remember ye not, that, when I was yet with you, I told you these things?
+1	Ṣé	ṣé	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=?
+2	ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=ye
+3	kò	kò	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=not
+4	rántí	rántí	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=remember
+5	pé	pé	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=saying
+6	nígbà	nígbà	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=when
+7	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=that
+8	mo	mo	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=i
+9	wà	wà	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=was
+10	pẹ̀lú	pẹ̀lú	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=with
+11	yín	yín	X	_	_	0	_	_	Ref=2THESS_2.5|SpaceAfter=No|Gloss=you
+12	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.5|Gloss=,
+13	mo	mo	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=i
+14	ń	ń	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=that
+15	sọ	sọ	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=spake
+16	àwọn	àwọn	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=the
+17	nǹkan	nǹkan	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=things
+18	wọ̀nyí	wọ̀nyí	X	_	_	0	_	_	Ref=2THESS_2.5|Gloss=these
+19	fún	fún	X	_	_	0	_	_	Ref=2THESS_2.5|SpaceAfter=No
+20	-	-	PUNCT	_	_	0	punct	_	Ref=2THESS_2.5|SpaceAfter=No
+21	un	un	X	_	_	0	_	_	Ref=2THESS_2.5
+22	yín	yín	X	_	_	0	_	_	Ref=2THESS_2.5|SpaceAfter=No|Gloss=you
+23	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.5|Gloss=.
+
+# sent_id = 2THESS_2.6
+# text = Àti pé nísinyìí, ẹ̀yín mọ ohun tí ń dá a dúró, kí a bá a lè fi í hàn ní àkókò rẹ̀ gan an.
+# text_en = And now ye know what withholdeth that he might be revealed in his time.
+1	Àti	àti	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=and
+2	pé	pé	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=saying
+3	nísinyìí	nísinyìí	X	_	_	0	_	_	Ref=2THESS_2.6|SpaceAfter=No|Gloss=null
+4	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.6|Gloss=,
+5	ẹ̀yín	ẹ̀yín	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=ye
+6	mọ	mọ	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=know
+7	ohun	ohun	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=things
+8	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=that
+9	ń	ń	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=that
+10	dá	dá	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=made
+11	a	a	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=be
+12	dúró	dúró	X	_	_	0	_	_	Ref=2THESS_2.6|SpaceAfter=No|Gloss=stood
+13	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.6|Gloss=,
+14	kí	kí	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=let
+15	a	a	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=be
+16	bá	bá	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=if
+17	a	a	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=be
+18	lè	lè	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=may
+19	fi	fi	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=with
+20	í	í	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=was
+21	hàn	hàn	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=shew
+22	ní	ní	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=in
+23	àkókò	àkókò	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=time
+24	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=his
+25	gan	gan	X	_	_	0	_	_	Ref=2THESS_2.6|Gloss=same
+26	an	an	X	_	_	0	_	_	Ref=2THESS_2.6|SpaceAfter=No|Gloss=him
+27	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.6|Gloss=.
+
+# sent_id = 2THESS_2.7
+# text = Nítorí agbára ìkọ̀kọ̀ ẹni ẹ̀ṣẹ̀ ti ń ṣiṣẹ́; ṣùgbọ́n ẹni tí ń dènà yóò máa ṣe bẹ́ẹ̀ títí a ó fi mú-un kúrò ní ọ̀nà.
+# text_en = For the mystery of iniquity doth already work: only he who now letteth will let, until he be taken out of the way.
+1	Nítorí	nítorí	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=for
+2	agbára	agbára	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=power
+3	ìkọ̀kọ̀	ìkọ̀kọ̀	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=secret
+4	ẹni	ẹni	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=that
+5	ẹ̀ṣẹ̀	ẹ̀ṣẹ̀	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=sin
+6	ti	ti	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=have
+7	ń	ń	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=that
+8	ṣiṣẹ́	ṣiṣẹ́	X	_	_	0	_	_	Ref=2THESS_2.7|SpaceAfter=No|Gloss=work
+9	;	;	PUNCT	_	_	0	punct	_	Ref=2THESS_2.7|Gloss=;
+10	ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=but
+11	ẹni	ẹni	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=that
+12	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=that
+13	ń	ń	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=that
+14	dènà	dènà	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=null
+15	yóò	yóò	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=shall
+16	máa	máa	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=be
+17	ṣe	ṣe	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=do
+18	bẹ́ẹ̀	bẹ́ẹ̀	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=so
+19	títí	títí	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=until
+20	a	a	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=be
+21	ó	ó	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=he
+22	fi	fi	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=with
+23	mú	mú	X	_	_	0	_	_	Ref=2THESS_2.7|SpaceAfter=No|Gloss=brought
+24	-	-	PUNCT	_	_	0	punct	_	Ref=2THESS_2.7|SpaceAfter=No|Gloss=the
+25	un	un	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=him
+26	kúrò	kúrò	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=from
+27	ní	ní	X	_	_	0	_	_	Ref=2THESS_2.7|Gloss=in
+28	ọ̀nà	ọ̀nà	X	_	_	0	_	_	Ref=2THESS_2.7|SpaceAfter=No|Gloss=way
+29	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.7|Gloss=.
+
+# sent_id = 2THESS_2.8
+# text = Nígbà náà ni a ó fi ẹni ẹ̀ṣẹ̀ hàn, ẹni tí Jésù Olúwa yóò fi èémí ẹnu rẹ̀ pa, tí yóò sì fi ọlá ìpadàbọ̀ rẹ̀ parun.
+# text_en = And then shall that Wicked be revealed, whom the Lord shall consume with the spirit of his mouth, and shall destroy with the brightness of his coming:
+1	Nígbà	nígbà	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=when
+2	náà	náà	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=the
+3	ni	ni	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=is
+4	a	a	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=be
+5	ó	ó	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=he
+6	fi	fi	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=with
+7	ẹni	ẹni	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=that
+8	ẹ̀ṣẹ̀	ẹ̀ṣẹ̀	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=sin
+9	hàn	hàn	X	_	_	0	_	_	Ref=2THESS_2.8|SpaceAfter=No|Gloss=shew
+10	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.8|Gloss=,
+11	ẹni	ẹni	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=that
+12	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=that
+13	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=2THESS_2.8|Gloss=jesus
+14	Olúwa	olúwa	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=lord
+15	yóò	yóò	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=shall
+16	fi	fi	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=with
+17	èémí	èémí	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=breath
+18	ẹnu	ẹnu	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=mouth
+19	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=his
+20	pa	pa	X	_	_	0	_	_	Ref=2THESS_2.8|SpaceAfter=No|Gloss=keep
+21	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.8|Gloss=,
+22	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=that
+23	yóò	yóò	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=shall
+24	sì	sì	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=and
+25	fi	fi	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=with
+26	ọlá	ọlá	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=honour
+27	ìpadàbọ̀	ìpadàbọ̀	X	_	_	0	_	_	Ref=2THESS_2.8
+28	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=2THESS_2.8|Gloss=his
+29	parun	parun	X	_	_	0	_	_	Ref=2THESS_2.8|SpaceAfter=No|Gloss=destroyed
+30	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.8|Gloss=.
+
+# sent_id = 2THESS_2.9
+# text = Wíwá ẹni ẹ̀ṣẹ̀ yóò rí bí iṣẹ́ Sàtánì, gbogbo èyí tí a fihàn gẹ́gẹ́ bí àdàmọ̀dì iṣẹ́-ìyanu, àdàmọ̀dì àmì àti àdàmọ̀dì idán,
+# text_en = Even him, whose coming is after the working of Satan with all power and signs and lying wonders,
+1	Wíwá	wíwá	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=coming
+2	ẹni	ẹni	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=that
+3	ẹ̀ṣẹ̀	ẹ̀ṣẹ̀	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=sin
+4	yóò	yóò	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=shall
+5	rí	rí	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=saw
+6	bí	bí	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=as
+7	iṣẹ́	iṣẹ́	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=work
+8	Sàtánì	sàtánì	X	_	_	0	_	_	Ref=2THESS_2.9|SpaceAfter=No|Gloss=satan
+9	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.9|Gloss=,
+10	gbogbo	gbogbo	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=all
+11	èyí	èyí	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=this
+12	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=that
+13	a	a	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=be
+14	fihàn	fihàn	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=shewed
+15	gẹ́gẹ́	gẹ́gẹ́	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=according
+16	bí	bí	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=as
+17	àdàmọ̀dì	àdàmọ̀dì	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=lying
+18	iṣẹ́	iṣẹ́	X	_	_	0	_	_	Ref=2THESS_2.9|SpaceAfter=No|Gloss=work
+19	-	-	PUNCT	_	_	0	punct	_	Ref=2THESS_2.9|SpaceAfter=No|Gloss=the
+20	ìyanu	ìyanu	X	_	_	0	_	_	Ref=2THESS_2.9|SpaceAfter=No|Gloss=wonders
+21	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.9|Gloss=,
+22	àdàmọ̀dì	àdàmọ̀dì	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=lying
+23	àmì	àmì	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=sign
+24	àti	àti	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=and
+25	àdàmọ̀dì	àdàmọ̀dì	X	_	_	0	_	_	Ref=2THESS_2.9|Gloss=lying
+26	idán	idán	X	_	_	0	_	_	Ref=2THESS_2.9|SpaceAfter=No|Gloss=bewitched
+27	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.9|Gloss=,
+
+# sent_id = 2THESS_2.10
+# text = Ní gbogbo ọ̀nà búburú tí a fi ń tan àwọn tí ń ṣègbé jẹ. Wọ́n ṣègbé nítorí wọ́n kọ̀ láti fẹ́ràn òtítọ́ kí wọn sì di ẹni ìgbàlà.
+# text_en = And with all deceivableness of unrighteousness in them that perish; because they received not the love of the truth, that they might be saved.
+1	Ní	ní	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=in
+2	gbogbo	gbogbo	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=all
+3	ọ̀nà	ọ̀nà	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=way
+4	búburú	búburú	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=evil
+5	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=that
+6	a	a	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=be
+7	fi	fi	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=with
+8	ń	ń	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=that
+9	tan	tan	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=had
+10	àwọn	àwọn	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=the
+11	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=that
+12	ń	ń	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=that
+13	ṣègbé	ṣègbé	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=perish
+14	jẹ	jẹ	X	_	_	0	_	_	Ref=2THESS_2.10|SpaceAfter=No|Gloss=eat
+15	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.10|Gloss=.
+16	Wọ́n	wọ́n	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=they
+17	ṣègbé	ṣègbé	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=perish
+18	nítorí	nítorí	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=for
+19	wọ́n	wọ́n	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=they
+20	kọ̀	kọ̀	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=forsaken
+21	láti	láti	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=to
+22	fẹ́ràn	fẹ́ràn	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=love
+23	òtítọ́	òtítọ́	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=truth
+24	kí	kí	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=let
+25	wọn	wọn	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=them
+26	sì	sì	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=and
+27	di	di	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=be
+28	ẹni	ẹni	X	_	_	0	_	_	Ref=2THESS_2.10|Gloss=that
+29	ìgbàlà	ìgbàlà	X	_	_	0	_	_	Ref=2THESS_2.10|SpaceAfter=No|Gloss=salvation
+30	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.10|Gloss=.
+
+# sent_id = 2THESS_2.11
+# text = Nítorí ìdí èyí, Ọlọ́run rán ohun tó ń ṣiṣẹ́ ìsìnà sí wọn kí wọn lè gba èké gbọ́,
+# text_en = And for this cause God shall send them strong delusion, that they should believe a lie:
+1	Nítorí	nítorí	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=for
+2	ìdí	ìdí	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=therefore
+3	èyí	èyí	X	_	_	0	_	_	Ref=2THESS_2.11|SpaceAfter=No|Gloss=this
+4	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.11|Gloss=,
+5	Ọlọ́run	ọlọ́run	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=god
+6	rán	rán	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=sent
+7	ohun	ohun	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=things
+8	tó	tó	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=that
+9	ń	ń	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=that
+10	ṣiṣẹ́	ṣiṣẹ́	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=work
+11	ìsìnà	ìsìnà	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=error
+12	sí	sí	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=to
+13	wọn	wọn	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=them
+14	kí	kí	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=let
+15	wọn	wọn	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=them
+16	lè	lè	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=may
+17	gba	gba	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=receive
+18	èké	èké	X	_	_	0	_	_	Ref=2THESS_2.11|Gloss=false
+19	gbọ́	gbọ́	X	_	_	0	_	_	Ref=2THESS_2.11|SpaceAfter=No|Gloss=heard
+20	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.11|Gloss=,
+
+# sent_id = 2THESS_2.12
+# text = Kí wọn kí ó lè gba ìdálẹ́bi, àní àwọn tí kò gba òtítọ́ gbọ́, ṣùgbọ́n tí wọ́n ní inú-dídùn nínú ìwà-búburú.
+# text_en = That they all might be damned who believed not the truth, but had pleasure in unrighteousness.
+1	Kí	kí	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=let
+2	wọn	wọn	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=them
+3	kí	kí	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=let
+4	ó	ó	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=he
+5	lè	lè	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=may
+6	gba	gba	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=receive
+7	ìdálẹ́bi	ìdálẹ́bi	X	_	_	0	_	_	Ref=2THESS_2.12|SpaceAfter=No
+8	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.12|Gloss=,
+9	àní	àní	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=even
+10	àwọn	àwọn	X	_	_	0	_	_	Ref=2THESS_2.12
+11	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=that
+12	kò	kò	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=not
+13	gba	gba	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=receive
+14	òtítọ́	òtítọ́	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=truth
+15	gbọ́	gbọ́	X	_	_	0	_	_	Ref=2THESS_2.12|SpaceAfter=No|Gloss=heard
+16	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.12|Gloss=,
+17	ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=but
+18	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=that
+19	wọ́n	wọ́n	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=they
+20	ní	ní	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=in
+21	inú	inú	X	_	_	0	_	_	Ref=2THESS_2.12|SpaceAfter=No|Gloss=of
+22	-	-	PUNCT	_	_	0	punct	_	Ref=2THESS_2.12|SpaceAfter=No|Gloss=the
+23	dídùn	dídùn	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=sweet
+24	nínú	nínú	X	_	_	0	_	_	Ref=2THESS_2.12|Gloss=in
+25	ìwà	ìwà	X	_	_	0	_	_	Ref=2THESS_2.12|SpaceAfter=No
+26	-	-	PUNCT	_	_	0	punct	_	Ref=2THESS_2.12|SpaceAfter=No|Gloss=the
+27	búburú	búburú	X	_	_	0	_	_	Ref=2THESS_2.12|SpaceAfter=No|Gloss=evil
+28	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.12|Gloss=.
+
+# sent_id = 2THESS_2.13
+# text = Ṣùgbọ́n, ohun tí ó tọ́ fún wa ni láti máa dúpẹ́ lọ́wọ́ Ọlọ́run nígbà gbogbo nítorí yín, ará olùfẹ́ ní ti Olúwa, nítorí láti ìbẹ̀rẹ̀ ni Ọlọ́run ti yàn yín sí ìgbàlà nípa ìṣọdi-mímọ́ ti Ẹ̀mí àti nípa gbígba òtítọ́ gbọ́.
+# text_en = But we are bound to give thanks alway to God for you, brethren beloved of the Lord, because God hath from the beginning chosen you to salvation through sanctification of the Spirit and belief of the truth:
+1	Ṣùgbọ́n	ṣùgbọ́n	X	_	_	0	_	_	Ref=2THESS_2.13|SpaceAfter=No|Gloss=but
+2	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.13|Gloss=,
+3	ohun	ohun	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=things
+4	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=that
+5	ó	ó	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=he
+6	tọ́	tọ́	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=right
+7	fún	fún	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=unto
+8	wa	wa	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=our
+9	ni	ni	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=is
+10	láti	láti	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=to
+11	máa	máa	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=be
+12	dúpẹ́	dúpẹ́	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=thanks
+13	lọ́wọ́	lọ́wọ́	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=hand
+14	Ọlọ́run	ọlọ́run	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=god
+15	nígbà	nígbà	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=when
+16	gbogbo	gbogbo	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=all
+17	nítorí	nítorí	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=for
+18	yín	yín	X	_	_	0	_	_	Ref=2THESS_2.13|SpaceAfter=No|Gloss=you
+19	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.13|Gloss=,
+20	ará	ará	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=brethren
+21	olùfẹ́	olùfẹ́	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=beloved
+22	ní	ní	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=in
+23	ti	ti	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=have
+24	Olúwa	olúwa	X	_	_	0	_	_	Ref=2THESS_2.13|SpaceAfter=No|Gloss=lord
+25	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.13|Gloss=,
+26	nítorí	nítorí	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=for
+27	láti	láti	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=to
+28	ìbẹ̀rẹ̀	ìbẹ̀rẹ̀	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=beginning
+29	ni	ni	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=is
+30	Ọlọ́run	ọlọ́run	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=god
+31	ti	ti	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=have
+32	yàn	yàn	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=chosen
+33	yín	yín	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=you
+34	sí	sí	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=to
+35	ìgbàlà	ìgbàlà	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=salvation
+36	nípa	nípa	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=by
+37	ìṣọdi	ìṣọdi	X	_	_	0	_	_	Ref=2THESS_2.13|SpaceAfter=No
+38	-	-	PUNCT	_	_	0	punct	_	Ref=2THESS_2.13|SpaceAfter=No
+39	mímọ́	mímọ́	X	_	_	0	_	_	Ref=2THESS_2.13
+40	ti	ti	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=have
+41	Ẹ̀mí	ẹ̀mí	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=spirit
+42	àti	àti	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=and
+43	nípa	nípa	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=by
+44	gbígba	gbígba	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=null
+45	òtítọ́	òtítọ́	X	_	_	0	_	_	Ref=2THESS_2.13|Gloss=truth
+46	gbọ́	gbọ́	X	_	_	0	_	_	Ref=2THESS_2.13|SpaceAfter=No|Gloss=heard
+47	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.13|Gloss=.
+
+# sent_id = 2THESS_2.14
+# text = Òun ti pè yín sí èyí nípa ìyìn rere wa, kí ẹ̀yin kí ó lè pín nínú ògo Jésù Kírísítì Olúwa wa.
+# text_en = Whereunto he called you by our gospel, to the obtaining of the glory of our Lord Jesus Christ.
+1	Òun	òun	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=he
+2	ti	ti	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=have
+3	pè	pè	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=called
+4	yín	yín	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=you
+5	sí	sí	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=to
+6	èyí	èyí	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=this
+7	nípa	nípa	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=by
+8	ìyìn	ìyìn	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=praise
+9	rere	rere	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=good
+10	wa	wa	X	_	_	0	_	_	Ref=2THESS_2.14|SpaceAfter=No|Gloss=our
+11	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.14|Gloss=,
+12	kí	kí	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=let
+13	ẹ̀yin	ẹ̀yin	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=ye
+14	kí	kí	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=let
+15	ó	ó	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=he
+16	lè	lè	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=may
+17	pín	pín	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=divided
+18	nínú	nínú	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=in
+19	ògo	ògo	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=glory
+20	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=2THESS_2.14|Gloss=jesus
+21	Kírísítì	kírísítì	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=christ
+22	Olúwa	olúwa	X	_	_	0	_	_	Ref=2THESS_2.14|Gloss=lord
+23	wa	wa	X	_	_	0	_	_	Ref=2THESS_2.14|SpaceAfter=No|Gloss=our
+24	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.14
+
+# sent_id = 2THESS_2.15
+# text = Nítorí náà ará, ẹ dúró sinsin, kí ẹ sì di àwọn ẹ̀kọ́ wọ̀n-ọn-nì tí a kọ́ yín mú, yálà nípa ọ̀rọ̀ ẹnu tàbí lẹ́tà.
+# text_en = Therefore, brethren, stand fast, and hold the traditions which ye have been taught, whether by word, or our epistle.
+1	Nítorí	nítorí	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=for
+2	náà	náà	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=the
+3	ará	ará	X	_	_	0	_	_	Ref=2THESS_2.15|SpaceAfter=No|Gloss=brethren
+4	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.15|Gloss=,
+5	ẹ	ẹ	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=ye
+6	dúró	dúró	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=stood
+7	sinsin	sinsin	X	_	_	0	_	_	Ref=2THESS_2.15|SpaceAfter=No|Gloss=,
+8	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.15|Gloss=,
+9	kí	kí	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=let
+10	ẹ	ẹ	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=ye
+11	sì	sì	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=and
+12	di	di	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=be
+13	àwọn	àwọn	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=the
+14	ẹ̀kọ́	ẹ̀kọ́	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=doctrine
+15	wọ̀n	wọ̀n	X	_	_	0	_	_	Ref=2THESS_2.15|SpaceAfter=No|Gloss=those
+16	-	-	PUNCT	_	_	0	punct	_	Ref=2THESS_2.15|SpaceAfter=No|Gloss=the
+17	ọn	ọn	X	_	_	0	_	_	Ref=2THESS_2.15|SpaceAfter=No|Gloss=him
+18	-	-	PUNCT	_	_	0	punct	_	Ref=2THESS_2.15|SpaceAfter=No|Gloss=the
+19	nì	nì	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=the
+20	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=that
+21	a	a	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=be
+22	kọ́	kọ́	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=build
+23	yín	yín	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=you
+24	mú	mú	X	_	_	0	_	_	Ref=2THESS_2.15|SpaceAfter=No|Gloss=brought
+25	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.15|Gloss=,
+26	yálà	yálà	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=whether
+27	nípa	nípa	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=by
+28	ọ̀rọ̀	ọ̀rọ̀	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=word
+29	ẹnu	ẹnu	X	_	_	0	_	_	Ref=2THESS_2.15|Gloss=mouth
+30	tàbí	tàbí	X	_	_	0	_	_	Ref=2THESS_2.15
+31	lẹ́tà	lẹ́tà	X	_	_	0	_	_	Ref=2THESS_2.15|SpaceAfter=No|Gloss=letter
+32	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.15|Gloss=.
+
+# sent_id = 2THESS_2.16
+# text = Ǹjẹ́ kí Jésù Kírísítì Olúwa wa tìkalára rẹ̀, àti Ọlọ́run baba wa, ẹni to ti fẹ́ wa, tí ó sì ti fi ìtùnú àìnípẹ̀kun àti ìrètí rere nípa oore-ọ̀fẹ́ fún wa.
+# text_en = Now our Lord Jesus Christ himself, and God, even our Father, which hath loved us, and hath given us everlasting consolation and good hope through grace,
+1	Ǹjẹ́	ǹjẹ́	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=now
+2	kí	kí	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=let
+3	Jésù	Jésù	PROPN	_	_	0	_	_	Ref=2THESS_2.16|Gloss=jesus
+4	Kírísítì	kírísítì	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=christ
+5	Olúwa	olúwa	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=lord
+6	wa	wa	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=our
+7	tìkalára	tìkalára	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=null
+8	rẹ̀	rẹ̀	X	_	_	0	_	_	Ref=2THESS_2.16|SpaceAfter=No|Gloss=his
+9	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.16|Gloss=,
+10	àti	àti	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=and
+11	Ọlọ́run	ọlọ́run	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=god
+12	baba	baba	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=father
+13	wa	wa	X	_	_	0	_	_	Ref=2THESS_2.16|SpaceAfter=No|Gloss=our
+14	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.16|Gloss=,
+15	ẹni	ẹni	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=that
+16	to	to	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=order
+17	ti	ti	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=have
+18	fẹ́	fẹ́	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=would
+19	wa	wa	X	_	_	0	_	_	Ref=2THESS_2.16|SpaceAfter=No|Gloss=our
+20	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.16|Gloss=,
+21	tí	tí	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=that
+22	ó	ó	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=he
+23	sì	sì	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=and
+24	ti	ti	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=have
+25	fi	fi	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=with
+26	ìtùnú	ìtùnú	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=consolation
+27	àìnípẹ̀kun	àìnípẹ̀kun	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=eternal
+28	àti	àti	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=and
+29	ìrètí	ìrètí	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=hope
+30	rere	rere	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=good
+31	nípa	nípa	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=by
+32	oore	oore	X	_	_	0	_	_	Ref=2THESS_2.16|SpaceAfter=No|Gloss=grace
+33	-	-	PUNCT	_	_	0	punct	_	Ref=2THESS_2.16|SpaceAfter=No|Gloss=the
+34	ọ̀fẹ́	ọ̀fẹ́	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=grace
+35	fún	fún	X	_	_	0	_	_	Ref=2THESS_2.16|Gloss=unto
+36	wa	wa	X	_	_	0	_	_	Ref=2THESS_2.16|SpaceAfter=No|Gloss=our
+37	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.16
+
+# sent_id = 2THESS_2.17
+# text = Kí ó mú ọkàn yín le, kí ó sì kún yín pẹ̀lú agbára nínú iṣẹ́ gbogbo àti ọ̀rọ̀ rere gbogbo.
+# text_en = Comfort your hearts, and stablish you in every good word and work.
+1	Kí	kí	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=let
+2	ó	ó	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=he
+3	mú	mú	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=brought
+4	ọkàn	ọkàn	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=heart
+5	yín	yín	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=you
+6	le	le	X	_	_	0	_	_	Ref=2THESS_2.17|SpaceAfter=No|Gloss=may
+7	,	,	PUNCT	_	_	0	punct	_	Ref=2THESS_2.17|Gloss=,
+8	kí	kí	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=let
+9	ó	ó	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=he
+10	sì	sì	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=and
+11	kún	kún	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=full
+12	yín	yín	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=you
+13	pẹ̀lú	pẹ̀lú	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=with
+14	agbára	agbára	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=power
+15	nínú	nínú	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=in
+16	iṣẹ́	iṣẹ́	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=work
+17	gbogbo	gbogbo	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=all
+18	àti	àti	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=and
+19	ọ̀rọ̀	ọ̀rọ̀	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=word
+20	rere	rere	X	_	_	0	_	_	Ref=2THESS_2.17|Gloss=good
+21	gbogbo	gbogbo	X	_	_	0	_	_	Ref=2THESS_2.17|SpaceAfter=No|Gloss=all
+22	.	.	PUNCT	_	_	0	punct	_	Ref=2THESS_2.17|Gloss=.
+
