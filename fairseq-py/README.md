@@ -30,6 +30,14 @@ preprocess.py --source-lang ew --target-lang fr --trainpref train.bpe --validpre
 
 ## Train the model with conv architecture good for low resources
 
-python3 train.py data-bin/   --lr 0.25 --clip-norm 0.1 --dropout 0.2 --max-tokens 3000   --arch fconv_wmt_en_ro --save-dir checkpoints/ 
+python3 train.py data-bin/ --arch fconv_iwslt_de_en     --optimizer adam     --lr 0.0005     --clip-norm 0.1     --dropout 0.3     --max-tokens 4000     --lr-scheduler reduce_lr_on_plateau     --lr-shrink 0.5     --criterion label_smoothed_cross_entropy     --label-smoothing 0.1     --max-epoch 20     --save-dir checkpoints/  --log-format json     --log-interval 10     --seed 42  --encoder-embed-dim 256  --encoder-layers 4     --decoder-embed-dim 256         --decoder-layers 4     --batch-size 32 --adam-betas "(0.9, 0.98)"
 
-i had be inspired on this link: https://github.com/wengong-jin/fairseq-py
+
+
+## Generate translation
+python3 generate.py data-bin/ --path checkpoints/checkpoint_best.pt --batch-size 128 --beam 5 --remove-bpe
+
+i resolve issue ofconv_tbc like: return torch.conv_tbc(input.contiguous(), self.weight, self.bias, self.padding[0]) link help: https://github.com/EdinburghNLP/XSum/issues/11
+
+i had be inspired on this link: https://github.com/wengong-jin/fairseq-py and https://github.com/sliedes/fairseq-py
+
