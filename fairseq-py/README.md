@@ -33,7 +33,7 @@ preprocess.py --source-lang ew --target-lang fr --trainpref train.bpe --validpre
 python3 train.py data-bin/   --lr 0.25 --clip-norm 0.1 --dropout 0.2 --max-tokens 3000   --arch fconv_wmt_en_ro --save-dir checkpoints/ 
 
 ## Generate translation
-python3 generate.py data-bin/ --path checkpoints/checkpoint_best.pt
+python3 generate.py data-bin/ --path checkpoints/checkpoint_best.pt --batch-size 128 --beam 5 --remove-bpe
 
 i resolve issue ofconv_tbc like: return torch.conv_tbc(input.contiguous(), self.weight, self.bias, self.padding[0]) link help: https://github.com/EdinburghNLP/XSum/issues/11
 
