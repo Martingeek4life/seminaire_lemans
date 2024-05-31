@@ -5,13 +5,15 @@ import chardet
 import numpy as np
 from scipy.spatial import distance
 import gensim.downloader as api
-from gensim.models import KeyedVectors
+from gensim.models import KeyedVectors, FastText
 import shutil
 from huggingface_hub import hf_hub_download
+import fasttext
 
 model_pretrained_it = KeyedVectors.load_word2vec_format(hf_hub_download(repo_id="Word2vec/wikipedia2vec_itwiki_20180420_300d", filename="itwiki_20180420_300d.txt"))
 model_pretrained_en = KeyedVectors.load_word2vec_format(hf_hub_download(repo_id="Word2vec/wikipedia2vec_enwiki_20180420_300d", filename="enwiki_20180420_300d.txt"))
 model_pretrained_fr = KeyedVectors.load_word2vec_format(hf_hub_download(repo_id="Word2vec/wikipedia2vec_frwiki_20180420_300d", filename="frwiki_20180420_300d.txt"))
+model_pretrained_yo = FastText.load_fasttext_format('cc.yo.300.bin')
 
 def bool_flag(s):
     """
@@ -236,6 +238,8 @@ if __name__ == "__main__":
             model_pretrained_target = model_pretrained_en
         elif args.pretrained_lang_target == "fr":
             model_pretrained_target = model_pretrained_fr
+        elif args.pretrained_lang_target == "yo":
+            model_pretrained_target = model_pretrained_yo
         else:
             model_pretrained_target = model_pretrained_it
         generate_pretrained_w2v_it_en([], words_target, model_pretrained_fr, model_pretrained_target)
