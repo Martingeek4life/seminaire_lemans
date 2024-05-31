@@ -44,7 +44,10 @@ class FConvModel(FairseqModel):
                             help='share input and output embeddings (requires'
                                  ' --decoder-out-embed-dim and --decoder-embed-dim'
                                  ' to be equal)')
-
+        parser.add_argument('--encoder-embed-path', type=str, metavar='STR',
+                            help='path to pre-trained source embeddings')
+        parser.add_argument('--decoder-embed-path', type=str, metavar='STR',
+                            help='path to pre-trained target embeddings')
     @classmethod
     def build_model(cls, args, src_dict, dst_dict):
         """Build a new model instance."""
@@ -54,6 +57,7 @@ class FConvModel(FairseqModel):
             convolutions=eval(args.encoder_layers),
             dropout=args.dropout,
             max_positions=args.max_source_positions,
+            embed_path=args.encoder_embed_path
         )
         decoder = FConvDecoder(
             dst_dict,
@@ -63,7 +67,8 @@ class FConvModel(FairseqModel):
             attention=eval(args.decoder_attention),
             dropout=args.dropout,
             max_positions=args.max_target_positions,
-            share_embed=args.share_input_output_embed
+            share_embed=args.share_input_output_embed,
+            embed_path=args.decoder_embed_path
         )
         return FConvModel(encoder, decoder)
 
