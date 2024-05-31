@@ -229,7 +229,7 @@ if __name__ == "__main__":
 
     elif not args.rich_lang_source and args.rich_lang_target:
         
-        generate_word_embeddings(clean_corpus_source_path, source_output_path)
+        # generate_word_embeddings(clean_corpus_source_path, source_output_path)
         words_target = get_W2V_words_from_corpus(clean_corpus_target_path)
 
         if(args.pretrained_lang_target == "en"):
