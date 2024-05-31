@@ -96,7 +96,8 @@ def generate_pretrained_w2v_it_en(words_source, words_target, model_pretrained_s
             f_out.write(f"{len(words_target)} 300\n")
             for word_en in words_target:
                 try:
-                    embedding = model_pretrained_target[word_en]
+                    # embedding = model_pretrained_target[word_en]
+                    embedding = model_pretrained_target.wv[word_en]
                     f_out.write(f"{word_en} {' '.join(map(str, embedding))}\n")
                 except KeyError:
                     # Si le mot n'existe pas dans le modèle, passez simplement à l'itération suivante
