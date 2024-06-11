@@ -45,7 +45,7 @@ def plot_with_labels(low_dim_embs, labels, filename):
     plt.close()
 
 # Cette fonction calcule et retourne les voisins d'un mot donné et les distances entre ce mot et ses différents voisins
-def search_Word_Nearest_Neighbors_embedding(embeddings, word_list, distance, k=101, start=200, nb_words=210):
+def search_Word_Nearest_Neighbors_embedding(embeddings, word_list, distance, k, start=200, nb_words=210):
     distances = pairwise_distances(embeddings, metric=distance)
     neighbors_algorithm = NearestNeighbors(n_neighbors=k, metric='precomputed', algorithm='brute')
     neighbors_algorithm.fit(distances)
