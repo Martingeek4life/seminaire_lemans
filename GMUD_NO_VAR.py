@@ -8,6 +8,7 @@ from sklearn.manifold import TSNE
 import networkx as nx
 import matplotlib.pyplot as plt
 
+
 # Cette fonction charge les embeddings de mots à partir d'un fichier, les stocke dans un format approprié et renvoie à la fois les embeddings et les mots associés.
 def reshap_embedding(word_embedding, word_dim):
     en_model = KeyedVectors.load_word2vec_format(word_embedding)
@@ -282,6 +283,7 @@ if __name__ == "__main__":
     print("embedding_after: ", embeddings_after.shape[0])
     Graph_for_word_embedding_neighbor(word_data_for_graph_after, word_data_for_graph_test_after, before="after")
 
+    
     fichier_sortie_apres = 'analyse_voisins_apres.txt'
     with open(fichier_sortie_apres, 'w') as file:
         for graph_data in word_data_for_graph_after:
