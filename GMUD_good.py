@@ -9,20 +9,19 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # Cette fonction charge les embeddings de mots à partir d'un fichier, les stocke dans un format approprié et renvoie à la fois les embeddings et les mots associés.
-def reshap_embedding(word_embedding, word_dim, limit):
+def reshap_embedding(word_embedding, word_dim):
     en_model = KeyedVectors.load_word2vec_format(word_embedding)
 
     # Getting tokens and vectors
     words = []
     embeddings = []
-    i = 0
-    for word in en_model.key_to_index:  # Iterate over keys using key_to_index
-        if i == limit:
-            break
+    
+    # Itérer sur tous les mots dans le modèle
+    for word in en_model.key_to_index:
         words.append(word)
         embeddings.append(en_model.get_vector(word))
-        i += 1
 
+    # Convertir la liste d'embeddings en tableau numpy
     embeddings = np.array(embeddings)
     return embeddings, words
 
@@ -253,8 +252,8 @@ if __name__ == "__main__":
 
     print("Calcul de la déformation moyenne GMUD")
 
-    embeddings_before, words_before = reshap_embedding(args.embeddings_before, 300, 500)
-    embeddings_after, words_after = reshap_embedding(args.embeddings_after, 300, 500)
+    embeddings_before, words_before = reshap_embedding(args.embeddings_before, 300)
+    embeddings_after, words_after = reshap_embedding(args.embeddings_after, 300)
 
     tsne = TSNE(perplexity=50, n_components=2, init='pca', n_iter=5000)
     low_dim_embedding_before = tsne.fit_transform(embeddings_before)
