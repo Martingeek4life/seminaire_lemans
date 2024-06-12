@@ -9,6 +9,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from sklearn.metrics.pairwise import cosine_similarity
 
+
 def calculate_cosine_similarity(vec1, vec2):
     # Reshape vectors to 2D if necessary
     if len(vec1.shape) == 1:
