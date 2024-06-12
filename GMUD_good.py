@@ -8,6 +8,14 @@ from sklearn.manifold import TSNE
 import networkx as nx
 import matplotlib.pyplot as plt
 
+def calculate_cosine_similarity(vec1, vec2):
+    # Reshape vectors to 2D if necessary
+    if len(vec1.shape) == 1:
+        vec1 = vec1.reshape(1, -1)
+    if len(vec2.shape) == 1:
+        vec2 = vec2.reshape(1, -1)
+    return cosine_similarity(vec1, vec2)[0][0]
+
 # Cette fonction charge les embeddings de mots à partir d'un fichier, les stocke dans un format approprié et renvoie à la fois les embeddings et les mots associés.
 def reshap_embedding(word_embedding, word_dim):
     en_model = KeyedVectors.load_word2vec_format(word_embedding)
@@ -140,18 +148,19 @@ def Ten_nearest_neighbor(central_word, word_data_for_graph):
             }
             return Ten_nearest
 
-def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_data_for_graph_after):
-    dict_liste_before = {element['word']: element for element in word_data_for_graph_before}
-    dict_liste_after = {element['word']: element for element in word_data_for_graph_after}
+def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_data_for_graph_after, embeddings_before, embeddings_after, word_list):
+    word_to_index = {word: idx for idx, word in enumerate(word_list)}
 
     common_neighbors = []
     lost_neighbors = []
     appeared_neighbors = []
     j = 0
-    for mot in dict_liste_before.keys() & dict_liste_after.keys():
-        element_liste_before = dict_liste_before[mot]
-        element_liste_after = dict_liste_after[mot]
 
+    for mot in word_to_index.keys() & word_to_index.keys():
+        element_liste_before = next(item for item in word_data_for_graph_before if item['word'] == mot)
+        element_liste_after = next(item for item in word_data_for_graph_after if item['word'] == mot)
+
+        # Voisins communs
         voisins_communs = set(element_liste_before['neighbors']) & set(element_liste_after['neighbors'])
         before_distance = neighbor_distances_extraction(mot, list(voisins_communs), word_data_for_graph_before)
         after_distance = neighbor_distances_extraction(mot, list(voisins_communs), word_data_for_graph_after)
@@ -164,26 +173,40 @@ def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_d
         }
         common_neighbors.append(noeud_constant)
 
+        # Voisins perdus
         voisins_absents = set(element_liste_before['neighbors']) - set(element_liste_after['neighbors'])
-        lost_distances = neighbor_distances_extraction(mot, list(voisins_absents), word_data_for_graph_before)
+        lost_distances_before = neighbor_distances_extraction(mot, list(voisins_absents), word_data_for_graph_before)
+        lost_distances_after = []
+        for neighbor in voisins_absents:
+            distance_after = 1 - calculate_cosine_similarity(embeddings_after[word_to_index[mot]], embeddings_after[word_to_index[neighbor]])
+            lost_distances_after.append(distance_after)
+        
         noeud_abscent = {
             'word': mot,
             'lost_neighbors': list(voisins_absents),
-            'lost_distances': lost_distances
+            'lost_distances_before': lost_distances_before,
+            'lost_distances_after': lost_distances_after
         }
         lost_neighbors.append(noeud_abscent)
 
+        # Voisins apparus
         voisins_apparut = set(element_liste_after['neighbors']) - set(element_liste_before['neighbors'])
-        appeared_distances = neighbor_distances_extraction(mot, list(voisins_apparut), word_data_for_graph_after)
+        appeared_distances_after = neighbor_distances_extraction(mot, list(voisins_apparut), word_data_for_graph_after)
+        appeared_distances_before = []
+        for neighbor in voisins_apparut:
+            distance_before = 1 - calculate_cosine_similarity(embeddings_after[word_to_index[mot]], embeddings_before[word_to_index[neighbor]])
+            appeared_distances_before.append(distance_before)
+        
         noeud_apparut = {
             'word': mot,
             'appeared_neighbors': list(voisins_apparut),
-            'appeared_distances': appeared_distances
+            'appeared_distances_before': appeared_distances_before,
+            'appeared_distances_after': appeared_distances_after
         }
         appeared_neighbors.append(noeud_apparut)
 
         if 200 < j <= 210:
-            print("les voisins conservés, apparut et disparrut du mots  \n", mot)
+            print("les voisins conservés, apparut et disparrut du mot  \n", mot)
             print("mots voisins conservés après le plongement multilingue: \n", noeud_constant)
             print("mots voisins perdus apres le plongement multilingue: \n", noeud_abscent)
             print("mots voisins apparut après le plongement multilingue: \n", noeud_apparut)
@@ -191,22 +214,35 @@ def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_d
 
     return common_neighbors, lost_neighbors, appeared_neighbors
 
+
 def mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, beta1, beta2, beta3):
     D = []
     somme = 0
     V_p = 0
     V_d = 0
     Apres_avant = 0
+
     for i in range(len(common_neighbors)):
         common_i = 0
         lost_i = 0
         appeared_i = 0
         D_i = 0
+
+        # Calculer les différences pour les voisins communs
         for j in range(len(common_neighbors[i]['common_neighbors'])):
             common_i += beta1 * (common_neighbors[i]['after_PM_distances'][j] - common_neighbors[i]['before_PM_distances'][j])
 
-        lost_i += beta2 * len(lost_neighbors[i]['lost_neighbors'])
-        appeared_i += beta3 * len(appeared_neighbors[i]['appeared_neighbors'])
+        # Calculer les différences pour les voisins perdus
+        for j in range(len(lost_neighbors[i]['lost_neighbors'])):
+            distance_before = lost_neighbors[i]['lost_distances_before'][j]
+            distance_after = lost_neighbors[i]['lost_distances_after'][j]
+            lost_i += beta2 * (distance_after - distance_before)
+
+        # Calculer les différences pour les voisins apparus
+        for j in range(len(appeared_neighbors[i]['appeared_neighbors'])):
+            distance_before = appeared_neighbors[i]['appeared_distances_before'][j]
+            distance_after = appeared_neighbors[i]['appeared_distances_after'][j]
+            appeared_i += beta3 * (distance_after - distance_before)
 
         D_i = common_i + lost_i + appeared_i
         V_p += appeared_i
@@ -214,7 +250,7 @@ def mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, beta1, beta2
         Apres_avant += common_i
         somme += D_i
         D.append(D_i)
-    
+
     deviation_euclidian_GMUD = np.std(D)
     moy = somme / len(common_neighbors)
     print("la somme euclidian_GMUD est: \n", somme)
@@ -252,22 +288,27 @@ if __name__ == "__main__":
 
     print("Calcul de la déformation moyenne GMUD")
 
+    # Charger les embeddings avant et après
     embeddings_before, words_before = reshap_embedding(args.embeddings_before, 300)
     embeddings_after, words_after = reshap_embedding(args.embeddings_after, 300)
 
+    # Créer la visualisation TSNE pour les embeddings avant
     tsne = TSNE(perplexity=50, n_components=2, init='pca', n_iter=5000)
     low_dim_embedding_before = tsne.fit_transform(embeddings_before)
     filename_target_visualisation_before = 'language_words_embeddings_before_PM'
     plot_with_labels(low_dim_embedding_before, words_before, filename_target_visualisation_before)
 
+    # Créer la visualisation TSNE pour les embeddings après
     low_dim_embedding_after = tsne.fit_transform(embeddings_after)
     filename_target_visualisation_after = 'language_words_embeddings_after_PM'
     plot_with_labels(low_dim_embedding_after, words_after, filename_target_visualisation_after)
+
+    # Trouver les voisins les plus proches avant le processus
     word_data_for_graph_before, word_data_for_graph_test_before = search_Word_Nearest_Neighbors_embedding(embeddings_before, words_before, args.distance_metric, args.nb_neighbors)
-    print("--------------------- visualisation of Graph for language words embeddings neighbors before PM -------------------------\n")
-    print("embedding_before: ", embeddings_before.shape[0])
+    print("--------------------- Visualisation of Graph for language words embeddings neighbors before PM -------------------------\n")
     Graph_for_word_embedding_neighbor(word_data_for_graph_before, word_data_for_graph_test_before, before="before")
 
+    # Sauvegarder l'analyse des voisins avant le processus
     fichier_sortie_avant = 'analyse_voisins_avant.txt'
     with open(fichier_sortie_avant, 'w') as file:
         for graph_data in word_data_for_graph_before:
@@ -277,11 +318,13 @@ if __name__ == "__main__":
             voisins = " ".join(voisin for voisin in nearest_before['neighbor'])
             distances = " ".join(str(distance) for distance in nearest_before['distances'])
             file.write(f'mot central: {central_word}, voisins_proches: {voisins}, distances: {distances}\n')
+
+    # Trouver les voisins les plus proches après le processus
     word_data_for_graph_after, word_data_for_graph_test_after = search_Word_Nearest_Neighbors_embedding(embeddings_after, words_after, args.distance_metric, args.nb_neighbors)
-    print("--------------------- visualisation of Graph for language words embeddings neighbors  after PM-------------------------\n")
-    print("embedding_after: ", embeddings_after.shape[0])
+    print("--------------------- Visualisation of Graph for language words embeddings neighbors after PM -------------------------\n")
     Graph_for_word_embedding_neighbor(word_data_for_graph_after, word_data_for_graph_test_after, before="after")
 
+    # Sauvegarder l'analyse des voisins après le processus
     fichier_sortie_apres = 'analyse_voisins_apres.txt'
     with open(fichier_sortie_apres, 'w') as file:
         for graph_data in word_data_for_graph_after:
@@ -292,10 +335,15 @@ if __name__ == "__main__":
             distances = " ".join(str(distance) for distance in nearest_after['distances'])
             file.write(f'mot central: {central_word}, voisins_proches: {voisins}, distances: {distances}\n')
 
-    common_neighbors, lost_neighbors, appeared_neighbors = common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_data_for_graph_after)
+    # Extraire les voisins communs, perdus et apparus
+    common_neighbors, lost_neighbors, appeared_neighbors = common_lost_appeared_neighbors_extraction(
+        word_data_for_graph_before, word_data_for_graph_after, embeddings_before, embeddings_after, words_before)
 
-    deviation_euclidian_GMUD, sum_GMUD, mean, Tab_deformations, list_mots, V_p, V_d, Apres_avant = mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, args.beta1, args.beta2, args.beta3)
+    # Calculer la déformation moyenne GMUD
+    deviation_euclidian_GMUD, sum_GMUD, mean, Tab_deformations, list_mots, V_p, V_d, Apres_avant = mean_GMUD(
+        common_neighbors, lost_neighbors, appeared_neighbors, args.beta1, args.beta2, args.beta3)
 
+    # Analyser et sauvegarder les résultats
     Analyse(Tab_deformations, list_mots, mean, sum_GMUD, deviation_euclidian_GMUD, V_p, V_d, Apres_avant)
 
     print("La déformation moyenne avec la métrique GMUD est de:", mean)
