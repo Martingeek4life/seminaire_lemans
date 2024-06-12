@@ -301,3 +301,6 @@ if __name__ == "__main__":
     print("La déformation moyenne avec la métrique GMUD est de:", mean)
     print("La somme des déformations avec la métrique GMUD est de:", sum_GMUD)
     print("L'écart-type de la déformation avec la métrique GMUD est de:", deviation_euclidian_GMUD)
+    print("nb voisins apparus", len(appeared_neighbors))
+    print("nb voisins disparus", len(lost_neighbors))
+    print("nb voisins conservés", len(common_neighbors))
