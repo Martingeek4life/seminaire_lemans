@@ -278,7 +278,7 @@ def mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, beta1, beta2
 
         lost_i = lost_i + beta2*len(lost_neighbors[i]['lost_neighbors'])
         
-        appeared_i = lost_i + beta3*len(appeared_neighbors[i]['appeared_neighbors'])
+        appeared_i = appeared_i + beta3*len(appeared_neighbors[i]['appeared_neighbors'])
 
         D_i = common_i + lost_i + appeared_i
         V_p = V_p + appeared_i
