@@ -264,9 +264,9 @@ if __name__ == "__main__":
     low_dim_embedding_after = tsne.fit_transform(embeddings_after)
     filename_target_visualisation_after = 'language_words_embeddings_after_PM'
     plot_with_labels(low_dim_embedding_after, words_after, filename_target_visualisation_after)
-    print("embedding_before: ", embeddings_before.shape[0])
     word_data_for_graph_before, word_data_for_graph_test_before = search_Word_Nearest_Neighbors_embedding(embeddings_before, words_before, args.distance_metric, args.nb_neighbors)
     print("--------------------- visualisation of Graph for language words embeddings neighbors before PM -------------------------\n")
+    print("embedding_before: ", embeddings_before.shape[0])
     Graph_for_word_embedding_neighbor(word_data_for_graph_before, word_data_for_graph_test_before, before="before")
 
     fichier_sortie_avant = 'analyse_voisins_avant.txt'
@@ -278,9 +278,9 @@ if __name__ == "__main__":
             voisins = " ".join(voisin for voisin in nearest_before['neighbor'])
             distances = " ".join(str(distance) for distance in nearest_before['distances'])
             file.write(f'mot central: {central_word}, voisins_proches: {voisins}, distances: {distances}\n')
-    print("embedding_after: ", embeddings_after.shape[0])
     word_data_for_graph_after, word_data_for_graph_test_after = search_Word_Nearest_Neighbors_embedding(embeddings_after, words_after, args.distance_metric, args.nb_neighbors)
     print("--------------------- visualisation of Graph for language words embeddings neighbors  after PM-------------------------\n")
+    print("embedding_after: ", embeddings_after.shape[0])
     Graph_for_word_embedding_neighbor(word_data_for_graph_after, word_data_for_graph_test_after, before="after")
 
     fichier_sortie_apres = 'analyse_voisins_apres.txt'
