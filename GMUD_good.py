@@ -195,7 +195,7 @@ def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_d
         appeared_distances_after = neighbor_distances_extraction(mot, list(voisins_apparut), word_data_for_graph_after)
         appeared_distances_before = []
         for neighbor in voisins_apparut:
-            distance_before = 1 - calculate_cosine_similarity(embeddings_after[word_to_index[mot]], embeddings_before[word_to_index[neighbor]])
+            distance_before = 1 - calculate_cosine_similarity(embeddings_before[word_to_index[mot]], embeddings_before[word_to_index[neighbor]])
             appeared_distances_before.append(distance_before)
         
         noeud_apparut = {
