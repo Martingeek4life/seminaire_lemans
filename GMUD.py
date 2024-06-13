@@ -389,6 +389,8 @@ if __name__ == "__main__":
             distances = " ".join(str(distance) for distance in nearest_after['distances'])
             file.write(f'mot central: {central_word}, voisins_proches: {voisins}, distances: {distances}\n')
     # Extraire les voisins communs, perdus et apparus
+
+    print("--------------------  Extraire les voisins communs, perdus et apparus ---------------------------")
     common_neighbors, lost_neighbors, appeared_neighbors = common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_data_for_graph_after)
 
     # Calculer la déformation moyenne GMUD
