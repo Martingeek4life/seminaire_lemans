@@ -13,32 +13,20 @@ import os
 
 # cette fonction charge les embeddings de mots à partir d'un fichier, les stocke dans un format approprié et renvoie à la fois les embeddings et les mots associés.
 
-def reshap_embedding(word_embedding, word_dim, limit):
+def reshap_embedding(word_embedding, word_dim):
     en_model = KeyedVectors.load_word2vec_format(word_embedding)
-
-    # Limit number of tokens to be visualized
-    limit = len(en_model.key_to_index) 
-    vector_dim = 300
 
     # Getting tokens and vectors
     words = []
-    embeddings = np.array([])
-    i = 0
-    for word in en_model.key_to_index:  # Iterate over keys using key_to_index
-        # Break the loop if limit exceeds 
-        if i == limit: 
-            break
-
-        # Getting token 
+    embeddings = []
+    
+    # Itérer sur tous les mots dans le modèle
+    for word in en_model.key_to_index:
         words.append(word)
+        embeddings.append(en_model.get_vector(word))
 
-        # Appending the vectors 
-        embeddings = np.append(embeddings, en_model.get_vector(word))  # Use get_vector method
-
-        i += 1
-
-    # Reshaping the embedding vector 
-    embeddings = embeddings.reshape(limit, vector_dim)
+    # Convertir la liste d'embeddings en tableau numpy
+    embeddings = np.array(embeddings)
     return embeddings, words
 
 
@@ -267,7 +255,7 @@ def mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, beta1, beta2
     somme = 0
     V_p = 0
     V_d = 0
-    Apres_avant = 0
+    v_c = 0
     for i in range(0, len(common_neighbors)):
         common_i = 0
         lost_i = 0
@@ -283,7 +271,7 @@ def mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, beta1, beta2
         D_i = common_i + lost_i + appeared_i
         V_p = V_p + appeared_i
         V_d = V_d + lost_i
-        Apres_avant = Apres_avant + common_i
+        v_c = v_c + common_i
         somme = somme + D_i
         D.append(D_i)
     # Calcul de l'écart type
@@ -293,7 +281,7 @@ def mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, beta1, beta2
     print("la moyenne euclidian_GMUD est: \n", moy)
     print("L'écart type  euclidian_GMUD est: \n", deviation_euclidian_GMUD)
 
-    return deviation_euclidian_GMUD, somme, moy, D, common_neighbors, V_p, V_d, Apres_avant
+    return deviation_euclidian_GMUD, somme, moy, D, common_neighbors, V_p, V_d, v_c
 
 # cette fonction ecrit les resultats(deformations, moyenne, la metric_distance, chaque mot avec sa deformations) dans un fichier pour analyse
 
@@ -339,14 +327,14 @@ if __name__ == "__main__":
 
 
     """     if args.lang == "source":
-        embeddings_before, words_before = reshap_embedding(source_output_path+ext, 300, 500)
-        embeddings_after, words_after = reshap_embedding(source_cross_path, 300, 500)
+        embeddings_before, words_before = reshap_embedding(source_output_path+ext, 300)
+        embeddings_after, words_after = reshap_embedding(source_cross_path, 300)
     else:
-        embeddings_before, words_before = reshap_embedding(target_output_path+ext, 300, 500)
-        embeddings_after, words_after = reshap_embedding(target_cross_path , 300, 500) """
+        embeddings_before, words_before = reshap_embedding(target_output_path+ext, 300)
+        embeddings_after, words_after = reshap_embedding(target_cross_path , 300) """
 
-    embeddings_before, words_before = reshap_embedding(args.embeddings_before, 300, 500)
-    embeddings_after, words_after = reshap_embedding(args.embeddings_after, 300, 500)
+    embeddings_before, words_before = reshap_embedding(args.embeddings_before, 300)
+    embeddings_after, words_after = reshap_embedding(args.embeddings_after, 300)
 
     # Creating the tsne plot [Warning: will take time]
     tsne = TSNE(perplexity=50, n_components=2, init='pca', n_iter=5000)
