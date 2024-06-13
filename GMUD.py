@@ -214,6 +214,7 @@ def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_d
         voisins_absents = set(element_liste_before['neighbors']) - set(element_liste_after['neighbors'])
 
         lost_distances = neighbor_distances_extraction(mot, list(voisins_absents), word_data_for_graph_before)
+        prin("nombre de voisins disparut du mot: ", len(list(voisins_absents))
         # Créez un dictionnaire pour le résultat
         noeud_abscent = {
             'word': mot,
@@ -225,7 +226,7 @@ def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_d
     # je Trouve les voisins absents avant le PM et apparut Apres le PM
         voisins_apparut = set(element_liste_after['neighbors']) - set(element_liste_before['neighbors']) 
         appeared_distances = neighbor_distances_extraction(mot, list(voisins_apparut), word_data_for_graph_after)
-
+        prin("nombre de voisins apparut du mot: ", len(list(voisins_apparut))
         # Créez un dictionnaire pour le résultat
         noeud_apparut = {
             'word': mot,
