@@ -195,7 +195,7 @@ def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_d
 
         # je Trouve les voisins communs avec leurs distances
         voisins_communs = set(element_liste_before['neighbors']) & set(element_liste_after['neighbors'])
-
+        print("nb voisins communs du mot: ", len(voisins_communs))
         # pour ces mots voisins communs j'extrait chacune de leurs distances avant et apres le plongement multilingue
         before_distance = neighbor_distances_extraction(mot, list(voisins_communs), word_data_for_graph_before)
         after_distance = neighbor_distances_extraction(mot, list(voisins_communs), word_data_for_graph_after)
