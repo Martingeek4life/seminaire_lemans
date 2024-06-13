@@ -274,6 +274,10 @@ def mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, beta1, beta2
         v_c = v_c + common_i
         somme = somme + D_i
         D.append(D_i)
+        
+        print(f"Word {i}: Common_i = {common_i}, Lost_i = {lost_i}, Appeared_i = {appeared_i}")
+        print(f"Word {i}: V_p = {V_p}, V_d = {V_d}, v_c = {v_c}")
+        
     # Calcul de l'écart type
     deviation_euclidian_GMUD = np.std(D)
     moy = somme/len(common_neighbors)
