@@ -242,7 +242,11 @@ def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_d
             print("mots voisins perdus apres le plongement multilingue: \n", noeud_abscent)
             print("mots voisins apparut après le plongement multilingue: \n", noeud_apparut)
         j = j + 1
-
+        with open("log_common_lost_appear.txt", 'w') as file:
+            file.write(f'-------------------------------- analyse de la taille des lots, common, appear ------------------------------ \n')
+            file.write(f'nb voisins communs du mot: {len(voisins_communs)}\n')
+            file.write(f'nb voisins apparut du mot: {len(voisins_apparut)}\n')
+            file.write(f'nb voisins disparut du mot: {len(voisins_absents)}\n')
 
     return common_neighbors, lost_neighbors, appeared_neighbors
 
