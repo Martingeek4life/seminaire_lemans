@@ -189,67 +189,73 @@ def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_d
     appeared_neighbors = []
     j = 0
     # je Parcours les éléments de même rang i des deux listes
-    for mot in dict_liste_before.keys() & dict_liste_after.keys():
-        element_liste_before = dict_liste_before[mot]
-        element_liste_after = dict_liste_after[mot]
-
-        # je Trouve les voisins communs avec leurs distances
-        voisins_communs = set(element_liste_before['neighbors']) & set(element_liste_after['neighbors'])
-        print("nb voisins communs du mot: ", len(voisins_communs))
-        print("voisins communs du mot: ", voisins_communs)
-        # pour ces mots voisins communs j'extrait chacune de leurs distances avant et apres le plongement multilingue
-        before_distance = neighbor_distances_extraction(mot, list(voisins_communs), word_data_for_graph_before)
-        after_distance = neighbor_distances_extraction(mot, list(voisins_communs), word_data_for_graph_after)
-
-        # Créez un dictionnaire pour le résultat
-        noeud_constant = {
-            'word': mot,
-            'common_neighbors': list(voisins_communs),
-            'before_PM_distances': before_distance,
-            'after_PM_distances': after_distance,
-        }
-
-        common_neighbors.append(noeud_constant)
-
-    # je Trouve les voisins présents dans avant le PM et absents dans Apres le PM
-        voisins_absents = set(element_liste_before['neighbors']) - set(element_liste_after['neighbors'])
-
-        lost_distances = neighbor_distances_extraction(mot, list(voisins_absents), word_data_for_graph_before)
-        print("nombre de voisins disparut du mot: ", len(voisins_absents))
-        print("voisins disparut du mot: ", voisins_absents)
-        # Créez un dictionnaire pour le résultat
-        noeud_abscent = {
-            'word': mot,
-            'lost_neighbors': list(voisins_absents),
-            'lost_distances': lost_distances
-        }
-        lost_neighbors.append(noeud_abscent)
-
-    # je Trouve les voisins absents avant le PM et apparut Apres le PM
-        voisins_apparut = set(element_liste_after['neighbors']) - set(element_liste_before['neighbors']) 
-        appeared_distances = neighbor_distances_extraction(mot, list(voisins_apparut), word_data_for_graph_after)
-        print("nombre de voisins apparut du mot: ", len(voisins_apparut))
-        print("voisins apparut du mot: ", voisins_apparut)
-        # Créez un dictionnaire pour le résultat
-        noeud_apparut = {
-            'word': mot,
-            'appeared_neighbors': list(voisins_apparut),
-            'appeared_distances': appeared_distances
-        }
-        appeared_neighbors.append(noeud_apparut)
-
-        # j'affiche les voisins communs, abscents et apparut des 10 mots situé entre le 200 ieme et le 210 ieme
-        if 200 < j <= 210:
-            print("les voisins conservés, apparut et disparrut du mots  \n", mot)
-            print("mots voisins conservés après le plongement multilingue: \n", noeud_constant)
-            print("mots voisins perdus apres le plongement multilingue: \n", noeud_abscent)
-            print("mots voisins apparut après le plongement multilingue: \n", noeud_apparut)
-        j = j + 1
-        with open("log_common_lost_appear.txt", 'w') as file:
+    with open("log_common_lost_appear.txt", 'w') as file:
+        for mot in dict_liste_before.keys() & dict_liste_after.keys():
+            element_liste_before = dict_liste_before[mot]
+            element_liste_after = dict_liste_after[mot]
+    
+            # je Trouve les voisins communs avec leurs distances
+            voisins_communs = set(element_liste_before['neighbors']) & set(element_liste_after['neighbors'])
+            print("nb voisins communs du mot: ", len(voisins_communs))
+            print("voisins communs du mot: ", voisins_communs)
+            # pour ces mots voisins communs j'extrait chacune de leurs distances avant et apres le plongement multilingue
+            before_distance = neighbor_distances_extraction(mot, list(voisins_communs), word_data_for_graph_before)
+            after_distance = neighbor_distances_extraction(mot, list(voisins_communs), word_data_for_graph_after)
+    
+            # Créez un dictionnaire pour le résultat
+            noeud_constant = {
+                'word': mot,
+                'common_neighbors': list(voisins_communs),
+                'before_PM_distances': before_distance,
+                'after_PM_distances': after_distance,
+            }
+    
+            common_neighbors.append(noeud_constant)
+    
+        # je Trouve les voisins présents dans avant le PM et absents dans Apres le PM
+            voisins_absents = set(element_liste_before['neighbors']) - set(element_liste_after['neighbors'])
+    
+            lost_distances = neighbor_distances_extraction(mot, list(voisins_absents), word_data_for_graph_before)
+            print("nombre de voisins disparut du mot: ", len(voisins_absents))
+            print("voisins disparut du mot: ", voisins_absents)
+            # Créez un dictionnaire pour le résultat
+            noeud_abscent = {
+                'word': mot,
+                'lost_neighbors': list(voisins_absents),
+                'lost_distances': lost_distances
+            }
+            lost_neighbors.append(noeud_abscent)
+    
+        # je Trouve les voisins absents avant le PM et apparut Apres le PM
+            voisins_apparut = set(element_liste_after['neighbors']) - set(element_liste_before['neighbors']) 
+            appeared_distances = neighbor_distances_extraction(mot, list(voisins_apparut), word_data_for_graph_after)
+            print("nombre de voisins apparut du mot: ", len(voisins_apparut))
+            print("voisins apparut du mot: ", voisins_apparut)
+            # Créez un dictionnaire pour le résultat
+            noeud_apparut = {
+                'word': mot,
+                'appeared_neighbors': list(voisins_apparut),
+                'appeared_distances': appeared_distances
+            }
+            appeared_neighbors.append(noeud_apparut)
+    
+            # j'affiche les voisins communs, abscents et apparut des 10 mots situé entre le 200 ieme et le 210 ieme
+            if 200 < j <= 210:
+                print("les voisins conservés, apparut et disparrut du mots  \n", mot)
+                print("mots voisins conservés après le plongement multilingue: \n", noeud_constant)
+                print("mots voisins perdus apres le plongement multilingue: \n", noeud_abscent)
+                print("mots voisins apparut après le plongement multilingue: \n", noeud_apparut)
+            j = j + 1
             file.write(f'-------------------------------- analyse de la taille des lots, common, appear ------------------------------ \n')
             file.write(f'nb voisins communs du mot: {len(voisins_communs)}\n')
+            for voisin in voisins_communs:
+                file.write(f'voisin communs: {voisin}\n')
             file.write(f'nb voisins apparut du mot: {len(voisins_apparut)}\n')
+            for voisin in voisins_apparut:
+                file.write(f'voisin communs: {voisin}\n')
             file.write(f'nb voisins disparut du mot: {len(voisins_absents)}\n')
+            for voisin in voisins_absents:
+                file.write(f'voisin communs: {voisin}\n')
 
     return common_neighbors, lost_neighbors, appeared_neighbors
 
