@@ -135,7 +135,7 @@ def Graph_for_word_embedding_neighbor(word_data_for_graph_test, state):
         plt.title(f"Graph for {word} and its Neighbors")
     
         # Génère un nom de fichier unique en utilisant le nom du mot
-        filename = f"graphe_{word}_et_ses_voisins_{before}.png"
+        filename = f"graphe_{word}_et_ses_voisins_{state}.png"
         plt.savefig(filename)
         # plt.show()
         plt.close()
