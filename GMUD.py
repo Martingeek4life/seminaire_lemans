@@ -55,7 +55,7 @@ def plot_with_labels(low_dim_embs, labels, filename):
 # k = 51  50 voisins + le mot lui-même
 
 # cette fonction prend entree les embedings entrée 
-def search_Word_Nearest_Neighbors_embedding(embeddings, word_list, distance, k=101, start=200, nb_words = 210):
+def search_Word_Nearest_Neighbors_embedding(embeddings, word_list, distance, k):
     # Calculer les distances cosinus/euclidiennes entre les embeddings
     distances = pairwise_distances(embeddings, metric= distance)
 
@@ -81,7 +81,7 @@ def search_Word_Nearest_Neighbors_embedding(embeddings, word_list, distance, k=1
         
         # je construis l'objet word_data_for_graph à envoyer au graphe, le nombre de mots est un hyperPrametre nb_words
         # juste pour afficher les graphes de 10 mots et visualiser
-        if start < j <= nb_words:
+        if 200 < j <= 210:
             data_test = {
                 'word': word,
                 'neighbors': neighbor_words,
@@ -112,7 +112,7 @@ def search_Word_Nearest_Neighbors_embedding(embeddings, word_list, distance, k=1
     return word_data_for_graph, word_data_for_graph_test
 
 # cette fonction permet de dessiner le graphe d'un mot avec ses voisins pondéré par la distance entre le mots et ses différents voisins
-def Graph_for_word_embedding_neighbor(word_data_for_graph, word_data_for_graph_test, before):
+def Graph_for_word_embedding_neighbor(word_data_for_graph_test, state):
     # Création du graphe pondéré
 
     # ici c'est pour afficher le graphes des mots test juste pour visualiser
@@ -196,6 +196,7 @@ def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_d
         # je Trouve les voisins communs avec leurs distances
         voisins_communs = set(element_liste_before['neighbors']) & set(element_liste_after['neighbors'])
         print("nb voisins communs du mot: ", len(voisins_communs))
+        print("voisins communs du mot: ", voisins_communs)
         # pour ces mots voisins communs j'extrait chacune de leurs distances avant et apres le plongement multilingue
         before_distance = neighbor_distances_extraction(mot, list(voisins_communs), word_data_for_graph_before)
         after_distance = neighbor_distances_extraction(mot, list(voisins_communs), word_data_for_graph_after)
@@ -214,7 +215,8 @@ def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_d
         voisins_absents = set(element_liste_before['neighbors']) - set(element_liste_after['neighbors'])
 
         lost_distances = neighbor_distances_extraction(mot, list(voisins_absents), word_data_for_graph_before)
-        print("nombre de voisins disparut du mot: ", len(list(voisins_absents)))
+        print("nombre de voisins disparut du mot: ", len(voisins_absents))
+        print("voisins disparut du mot: ", voisins_absents)
         # Créez un dictionnaire pour le résultat
         noeud_abscent = {
             'word': mot,
@@ -226,7 +228,8 @@ def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_d
     # je Trouve les voisins absents avant le PM et apparut Apres le PM
         voisins_apparut = set(element_liste_after['neighbors']) - set(element_liste_before['neighbors']) 
         appeared_distances = neighbor_distances_extraction(mot, list(voisins_apparut), word_data_for_graph_after)
-        print("nombre de voisins apparut du mot: ", len(list(voisins_apparut)))
+        print("nombre de voisins apparut du mot: ", len(voisins_apparut))
+        print("voisins apparut du mot: ", voisins_apparut)
         # Créez un dictionnaire pour le résultat
         noeud_apparut = {
             'word': mot,
@@ -364,7 +367,7 @@ if __name__ == "__main__":
     # Calculer les voisins pour les embeddings avant le plongement
     word_data_for_graph_before, word_data_for_graph_test_before = search_Word_Nearest_Neighbors_embedding(embeddings_before, words_before, args.distance_metric, args.nb_neighbors)
     print("--------------------- visualisation of Graph for language words embeddings neighbors before PM -------------------------\n")
-    Graph_for_word_embedding_neighbor(word_data_for_graph_before, word_data_for_graph_test_before, before= "before")
+    Graph_for_word_embedding_neighbor(word_data_for_graph_test_before, state= "before")
 
     # afficher dans un fichier chaque mot ses 10 voisins les plus proches avant le plongement
     fichier_sortie='analyse_voisins_avant.txt'
@@ -380,7 +383,7 @@ if __name__ == "__main__":
     # Calculer les voisins pour les embeddings après le plongement
     word_data_for_graph_after, word_data_for_graph_test_after = search_Word_Nearest_Neighbors_embedding(embeddings_after, words_after, args.distance_metric, args.nb_neighbors)
     print("--------------------- visualisation of Graph for language words embeddings neighbors  after PM-------------------------\n")
-    Graph_for_word_embedding_neighbor(word_data_for_graph_after, word_data_for_graph_test_after, before= "after")
+    Graph_for_word_embedding_neighbor(word_data_for_graph_test_after, state= "after")
 
     # afficher dans un fichier chaque mot ses 10 voisins les plus proches après le plongement
     fichier_sortie='analyse_voisins_après.txt'
