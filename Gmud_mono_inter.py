@@ -7,7 +7,7 @@ from gensim.models import KeyedVectors
 from sklearn.manifold import TSNE
 import networkx as nx
 import matplotlib.pyplot as plt
-from sklearn.metrics.pairwise import cosine_similaritynb voisins apparus
+from sklearn.metrics.pairwise import cosine_similarity
 
 
 def calculate_cosine_similarity(vec1, vec2):
