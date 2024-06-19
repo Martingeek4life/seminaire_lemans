@@ -463,5 +463,5 @@ if __name__ == "__main__":
 
     # sauvegarder resultat Gmud_inter
     deviation_euclidian_GMUD, somme, moy_inter, D, word_data_for_graph_lang_A_B, V_p, V_d, v_c = mean_GMUD_inter(word_data_for_graph_A_B, args.nb_neighbors)
-    Analyse_GMUD_inter(D, word_data_for_graph_lang_A_B, moy, somme, deviation_euclidian_GMUD, V_p, V_d, v_c)
-    print("ratio mono/inter est: ", mean/moy)
+    Analyse_GMUD_inter(D, word_data_for_graph_lang_A_B, moy_inter, somme, deviation_euclidian_GMUD, V_p, V_d, v_c)
+    print("ratio mono/inter est: ", mean/moy_inter)
