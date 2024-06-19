@@ -402,7 +402,7 @@ if __name__ == "__main__":
     # Trouver les voisins les plus proches avant le processus
     word_data_for_graph_before, word_data_for_graph_test_before = search_Word_Nearest_Neighbors_embedding(embeddings_source_before, words_source_before, args.distance_metric, args.nb_neighbors)
     print("--------------------- Visualisation of Graph for language words embeddings neighbors before PM -------------------------\n")
-    Graph_for_word_embedding_neighbor(word_data_for_graph_test_before, before="before")
+    Graph_for_word_embedding_neighbor(word_data_for_graph_test_before, state="before")
 
     # Sauvegarder l'analyse des voisins avant le processus
     fichier_sortie_avant = 'analyse_voisins_avant.txt'
@@ -418,7 +418,7 @@ if __name__ == "__main__":
     # Trouver les voisins les plus proches après le processus
     word_data_for_graph_after, word_data_for_graph_test_after = search_Word_Nearest_Neighbors_embedding(embeddings_source_after, words_source_after, args.distance_metric, args.nb_neighbors)
     print("--------------------- Visualisation of Graph for language words embeddings neighbors after PM -------------------------\n")
-    Graph_for_word_embedding_neighbor(word_data_for_graph_test_after, before="after")
+    Graph_for_word_embedding_neighbor(word_data_for_graph_test_after, state="after")
 
     # Sauvegarder l'analyse des voisins après le processus
     fichier_sortie_apres = 'analyse_voisins_apres.txt'
@@ -455,7 +455,7 @@ if __name__ == "__main__":
     embeddings_source_after, embeddings_target_after, words_source_after, words_target_after, args.distance_metric, args.nb_neighbors)
 
     print("--------------------- Visualisation of Graph for words embeddings source with its target neighbors after PM -------------------------\n")
-    Graph_for_word_embedding_neighbor(word_data_for_graph_test_A_B, "source_target_after")
+    Graph_for_word_embedding_neighbor(word_data_for_graph_test_A_B, state = "source_target_after")
         # Sauvegarder l'analyse des voisins target de chaque mot source après le processus
     fichier_sortie_apres = 'analyse_voisins_source_target_after.txt'
     with open(fichier_sortie_apres, 'w') as file:
