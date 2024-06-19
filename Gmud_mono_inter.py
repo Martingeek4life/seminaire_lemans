@@ -266,7 +266,7 @@ def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_d
     return common_neighbors, lost_neighbors, appeared_neighbors
 
 
-def mean_GMUD_mono(common_neighbors, lost_neighbors, appeared_neighbors, 1, 2, 3):
+def mean_GMUD_mono(common_neighbors, lost_neighbors, appeared_neighbors, beta1, beta2, beta3):
     D = []
     somme = 0
     V_p = 0
@@ -281,19 +281,19 @@ def mean_GMUD_mono(common_neighbors, lost_neighbors, appeared_neighbors, 1, 2, 3
 
         # Calculer les différences pour les voisins communs
         for j in range(len(common_neighbors[i]['common_neighbors'])):
-            common_i += 1 * (common_neighbors[i]['after_PM_distances'][j] - common_neighbors[i]['before_PM_distances'][j])
+            common_i += beta1 * (common_neighbors[i]['after_PM_distances'][j] - common_neighbors[i]['before_PM_distances'][j])
 
         # Calculer les différences pour les voisins perdus
         for j in range(len(lost_neighbors[i]['lost_neighbors'])):
             distance_before = lost_neighbors[i]['lost_distances_before'][j]
             distance_after = lost_neighbors[i]['lost_distances_after'][j]
-            lost_i += 2 * (distance_after - distance_before)
+            lost_i += beta2 * (distance_after - distance_before)
 
         # Calculer les différences pour les voisins apparus
         for j in range(len(appeared_neighbors[i]['appeared_neighbors'])):
             distance_before = appeared_neighbors[i]['appeared_distances_before'][j]
             distance_after = appeared_neighbors[i]['appeared_distances_after'][j]
-            appeared_i += 3 * (distance_after - distance_before)
+            appeared_i += beta3 * (distance_after - distance_before)
 
         D_i = common_i + lost_i + appeared_i
         V_p += appeared_i
