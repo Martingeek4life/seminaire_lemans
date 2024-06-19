@@ -7,7 +7,7 @@ from gensim.models import KeyedVectors
 from sklearn.manifold import TSNE
 import networkx as nx
 import matplotlib.pyplot as plt
-from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.metrics.pairwise import cosine_similaritynb voisins apparus
 
 
 def calculate_cosine_similarity(vec1, vec2):
@@ -95,26 +95,23 @@ def search_Word_Nearest_Neighbors_embedding(embeddings, word_list, distance, k, 
     print(word_data_for_graph)
 
     return word_data_for_graph, word_data_for_graph_test
-
-def search_Word_Nearest_Neighbors_embedding_lang_A_B(embeddings_langA_after, embeddings_langB_after, word_list_langA, word_list_langB, distance, k, start=200, nb_words=210):
-    # Calculer les distances entre les embeddings de la langue A et de la langue B
-    distances = pairwise_distances(embeddings_langA_after, embeddings_langB_after, metric=distance)
     
-    # Initialiser l'algorithme des k plus proches voisins
-    neighbors_algorithm = NearestNeighbors(n_neighbors=k, metric='precomputed', algorithm='brute')
-    neighbors_algorithm.fit(distances)
+    # Calculer les distances entre les embeddings de la langue A et de la langue B
+def search_Word_Nearest_Neighbors_embedding_lang_A_B(embeddings_langA_after, embeddings_langB_after, word_list_langA, word_list_langB, distance, k, start=200, nb_words=210):
+    # Initialiser l'algorithme des k plus proches voisins avec la métrique cosinus
+    neighbors_algorithm = NearestNeighbors(n_neighbors=k, metric=distance)
+    neighbors_algorithm.fit(embeddings_langB_after)
 
-    all_neighbors = neighbors_algorithm.kneighbors(distances, return_distance=True)
     word_data_for_graph_test = []
     word_data_for_graph = []
     j = 0
 
     for i, word in enumerate(word_list_langA):
-        neighbors_indices = all_neighbors[1][i]  # Obtenir les indices des voisins dans la langue B
-        neighbors_distances = all_neighbors[0][i]  # Obtenir les distances aux voisins
+        # Obtenir les k plus proches voisins pour le vecteur de la langue A
+        distances_i, indices_i = neighbors_algorithm.kneighbors([embeddings_langA_after[i]], return_distance=True)
 
-        neighbor_words = [word_list_langB[idx] for idx in neighbors_indices]
-        neighbor_distances = neighbors_distances
+        neighbor_words = [word_list_langB[idx] for idx in indices_i[0]]
+        neighbor_distances = distances_i[0]
 
         if start < j <= nb_words:
             data_test = {
@@ -269,7 +266,7 @@ def common_lost_appeared_neighbors_extraction(word_data_for_graph_before, word_d
     return common_neighbors, lost_neighbors, appeared_neighbors
 
 
-def mean_GMUD_mono(common_neighbors, lost_neighbors, appeared_neighbors, beta1, beta2, beta3):
+def mean_GMUD_mono(common_neighbors, lost_neighbors, appeared_neighbors, 1, 2, 3):
     D = []
     somme = 0
     V_p = 0
@@ -284,19 +281,19 @@ def mean_GMUD_mono(common_neighbors, lost_neighbors, appeared_neighbors, beta1, 
 
         # Calculer les différences pour les voisins communs
         for j in range(len(common_neighbors[i]['common_neighbors'])):
-            common_i += beta1 * (common_neighbors[i]['after_PM_distances'][j] - common_neighbors[i]['before_PM_distances'][j])
+            common_i += 1 * (common_neighbors[i]['after_PM_distances'][j] - common_neighbors[i]['before_PM_distances'][j])
 
         # Calculer les différences pour les voisins perdus
         for j in range(len(lost_neighbors[i]['lost_neighbors'])):
             distance_before = lost_neighbors[i]['lost_distances_before'][j]
             distance_after = lost_neighbors[i]['lost_distances_after'][j]
-            lost_i += beta2 * (distance_after - distance_before)
+            lost_i += 2 * (distance_after - distance_before)
 
         # Calculer les différences pour les voisins apparus
         for j in range(len(appeared_neighbors[i]['appeared_neighbors'])):
             distance_before = appeared_neighbors[i]['appeared_distances_before'][j]
             distance_after = appeared_neighbors[i]['appeared_distances_after'][j]
-            appeared_i += beta3 * (distance_after - distance_before)
+            appeared_i += 3 * (distance_after - distance_before)
 
         D_i = common_i + lost_i + appeared_i
         V_p += appeared_i
@@ -371,9 +368,9 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description="GMUD: Méthode basée sur les graphes pour mesurer les déformations lors des plongements multilingues de mots")
     parser.add_argument("--distance_metric", default="euclidean", help="Métrique de distance à utiliser (cosine ou euclidean)")
     parser.add_argument("--nb_neighbors", type=int, default=101, help="Nombre de voisins à considérer")
-    parser.add_argument("--beta1", type=float, default=0.4, help="Coefficient pour la déformation des voisins conservés")
-    parser.add_argument("--beta2", type=float, default=0.3, help="Coefficient pour la déformation des voisins perdus")
-    parser.add_argument("--beta3", type=float, default=0.3, help="Coefficient pour la déformation des voisins apparus")
+    parser.add_argument("--beta1", type=float, default=1.0, help="Coefficient pour la déformation des voisins conservés")
+    parser.add_argument("--beta2", type=float, default=1.0, help="Coefficient pour la déformation des voisins perdus")
+    parser.add_argument("--beta3", type=float, default=1.0, help="Coefficient pour la déformation des voisins apparus")
     parser.add_argument("--embeddings_source_before", required=True, help="Chemin vers les embeddings source avant le PM")
     parser.add_argument("--embeddings_source_after", required=True, help="Chemin vers les embeddings source après le PM")
     parser.add_argument("--embeddings_target_after", required=True, help="Chemin vers les embeddings cible après le PM")
@@ -446,9 +443,6 @@ if __name__ == "__main__":
     print("La déformation moyenne avec la métrique GMUD est de:", mean)
     print("La somme des déformations avec la métrique GMUD est de:", sum_GMUD)
     print("L'écart-type de la déformation avec la métrique GMUD est de:", deviation_euclidian_GMUD)
-    print("nb voisins apparus", len(appeared_neighbors))
-    print("nb voisins disparus", len(lost_neighbors))
-    print("nb voisins conservés", len(common_neighbors))
 
     embeddings_target_after, words_target_after = reshap_embedding(args.embeddings_target_after, 300)
     word_data_for_graph_A_B, word_data_for_graph_test_A_B = search_Word_Nearest_Neighbors_embedding_lang_A_B(
@@ -468,5 +462,6 @@ if __name__ == "__main__":
             file.write(f'mot central: {central_word}, voisins_proches: {voisins}, distances: {distances}\n')
 
     # sauvegarder resultat Gmud_inter
-    deviation_euclidian_GMUD, somme, moy, D, word_data_for_graph_lang_A_B, V_p, V_d, v_c = mean_GMUD_inter(word_data_for_graph_A_B, args.nb_neighbors)
+    deviation_euclidian_GMUD, somme, moy_inter, D, word_data_for_graph_lang_A_B, V_p, V_d, v_c = mean_GMUD_inter(word_data_for_graph_A_B, args.nb_neighbors)
     Analyse_GMUD_inter(D, word_data_for_graph_lang_A_B, moy, somme, deviation_euclidian_GMUD, V_p, V_d, v_c)
+    print("ratio mono/inter est: ", mean/moy)
