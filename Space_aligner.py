@@ -241,7 +241,7 @@ if __name__ == "__main__":
     # model_pretrained_zh = KeyedVectors.load_word2vec_format(hf_hub_download(repo_id="Word2vec/wikipedia2vec_zhwiki_20180420_300d", filename="zhwiki_20180420_300d.txt"))
     model_pretrained_ar = KeyedVectors.load_word2vec_format(hf_hub_download(repo_id="Word2vec/wikipedia2vec_arwiki_20180420_300d", filename="arwiki_20180420_300d.txt"))
     model_pretrained_ru = KeyedVectors.load_word2vec_format(hf_hub_download(repo_id="Word2vec/wikipedia2vec_ruwiki_20180420_300d", filename="ruwiki_20180420_300d.txt"))
-    model_pretrained_yo = FastText.load_fasttext_format('./cc.sw.300.bin')
+    model_pretrained_yo = FastText.load_fasttext_format('./cc.yo.300.bin')
     
     # Analyser les arguments en ligne de commande
     args = parse_arguments()
