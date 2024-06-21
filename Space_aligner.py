@@ -14,13 +14,13 @@ import fasttext
 
 def download_pretrained_yoruba():
     command = [
-        'wget', 'https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sw.300.bin.gz'
+        'wget', 'https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.yo.300.bin.gz'
     ]
     subprocess.run(command)
 
 def Gzip_pretrained_yoruba():
     command = [
-        'gunzip', './cc.sw.300.bin.gz'
+        'gunzip', './cc.yo.300.bin.gz'
     ]
     subprocess.run(command)
 
