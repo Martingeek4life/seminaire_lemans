@@ -38,3 +38,22 @@ with open(nom_fichier, 'r') as fichier:
     mediane = np.median(deformations_array)
     print(f'Médiane des déformations: {mediane}')
     
+    # Calculer le minimum
+    minimum = np.min(deformations_array)
+    print(f'Minimum des déformations: {minimum}')
+    
+    # Calculer le maximum
+    maximum = np.max(deformations_array)
+    print(f'Maximum des déformations: {maximum}')
+    
+    # Calculer le quartile 1 (Q1)
+    Q1 = np.percentile(deformations_array, 25)
+    print(f'Premier quartile (Q1) des déformations: {Q1}')
+    
+    # Calculer le quartile 3 (Q3)
+    Q3 = np.percentile(deformations_array, 75)
+    print(f'Troisième quartile (Q3) des déformations: {Q3}')
+    
+    # Calculer l'intervalle interquartile (IQR)
+    IQR = Q3 - Q1
+    print(f'Intervalle interquartile (IQR) des déformations: {IQR}')
