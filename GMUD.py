@@ -298,8 +298,8 @@ def mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, beta1, beta2
     moy = somme/len(common_neighbors)
     print("la somme euclidian_GMUD est: \n", somme)
     print("la moyenne euclidian_GMUD est: \n", moy)
-    print("la moyenne vp est: \n", v_p/len(common_neighbors))
-    print("la moyenne vd est: \n", v_d/len(common_neighbors))
+    print("la moyenne vp est: \n", V_p/len(common_neighbors))
+    print("la moyenne vd est: \n", V_d/len(common_neighbors))
     print("la moyenne vc est: \n", v_c/len(common_neighbors))
     print("L'écart type  euclidian_GMUD est: \n", deviation_euclidian_GMUD)
 
