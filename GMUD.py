@@ -276,7 +276,7 @@ def mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, beta1, beta2
         appeared_i = 0
         D_i = 0
         for j in range(0, len(common_neighbors[i]['common_neighbors'])):
-            common_i = common_i + beta1*(common_neighbors[i]['after_PM_distances'][j] - common_neighbors[i]['before_PM_distances'][j])
+            common_i = common_i + beta1 * abs(common_neighbors[i]['after_PM_distances'][j] - common_neighbors[i]['before_PM_distances'][j])
 
         lost_i = lost_i + beta2*len(lost_neighbors[i]['lost_neighbors'])
         
@@ -294,9 +294,13 @@ def mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, beta1, beta2
         
     # Calcul de l'écart type
     deviation_euclidian_GMUD = np.std(D)
+    print("la taille du vocabulaire est v: \n", len(common_neighbors))
     moy = somme/len(common_neighbors)
     print("la somme euclidian_GMUD est: \n", somme)
     print("la moyenne euclidian_GMUD est: \n", moy)
+    print("la moyenne vp est: \n", v_p/len(common_neighbors))
+    print("la moyenne vd est: \n", v_d/len(common_neighbors))
+    print("la moyenne vc est: \n", v_c/len(common_neighbors))
     print("L'écart type  euclidian_GMUD est: \n", deviation_euclidian_GMUD)
 
     return deviation_euclidian_GMUD, somme, moy, D, common_neighbors, V_p, V_d, v_c
