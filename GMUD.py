@@ -294,27 +294,31 @@ def mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, beta1, beta2
         
     # Calcul de l'écart type
     deviation_euclidian_GMUD = np.std(D)
-    print("la taille du vocabulaire est v: \n", len(common_neighbors))
+    vocab = len(common_neighbors)
+    print("la taille du vocabulaire est v: \n", vocab )
     moy = somme/len(common_neighbors)
     print("la somme euclidian_GMUD est: \n", somme)
     print("la moyenne euclidian_GMUD est: \n", moy)
-    print("la moyenne vp est: \n", V_p/len(common_neighbors))
-    print("la moyenne vd est: \n", V_d/len(common_neighbors))
-    print("la moyenne vc est: \n", v_c/len(common_neighbors))
+    mean_vp = V_p/vocab
+    print("la moyenne vp est: \n", mean_vp)
+    mean_vd = V_d/vocab
+    print("la moyenne vd est: \n", mean_vd)
+    mean_vc = v_c/vocab
+    print("la moyenne vc est: \n", mean_vc)
     print("L'écart type  euclidian_GMUD est: \n", deviation_euclidian_GMUD)
 
-    return deviation_euclidian_GMUD, somme, moy, D, common_neighbors, V_p, V_d, v_c
+    return deviation_euclidian_GMUD, somme, moy, D, common_neighbors, V_p, V_d, v_c, vocab, mean_vp, mean_vd, mean_vc
 
 # cette fonction ecrit les resultats(deformations, moyenne, la metric_distance, chaque mot avec sa deformations) dans un fichier pour analyse
 
-def Analyse(Tab_deformations, list_mots, mean_Gmud, sum_GMUD, deviation_euclidian_GMUD, V_p, V_d, Apres_avant):
+def Analyse(Tab_deformations, list_mots, mean_Gmud, sum_GMUD, deviation_euclidian_GMUD, V_p, V_d, Apres_avant, vocab, mean_vp, mean_vd, mean_vc):
     fichier_sortie='analyse_deformations.txt'
     with open(fichier_sortie, 'w') as file:
         file.write(f'-------------------------------- Analyse des deformations GMUD ------------------------------ \n')
         file.write(f'Métrique de distance: {args.distance_metric}\n')
         file.write(f'Déformation moyenne: {mean_Gmud}\n')
         file.write(f'Somme des Déformations: {sum_GMUD}\n')
-        file.write(f'EcartType des Déformations: {deviation_euclidian_GMUD}, v_p: {V_p}, v_d: {V_d}, v_c: {Apres_avant}\n')
+        file.write(f'EcartType des Déformations: {deviation_euclidian_GMUD}, v_p: {V_p}, v_d: {V_d}, v_c: {Apres_avant}, mean_vp: {mean_vp}, mean_vd: {mean_vd}, mean_vc: {mean_vc}, taille vocab: {vocab}\n')
         file.write('Déformations par mot:\n')
         
         for i in range(0, len(Tab_deformations)):
@@ -412,9 +416,9 @@ if __name__ == "__main__":
 
     # Calculer la déformation moyenne GMUD
     # beta1, beta2, beta3 = 0.4, 0.3, 0.3
-    deviation_euclidian_GMUD, sum_GMUD, mean, Tab_deformations, list_mots, V_p, V_d, Apres_avant = mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, args.beta1, args.beta2, args.beta3)
+    deviation_euclidian_GMUD, sum_GMUD, mean, Tab_deformations, list_mots, V_p, V_d, Apres_avant, vocab, mean_vp, mean_vd, mean_vc = mean_GMUD(common_neighbors, lost_neighbors, appeared_neighbors, args.beta1, args.beta2, args.beta3)
 
-    Analyse(Tab_deformations, list_mots, mean, sum_GMUD, deviation_euclidian_GMUD, V_p, V_d, Apres_avant)
+    Analyse(Tab_deformations, list_mots, mean, sum_GMUD, deviation_euclidian_GMUD, V_p, V_d, Apres_avant, vocab, mean_vp, mean_vd, mean_vc)
 
     print("La déformation moyenne avec la métrique GMUD est de:", mean)
     print("La somme des déformations avec la métrique GMUD est de:", sum_GMUD)
