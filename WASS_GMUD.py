@@ -189,11 +189,16 @@ def compute_graph_laplacian(word, neighbors, distances):
 # Calculer la distance de Wasserstein entre deux graphes
 def wasserstein_distance(L1, L2):
     # Calcul des pseudo-inverses
-    L1_pseudo = np.linalg.pinv(L1)
-    L2_pseudo = np.linalg.pinv(L2)
+    n = len(A)
+    L1_tilde = L1 + np.ones([n,n])/n
+    L2_tilde = L2 + np.ones([n,n])/n
+
+    L1_pseudo = np.linalg.pinv(L1_tilde)
+    L2_pseudo = np.linalg.pinv(L2_tilde)
+    
     # Calcul de la distance Wasserstein
     term = sqrtm(sqrtm(L1_pseudo) @ L2_pseudo @ sqrtm(L1_pseudo))
-    distance = np.trace(L1_pseudo + L2_pseudo) - 2 * np.trace(term)
+    distance = np.trace(L1_pseudo) + np.trace(L2_pseudo) - 2 * np.trace(term)
     return distance
 
 # Extraire les graphes pour chaque mot
