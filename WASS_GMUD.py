@@ -199,7 +199,7 @@ def wasserstein_distance(L1, L2):
     # Calcul de la distance Wasserstein
     term = sqrtm(sqrtm(L1_pseudo) @ L2_pseudo @ sqrtm(L1_pseudo))
     distance = np.trace(L1_pseudo) + np.trace(L2_pseudo) - 2 * np.trace(term)
-    return distance
+    return np.real_if_close(distance)
 
 # Extraire les graphes pour chaque mot
 def compute_word_graphs(word_data_for_graph):
