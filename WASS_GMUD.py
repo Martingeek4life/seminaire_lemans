@@ -9,6 +9,7 @@ from gensim.models import KeyedVectors
 from sklearn.manifold import TSNE
 import networkx as nx
 import matplotlib.pyplot as plt
+from scipy.linalg import sqrtm
 import os
 
 # cette fonction charge les embeddings de mots à partir d'un fichier, les stocke dans un format approprié et renvoie à la fois les embeddings et les mots associés.
