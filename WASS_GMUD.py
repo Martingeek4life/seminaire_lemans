@@ -189,7 +189,7 @@ def compute_graph_laplacian(word, neighbors, distances):
 # Calculer la distance de Wasserstein entre deux graphes
 def wasserstein_distance(L1, L2):
     # Calcul des pseudo-inverses
-    n = len(A)
+    n = len(L1)
     L1_tilde = L1 + np.ones([n,n])/n
     L2_tilde = L2 + np.ones([n,n])/n
 
