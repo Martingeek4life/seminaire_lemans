@@ -28,49 +28,53 @@ def extract_embeddings(path_vecteurs_avant, path_vecteurs_apres):
             parts = line.strip().split()[1:]  # Ignorer le mot lui-même, prendre seulement les nombres
             vectors_apres.append([float(part) for part in parts])
     return vectors_avant, vectors_apres
-
-def visualize_vectors_3D(vectors_avant, vectors_apres, legende):
+    
+def visualize_vectors_3D_separe(vectors_avant, vectors_apres, legende_base):
     # Convertir en numpy arrays
     vectors_avant = np.array(vectors_avant)
     vectors_apres = np.array(vectors_apres)
 
-    # Centrer chaque ensemble indépendamment
+    ### === PCA POUR "AVANT" === ###
     mean_avant = np.mean(vectors_avant, axis=0)
     centered_avant = vectors_avant - mean_avant
-
-    mean_apres = np.mean(vectors_apres, axis=0)
-    centered_apres = vectors_apres - mean_apres
-
-    # PCA sur chaque ensemble séparément
     cov_avant = np.cov(centered_avant.T)
     eigvals_avant, eigvecs_avant = np.linalg.eig(cov_avant)
     top3_avant = eigvecs_avant[:, np.argsort(eigvals_avant)[::-1][:3]]
+    avant_proj = centered_avant @ top3_avant
 
+    # Visualisation pour "avant"
+    fig1 = plt.figure()
+    ax1 = fig1.add_subplot(111, projection='3d')
+    ax1.scatter(avant_proj[:, 0], avant_proj[:, 1], avant_proj[:, 2], color='blue', label='Avant', alpha=0.7)
+    ax1.set_title(f'{legende_base} - Espace AVANT')
+    ax1.set_xlabel('Composante 1')
+    ax1.set_ylabel('Composante 2')
+    ax1.set_zlabel('Composante 3')
+    ax1.legend()
+    ax1.grid(True)
+    fig1.savefig(f'{legende_base}_avant.png')
+    plt.close(fig1)
+
+    ### === PCA POUR "APRÈS" === ###
+    mean_apres = np.mean(vectors_apres, axis=0)
+    centered_apres = vectors_apres - mean_apres
     cov_apres = np.cov(centered_apres.T)
     eigvals_apres, eigvecs_apres = np.linalg.eig(cov_apres)
     top3_apres = eigvecs_apres[:, np.argsort(eigvals_apres)[::-1][:3]]
-
-    # Projection indépendante dans leur espace propre
-    avant_proj = centered_avant @ top3_avant
     apres_proj = centered_apres @ top3_apres
 
-    # Visualisation
-    fig = plt.figure()
-    ax = fig.add_subplot(111, projection='3d')
-
-    ax.scatter(avant_proj[:, 0], avant_proj[:, 1], avant_proj[:, 2], color='blue', label='Avant', alpha=0.7)
-    ax.scatter(apres_proj[:, 0], apres_proj[:, 1], apres_proj[:, 2], color='red', label='Après', alpha=0.7)
-
-    ax.set_title(legende)
-    ax.set_xlabel('Composante 1')
-    ax.set_ylabel('Composante 2')
-    ax.set_zlabel('Composante 3')
-    ax.legend()
-    ax.grid(True)
-
-    # Sauvegarder la figure
-    fig.savefig(legende + '.png')
-    plt.close()
+    # Visualisation pour "après"
+    fig2 = plt.figure()
+    ax2 = fig2.add_subplot(111, projection='3d')
+    ax2.scatter(apres_proj[:, 0], apres_proj[:, 1], apres_proj[:, 2], color='red', label='Après', alpha=0.7)
+    ax2.set_title(f'{legende_base} - Espace APRÈS')
+    ax2.set_xlabel('Composante 1')
+    ax2.set_ylabel('Composante 2')
+    ax2.set_zlabel('Composante 3')
+    ax2.legend()
+    ax2.grid(True)
+    fig2.savefig(f'{legende_base}_apres.png')
+    plt.close(fig2)
 
 def matrices_covariances(vecteurs_avant, vecteurs_apres):
     
