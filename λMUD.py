@@ -97,12 +97,12 @@ def matrices_covariances(vecteurs_avant, vecteurs_apres):
     # Heatmap de la matrice de covariance avant le plongement
     sns.heatmap(cov_matrix_avant, ax=ax[0], cmap='viridis')
     ax[0].set_title('Matrice de Covariance Avant le Plongement')
-    fig.savefig('Matrice de Covariance Avant le Plongement')
+    # fig.savefig('Matrice de Covariance Avant le Plongement')
 
     # Heatmap de la matrice de covariance après le plongement
     sns.heatmap(cov_matrix_apres, ax=ax[1], cmap='viridis')
     ax[1].set_title('Matrice de Covariance Après le Plongement')
-    fig.savefig('Matrice de Covariance Après le Plongement')
+    fig.savefig('Matrice de Covariance Avant et Après Plongement')
     # plt.show()
     plt.close()
 
