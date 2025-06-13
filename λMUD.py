@@ -29,7 +29,7 @@ def extract_embeddings(path_vecteurs_avant, path_vecteurs_apres):
             vectors_apres.append([float(part) for part in parts])
     return vectors_avant, vectors_apres
     
-def visualize_vectors_3D_separe(vectors_avant, vectors_apres, legende_base):
+def visualize_vectors_3D(vectors_avant, vectors_apres, legende_base):
     # Convertir en numpy arrays
     vectors_avant = np.array(vectors_avant)
     vectors_apres = np.array(vectors_apres)
