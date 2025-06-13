@@ -34,22 +34,25 @@ def visualize_vectors_3D(vectors_avant, vectors_apres, legende):
     vectors_avant = np.array(vectors_avant)
     vectors_apres = np.array(vectors_apres)
 
-    # Concaténer les deux matrices pour avoir un espace PCA commun
-    all_vectors = np.vstack((vectors_avant, vectors_apres))
+    # Centrer chaque ensemble indépendamment
+    mean_avant = np.mean(vectors_avant, axis=0)
+    centered_avant = vectors_avant - mean_avant
 
-    # Centrer les données
-    all_vectors_mean = np.mean(all_vectors, axis=0)
-    all_vectors_centered = all_vectors - all_vectors_mean
+    mean_apres = np.mean(vectors_apres, axis=0)
+    centered_apres = vectors_apres - mean_apres
 
-    # Appliquer la PCA manuellement (ou utiliser sklearn)
-    covariance_matrix = np.cov(all_vectors_centered.T)
-    eigenvalues, eigenvectors = np.linalg.eig(covariance_matrix)
-    indices_sorted = np.argsort(eigenvalues)[::-1]
-    top3_eigenvectors = eigenvectors[:, indices_sorted[:3]]
+    # PCA sur chaque ensemble séparément
+    cov_avant = np.cov(centered_avant.T)
+    eigvals_avant, eigvecs_avant = np.linalg.eig(cov_avant)
+    top3_avant = eigvecs_avant[:, np.argsort(eigvals_avant)[::-1][:3]]
 
-    # Projeter les deux ensembles dans l’espace PCA
-    avant_proj = (vectors_avant - all_vectors_mean).dot(top3_eigenvectors)
-    apres_proj = (vectors_apres - all_vectors_mean).dot(top3_eigenvectors)
+    cov_apres = np.cov(centered_apres.T)
+    eigvals_apres, eigvecs_apres = np.linalg.eig(cov_apres)
+    top3_apres = eigvecs_apres[:, np.argsort(eigvals_apres)[::-1][:3]]
+
+    # Projection indépendante dans leur espace propre
+    avant_proj = centered_avant @ top3_avant
+    apres_proj = centered_apres @ top3_apres
 
     # Visualisation
     fig = plt.figure()
