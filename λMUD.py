@@ -130,8 +130,8 @@ if __name__ == "__main__":
     visualize_vectors_3D(vectors_avant, vectors_apres, legende=('Visualisation des Vecteurs avant et après le plongement'))
     cov_matrix_avant, cov_matrix_apres = matrices_covariances(vectors_avant, vectors_apres)
     results = weyl_analysis(cov_matrix_avant, cov_matrix_apres)
-    print("Maximum des différences de valeurs propres :", results["max_eigval_diff"])
-    print(results["op_norm_E"])
+    print("Maximum des différences de valeurs propres max_eigval_diff :", results["max_eigval_diff"])
+    print("pertubations max sur les valeurs propres op_norm_E :", results["op_norm_E"])
     print("\nL'inégalité de Weyl est-elle satisfaite ?")
     print("✅ Oui" if results["weyl_inequality_satisfied"] else "❌ Non")
 
