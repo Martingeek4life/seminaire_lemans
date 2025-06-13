@@ -134,7 +134,7 @@ if __name__ == "__main__":
     # Analyser les arguments en ligne de commande
     args = parse_arguments()
     vectors_avant, vectors_apres = extract_embeddings(args.embeddings_before, args.embeddings_after)
-    visualize_vectors_3D(vectors_avant, vectors_apres, legende=('Visualisation des Vecteurs avant et après le plongement'))
+    visualize_vectors_3D(vectors_avant, vectors_apres, legende_base=('Visualisation des Vecteurs plongement'))
     cov_matrix_avant, cov_matrix_apres = matrices_covariances(vectors_avant, vectors_apres)
     results = weyl_analysis(cov_matrix_avant, cov_matrix_apres)
     print("Maximum des différences de valeurs propres max_eigval_diff :", results["max_eigval_diff"])
