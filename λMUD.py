@@ -91,7 +91,6 @@ def matrices_covariances(vecteurs_avant, vecteurs_apres):
     print("les vecteurs après: ", vectors_apres)
     cov_matrix_apres = np.cov(vectors_apres, rowvar=False)
     print("La matrice de covariace de l'espace apres: ", cov_matrix_apres)
-    visualize_vectors_3D(vectors_avant, vectors_apres, legende=('Visualisation des Vecteurs avant et après le plongement'))
 
     # visualiser les différentes matrice de covariance avant et après le plongement
     fig, ax = plt.subplots(1, 2, figsize=(20, 10))
