@@ -208,7 +208,7 @@ if __name__ == "__main__":
     print("✅ Oui" if results["weyl_inequality_satisfied"] else "❌ Non")
 
     print("-------------------------------------------------- Calcul de la pertubations engendrées par les vecteurs propres -------------------------------------------------------\n")
-    r = args.subspace_dimenson 
+    r = args.subspace_dimenson  - 1
     distance, principal_angles = subspace_distance(vectors_avant, vectors_apres, r)
     delta, gap, bound = davis_kahan_info(cov_matrix_avant, cov_matrix_apres, r)
 
