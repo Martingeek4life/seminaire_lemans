@@ -3,12 +3,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from mpl_toolkits.mplot3d import Axes3D
-from scipy.linalg import svd, eigh
+from scipy.linalg import svd, eigh, norm
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="λMUD: Méthode basée sur les pertubations des espaces sur les valeurs propres et sous espaces engendrés par les vecteurs propres pour mesurer les déformations lors des plongements multilingues de mots")
     parser.add_argument("--embeddings_before", required=True, help="Chemin vers les embeddings source")
     parser.add_argument("--embeddings_after", required=True, help="Chemin vers les embeddings cible")
+    parser.add_argument("--subspace_dimenson", required=True, help="dimension des sous-espaces à comparer")
     return parser.parse_args()
 
 def extract_embeddings(path_vecteurs_avant, path_vecteurs_apres):
@@ -128,10 +129,73 @@ def weyl_analysis(cov_A, cov_A_perturbed):
         "op_norm_E": op_norm_E,
         "weyl_inequality_satisfied": np.all(eigval_diffs <= op_norm_E + 1e-10)
     }
+def subspace_distance(E, F, r):
+    """
+    Calcule la distance entre deux sous-espaces de dimension r à partir de deux matrices.
+    """
+    # Décompose les deux matrices (SVD)
+    U_e, _, _ = svd(E, full_matrices=False)
+    U_f, _, _ = svd(F, full_matrices=False)
+    
+    # Garde seulement les r premiers vecteurs singuliers
+    U_e_r = U_e[:, :r]
+    U_f_r = U_f[:, :r]
+    
+    # Calcule les produits scalaire entre bases
+    M = np.dot(U_e_r.T, U_f_r)
+    
+    # Valeurs singulières des produits croisés
+    _, s, _ = svd(M)
+    
+    # Angles canoniques
+    principal_angles = np.arccos(np.clip(s, -1.0, 1.0))
+    
+    # Distance sinΘ : norme de sin(angles)
+    sin_theta = np.sin(principal_angles)
+    distance = norm(sin_theta)
+
+    return distance, principal_angles
+
+def davis_kahan_info(Cov_before, Cov_after, r):
+    """
+    Calcule la norme de perturbation Δ, le gap spectral et la borne Davis-Kahan.
+
+    Args:
+        Cov_before (np.ndarray): covariance avant plongement.
+        Cov_after (np.ndarray): covariance après plongement.
+        r (int): Rang du sous-espace étudié.
+
+    Returns:
+        delta_norm (float): ||Δ||₂, norme de la différence de covariance.
+        gap (float): λ_r - λ_{r+1}, gap spectral.
+        bound (float or None): Borne Davis-Kahan si applicable, sinon None.
+    """
+    # Perturbation
+    Delta = Cov_after - Cov_before
+    delta_norm = norm(Delta, ord=2)
+
+    # Valeurs propres triées décroissantes
+    eigvals = np.linalg.eigvalsh(Cov_before)
+    eigvals = np.sort(eigvals)[::-1]
+
+    if r >= len(eigvals):
+        print("⚠️ Le rang r est trop grand par rapport à la taille de l’espace.")
+        return delta_norm, None, None
+
+    # Gap spectral : λ_r - λ_{r+1}
+    gap = eigvals[r-1] - eigvals[r]
+
+    if gap > 0:
+        bound = delta_norm / gap
+    else:
+        bound = None
+
+    return delta_norm, gap, bound
 
 if __name__ == "__main__":
     # Analyser les arguments en ligne de commande
     args = parse_arguments()
+    print("-------------------------------------------------- Calcul de la pertubations engendrées par les valeurs propres -------------------------------------------------------\n")
     vectors_avant, vectors_apres = extract_embeddings(args.embeddings_before, args.embeddings_after)
     visualize_vectors_3D(vectors_avant, vectors_apres, legende_base=('Visualisation des Vecteurs plongement'))
     cov_matrix_avant, cov_matrix_apres = matrices_covariances(vectors_avant, vectors_apres)
@@ -141,3 +205,15 @@ if __name__ == "__main__":
     print("\nL'inégalité de Weyl est-elle satisfaite ?")
     print("✅ Oui" if results["weyl_inequality_satisfied"] else "❌ Non")
 
+    print("-------------------------------------------------- Calcul de la pertubations engendrées par les vecteurs propres -------------------------------------------------------\n")
+    r = args.subspace_dimenson 
+    distance, principal_angles = subspace_distance(vectors_avant, vectors_apres)
+    delta, gap, bound = davis_kahan_info(cov_matrix_avant, cov_matrix_apres, r)
+
+    print("La distance entre les deux sous espaces est: ", distance)
+    if bound is not None:
+        print(f"Borne Davis-Kahan : ||sin(Θ)|| ≤ {bound:.4f}")
+        if distance <= bound:
+            print("✅ L'inégalité de Davis-Kahan est respectée.")
+        else:
+            print("❌ L'inégalité de Davis-Kahan est violée (cela ne devrait pas arriver).")
