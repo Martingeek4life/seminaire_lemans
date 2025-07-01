@@ -211,7 +211,7 @@ if __name__ == "__main__":
     r = args.subspace_dimenson  - 1
     distance, principal_angles = subspace_distance(vectors_avant, vectors_apres, r)
     delta, gap, bound = davis_kahan_info(cov_matrix_avant, cov_matrix_apres, r)
-
+    print("la valeur de delta est: ", delta)
     print("La distance entre les deux sous espaces est: ", distance)
     if bound is not None:
         print(f"Borne Davis-Kahan : ||sin(Θ)|| ≤ {bound:.4f}")
