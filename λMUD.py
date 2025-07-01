@@ -207,7 +207,7 @@ if __name__ == "__main__":
 
     print("-------------------------------------------------- Calcul de la pertubations engendrées par les vecteurs propres -------------------------------------------------------\n")
     r = args.subspace_dimenson 
-    distance, principal_angles = subspace_distance(vectors_avant, vectors_apres)
+    distance, principal_angles = subspace_distance(vectors_avant, vectors_apres, r)
     delta, gap, bound = davis_kahan_info(cov_matrix_avant, cov_matrix_apres, r)
 
     print("La distance entre les deux sous espaces est: ", distance)
