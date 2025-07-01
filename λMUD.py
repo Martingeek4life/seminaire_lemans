@@ -178,7 +178,9 @@ def davis_kahan_info(Cov_before, Cov_after, r):
     eigvals = np.linalg.eigvalsh(Cov_before)
     eigvals = np.sort(eigvals)[::-1]
 
-    if r >= len(eigvals):
+    print("la taille de l'espace entier est: ", len(eigvals))
+
+    if r > len(eigvals):
         print("⚠️ Le rang r est trop grand par rapport à la taille de l’espace.")
         return delta_norm, None, None
 
