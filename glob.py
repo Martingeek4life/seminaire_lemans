@@ -7,7 +7,7 @@ def load_embeddings(file_path):
     words = []
     vectors = []
     with open(file_path, 'r', encoding='utf-8') as f:
-        next(f)
+        next(f)  # ignore la première ligne
         for line in f:
             parts = line.strip().split()
             words.append(parts[0])
@@ -19,19 +19,26 @@ def compute_pca_axes(vectors):
     centered = vectors - mean
     pca = PCA(n_components=3)
     pca.fit(centered)
+    # axes échelle par racine de la variance (taille représentative)
     axes = pca.components_ * np.sqrt(pca.explained_variance_).reshape(3,1)
     return mean, axes
 
-def plot_space(vectors, words, color='blue', title='Espace', filename='space.png'):
+def plot_space_with_axes(vectors, words, color='blue', title='Espace', filename='space.png'):
     fig = plt.figure(figsize=(12,10))
     ax = fig.add_subplot(111, projection='3d')
 
     mean, axes = compute_pca_axes(vectors)
 
     # Nuage de points
-    ax.scatter(vectors[:,0], vectors[:,1], vectors[:,2], c=color, alpha=0.3)
+    ax.scatter(vectors[:,0], vectors[:,1], vectors[:,2], c=color, alpha=0.2)
 
-    # Ellipsoïde simple pour la forme globale
+    # Axes principaux (vecteurs directeurs) clairement mis en évidence
+    for i in range(3):
+        ax.quiver(mean[0], mean[1], mean[2],
+                  axes[i,0], axes[i,1], axes[i,2],
+                  color=color, linewidth=4, arrow_length_ratio=0.15)
+
+    # Ellipsoïde simple pour visualiser la forme globale
     u = np.linspace(0, 2*np.pi, 30)
     v = np.linspace(0, np.pi, 30)
     x = axes[0,0]*np.outer(np.cos(u), np.sin(v)) + mean[0]
@@ -39,17 +46,10 @@ def plot_space(vectors, words, color='blue', title='Espace', filename='space.png
     z = axes[2,2]*np.outer(np.ones_like(u), np.cos(v)) + mean[2]
     ax.plot_surface(x, y, z, color=color, alpha=0.1)
 
-    # Axes principaux
-    for i in range(3):
-        ax.quiver(mean[0], mean[1], mean[2],
-                  axes[i,0], axes[i,1], axes[i,2],
-                  color=color, linewidth=3, arrow_length_ratio=0.1)
-
     # Limites égales pour voir la forme correctement
     max_range = np.array([vectors[:,0].max()-vectors[:,0].min(),
                           vectors[:,1].max()-vectors[:,1].min(),
                           vectors[:,2].max()-vectors[:,2].min()]).max() / 2.0
-
     mid_x = (vectors[:,0].max()+vectors[:,0].min()) * 0.5
     mid_y = (vectors[:,1].max()+vectors[:,1].min()) * 0.5
     mid_z = (vectors[:,2].max()+vectors[:,2].min()) * 0.5
@@ -70,12 +70,14 @@ if __name__ == "__main__":
 
     assert words_before == words_after, "Les deux fichiers doivent avoir les mêmes mots dans le même ordre."
 
-    # Réduction à 3D
+    # Réduction à 3D pour visualisation
     from sklearn.decomposition import PCA
     pca = PCA(n_components=3)
     vectors_before_3d = pca.fit_transform(vectors_before)
     vectors_after_3d = pca.transform(vectors_after)
 
-    # Figure séparée pour chaque espace
-    plot_space(vectors_before_3d, words_before, color='blue', title='Espace avant', filename='espace_avant.png')
-    plot_space(vectors_after_3d, words_after, color='red', title='Espace après', filename='espace_apres.png')
+    # Figure pour espace avant
+    plot_space_with_axes(vectors_before_3d, words_before, color='blue', title='Espace avant', filename='espace_avant_vecteurs.png')
+
+    # Figure pour espace après
+    plot_space_with_axes(vectors_after_3d, words_after, color='red', title='Espace après', filename='espace_apres_vecteurs.png')
