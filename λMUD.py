@@ -9,7 +9,7 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description="λMUD: Méthode basée sur les pertubations des espaces sur les valeurs propres et sous espaces engendrés par les vecteurs propres pour mesurer les déformations lors des plongements multilingues de mots")
     parser.add_argument("--embeddings_before", required=True, help="Chemin vers les embeddings source")
     parser.add_argument("--embeddings_after", required=True, help="Chemin vers les embeddings cible")
-    parser.add_argument("--subspace_dimenson", type=int, default=100, required=True, help="dimension des sous-espaces à comparer")
+    parser.add_argument("--subspace_dimension", type=int, default=100, required=True, help="dimension des sous-espaces à comparer")
     return parser.parse_args()
 
 def extract_embeddings(path_vecteurs_avant, path_vecteurs_apres):
@@ -208,7 +208,7 @@ if __name__ == "__main__":
     print("✅ Oui" if results["weyl_inequality_satisfied"] else "❌ Non")
 
     print("-------------------------------------------------- Calcul de la pertubations engendrées par les vecteurs propres -------------------------------------------------------\n")
-    r = args.subspace_dimenson  - 1
+    r = args.subspace_dimenson
     distance, principal_angles = subspace_distance(vectors_avant, vectors_apres, r)
     delta, gap, bound = davis_kahan_info(cov_matrix_avant, cov_matrix_apres, r)
     print("la valeur de delta est: ", delta)
